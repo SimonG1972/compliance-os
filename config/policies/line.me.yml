@@ -1,0 +1,18 @@
+host: line.me
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  strip_fragments: true
+discovery:
+  path_allow_regexes:
+    - ^/en/terms
+    - ^/en/privacy
+    - ^/en/security
+    - ^/en/policy
+    - ^/en/cookie
+  path_deny_regexes:
+    - ^/share/
+    - ^/sns/
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25

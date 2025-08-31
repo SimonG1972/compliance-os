@@ -1,0 +1,13 @@
+host: www.youtube.com
+normalization:
+  query_param_drops:
+    - hl
+    - override_hl
+hydration: {}
+discovery:
+  cross_allow_hosts:
+    - policies.google.com
+tagging:
+  add: []
+_notes:
+  - Drop locale duplication via ?hl/override_hl.

@@ -1,0 +1,20 @@
+- source_name: TikTok Community Guidelines
+  platform_or_regulator: TikTok
+  doc_type: guidelines
+  url: https://www.tiktok.com/community-guidelines/en/
+  jurisdiction: global
+  volatility: high
+
+- source_name: Etsy Terms
+  platform_or_regulator: Etsy
+  doc_type: tos
+  url: https://www.etsy.com/legal/terms
+  jurisdiction: global
+  volatility: medium
+
+- source_name: FTC Endorsement Guides
+  platform_or_regulator: FTC
+  doc_type: regulation
+  url: https://www.ftc.gov/advice-guidance/guides/endorsement-guides
+  jurisdiction: US
+  volatility: low

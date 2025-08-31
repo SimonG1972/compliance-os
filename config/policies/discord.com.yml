@@ -1,0 +1,17 @@
+host: discord.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  strip_fragments: true
+discovery:
+  path_allow_regexes:
+    - ^/terms
+    - ^/privacy
+    - ^/guidelines
+    - ^/safety
+  path_deny_regexes:
+    - ^/blog/
+    - ^/news/
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25

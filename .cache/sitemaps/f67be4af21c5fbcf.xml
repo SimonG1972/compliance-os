@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+
+    
+
+    
+    <html lang="en">
+      <head>
+        <meta name="pageKey" content="d_lithograph_content">
+<!----><!----><!---->        <meta name="locale" content="en_US">
+        <meta id="config" data-app-id="lithograph" data-app-version="0.0.1296" data-call-tree-id="AAY9R2OO63mQ300LNqUHlw==" data-multiproduct-name="lithograph-publish-frontend" data-service-name="lithograph-publish-frontend" data-browser-id="68fdd5df-7756-43dd-8d74-d5b0faafa18d" data-page-instance="urn:li:page:d_lithograph_content;6SxEwxvvRO6b7SdsgY/mHQ==" data-disable-jsbeacon-pagekey-suffix="false" data-dna-member-lix-treatment="control" data-human-member-lix-treatment="control" data-dfp-member-lix-treatment="control" data-sync-apfc-headers-lix-treatment="control" data-sync-apfc-cb-lix-treatment="control">
+
+        <link rel="canonical" href="https://www.linkedin.com/business/marketing/blog">
+<!----><!---->
+<!---->
+<!---->
+<!---->
+<!---->
+          <link rel="icon" href="https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca">
+
+<!---->
+        <script>
+          function getDfd() {let yFn,nFn;const p=new Promise(function(y, n){yFn=y;nFn=n;});p.resolve=yFn;p.reject=nFn;return p;}
+          window.lazyloader = getDfd();
+          window.tracking = getDfd();
+          window.impressionTracking = getDfd();
+          window.ingraphTracking = getDfd();
+          window.appDetection = getDfd();
+          window.pemTracking = getDfd();
+        </script>
+
+<!---->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+    <title>Marketing &amp; Advertising Blog | LinkedIn for Marketing Blog</title>
+    <meta name="description" content="The LinkedIn for Marketing Blog is written for marketers by marketers. Discover inspiration, insights and innovative ideas that can take your B2B marketing to new heights.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Data-driven insights for the B2B marketer">
+    <meta property="og:description" content="Get the latest tips and best practices right in your inbox. Learn more >">
+    <meta property="og:url" content="https://www.linkedin.com/business/marketing/blog">
+    <meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4D08AQHvd0T61n0CdQ/croft-frontend-shrinkToFit1024/croft-frontend-shrinkToFit1024/0/1631557065472?e=2147483647&amp;v=beta&amp;t=AZMM9f_OM7eJLmse-v4Iruu6vAJDf-_POFggxuKQm_A">
+    <meta name="twitter:title" content="Marketing &amp; Advertising Blog | LinkedIn for Marketing Blog">
+    <meta name="twitter:site" content="@linkedin">
+    <!---->
+    <meta name="twitter:description" content="The LinkedIn for Marketing Blog is written for marketers by marketers. Discover inspiration, insights and innovative ideas that can take your B2B marketing to new heights.">
+    <meta name="robots" content="noarchive">
+
+    <meta name="linkedin:pageTag" content="/business/marketing/blog">
+    <meta name="litmsProfileName" content="lithograph">
+  
+
+        
+<!---->        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="asset-url" id="artdeco/static/images/icons.svg" content="https://static.licdn.com/aero-v1/sc/h/6sz1e821vgereyxaakx87tt4z ">
+        <link rel="stylesheet" href="https://static.licdn.com/aero-v1/sc/h/c754zyydauke3xl4tvriey684">
+<!---->      
+      
+<!---->      </head>
+      <body dir="ltr">
+<!---->          
+          
+    
+
+    <a href="#lithograph-app" class="skip-link btn-md btn-primary absolute z-11 -top-[100vh] focus:top-0">
+      Skip to main content
+    </a>
+  
+<!---->
+        
+
+          
+
+    
+    
+
+    <div class="page-header__wrapper page-header__wrapper--margin" data-custom-nav-wrapper="true">
+      <div class="page-header__container">
+        <header id="page-header" class="page-header page-header--hide-dropshadow">
+          <div class="page-header__content-container">
+            <div class="header__logo">
+              <a href="https://www.linkedin.com/business/marketing/blog" class="custom-nav__logo-link">
+                <img class="header__linkedin-logo header__full-logo" src="https://static.licdn.com/aero-v1/sc/h/6zm111mce7vohqze950ilreo4" alt="LinkedIn Logo">
+                <img class="header__linkedin-logo header__in-bug" src="https://static.licdn.com/aero-v1/sc/h/5g0hjlcng3j5pgn50n2et1ca2" alt="LinkedIn Logo">
+                <span class="t-17 t-black t-bold default-header-title">
+                  for Marketing Blog
+                </span>
+              </a>
+            </div>
+
+<!---->
+              <a class="artdeco-button artdeco-button--secondary artdeco-button--muted custom-nav__button" href="https://forms.feedblitz.com/ea4?src=topnavbutton" target="_blank">
+                Subscribe to blog
+              </a>
+
+              <button class="stripped header__expand-nav-button" data-mobile-header-navigation-button data-header-expand-navigation-button aria-expanded="false">
+                <li-icon class="header__expand-nav-icon" a11y-text="Open navigation" type="hamburger-icon"></li-icon>
+              </button>
+              <button class="stripped header__expand-nav-button hidden" data-mobile-header-navigation-button data-header-collapse-navigation-button aria-expanded="false">
+                <li-icon class="header__expand-nav-icon" a11y-text="Close navigation" type="cancel-icon"></li-icon>
+                </button>
+          </div>
+        </header>
+      </div>
+
+        
+    
+
+    <nav class="header-nav fixed" aria-label="main" data-header-navigation>
+      <ul class="header-nav__list">
+          <li>
+            
+
+    
+    <div class="artdeco-dropdown">
+      <div class="artdeco-dropdown__trigger">
+        <a href="https://www.linkedin.com/business/marketing/blog/marketing-toolbox" class="t-sans t-black--light t-semibold header-nav__toplink" target="_self">
+          LinkedIn Toolbox
+        </a>
+
+          <button class="header-navigation__button" aria-label="Expand to show more links for LinkedIn Toolbox" aria-expanded="false" data-trigger-dropdown-menu type="button">
+            <li-icon size="small" type="caret-filled-down-icon"></li-icon>
+          </button>
+          
+
+    <div class="artdeco-dropdown__content header-nav__dropdown-offset">
+      <ul>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/linkedin-ads" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">LinkedIn Ads</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/linkedin-pages" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">LinkedIn Pages</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/channel" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">LinkedIn Marketing Partners</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/customer-stories" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Customer Success Stories</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/campaignmanager/new-advertiser?businessId=personal" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Create an Ad</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  
+      </div>
+    </div>
+  
+          </li>
+          <li>
+            
+
+    
+    <div class="artdeco-dropdown">
+      <div class="artdeco-dropdown__trigger">
+        <a href="https://www.linkedin.com/business/marketing/blog/marketing-collective" class="t-sans t-black--light t-semibold header-nav__toplink" target="_self">
+          Marketing Collective
+        </a>
+
+          <button class="header-navigation__button" aria-label="Expand to show more links for Marketing Collective" aria-expanded="false" data-trigger-dropdown-menu type="button">
+            <li-icon size="small" type="caret-filled-down-icon"></li-icon>
+          </button>
+          
+
+    <div class="artdeco-dropdown__content header-nav__dropdown-offset">
+      <ul>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/collective-conversation" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Collective Conversation</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/research-and-insights" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Research & Insights </a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  
+      </div>
+    </div>
+  
+          </li>
+          <li>
+            
+
+    
+    <div class="artdeco-dropdown">
+      <div class="artdeco-dropdown__trigger">
+        <a href="https://www.linkedin.com/business/marketing/blog/strategy-best-practices" class="t-sans t-black--light t-semibold header-nav__toplink" target="_self">
+          Strategy
+        </a>
+
+          <button class="header-navigation__button" aria-label="Expand to show more links for Strategy" aria-expanded="false" data-trigger-dropdown-menu type="button">
+            <li-icon size="small" type="caret-filled-down-icon"></li-icon>
+          </button>
+          
+
+    <div class="artdeco-dropdown__content header-nav__dropdown-offset">
+      <ul>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/abm" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">ABM</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/lead-generation" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Lead Generation</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/measurement" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Measurement and ROI</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/targeting" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Target & Audience Building</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/trends-tips" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Trends, Tips & Best Practices</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/smb" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Small Business Marketing</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  
+      </div>
+    </div>
+  
+          </li>
+          <li>
+            
+
+    
+    <div class="artdeco-dropdown">
+      <div class="artdeco-dropdown__trigger">
+        <a href="https://www.linkedin.com/business/marketing/blog/content-creative" class="t-sans t-black--light t-semibold header-nav__toplink" target="_self">
+          Creative
+        </a>
+
+          <button class="header-navigation__button" aria-label="Expand to show more links for Creative" aria-expanded="false" data-trigger-dropdown-menu type="button">
+            <li-icon size="small" type="caret-filled-down-icon"></li-icon>
+          </button>
+          
+
+    <div class="artdeco-dropdown__content header-nav__dropdown-offset">
+      <ul>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/brand" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Brand Building</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/content-marketing" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Content</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/social-media-marketing" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Social Media</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/events" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Events</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  
+      </div>
+    </div>
+  
+          </li>
+          <li>
+            
+
+    
+    <div class="artdeco-dropdown">
+      <div class="artdeco-dropdown__trigger">
+        <a href="https://www.linkedin.com/business/marketing/blog/workplace-culture" class="t-sans t-black--light t-semibold header-nav__toplink" target="_self">
+          Workplace & Culture
+        </a>
+
+          <button class="header-navigation__button" aria-label="Expand to show more links for Workplace &amp;amp; Culture" aria-expanded="false" data-trigger-dropdown-menu type="button">
+            <li-icon size="small" type="caret-filled-down-icon"></li-icon>
+          </button>
+          
+
+    <div class="artdeco-dropdown__content header-nav__dropdown-offset">
+      <ul>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/skills" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Diversity in Marketing</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/skills" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Skill Building & Careers</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  
+      </div>
+    </div>
+  
+          </li>
+          <li>
+            
+
+    
+    <div class="artdeco-dropdown">
+      <div class="artdeco-dropdown__trigger">
+        <a href="https://www.linkedin.com/business/marketing/blog/vertical-insights" class="t-sans t-black--light t-semibold header-nav__toplink" target="_self">
+          Vertical Insights
+        </a>
+
+          <button class="header-navigation__button" aria-label="Expand to show more links for Vertical Insights" aria-expanded="false" data-trigger-dropdown-menu type="button">
+            <li-icon size="small" type="caret-filled-down-icon"></li-icon>
+          </button>
+          
+
+    <div class="artdeco-dropdown__content header-nav__dropdown-offset">
+      <ul>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/agency" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Agency</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/education" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Education</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/financial-services" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">FinServ</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/startups" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Startups</a>
+            </div>
+          </li>
+          <li>
+            <div class="artdeco-dropdown__item">
+              <a href="https://www.linkedin.com/business/marketing/blog/tech" class="t-14 t-sans t-black t-bold header-nav__link" target="_self">Tech</a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  
+      </div>
+    </div>
+  
+          </li>
+      </ul>
+    </nav>
+  
+
+      
+    
+
+    <nav class="custom-header__nav--mobile invisible" data-mobile-navigation="true" aria-label="main">
+        
+    <ul class="custom-header__list--mobile">
+        <li class="custom-header__list-item--mobile" data-mobile-navigation-list-item="true">
+          
+    
+
+    <a href="https://www.linkedin.com/business/marketing/blog/marketing-toolbox" class="t-16 t-sans t-black t-semibold header-nav__toplink" target="_self">
+      LinkedIn Toolbox
+    </a>
+
+      <button class="header-navigation__button" aria-label="Expand to show more links for LinkedIn Toolbox" aria-expanded="false" data-mobile-dropdown-trigger type="button">
+        <li-icon size="small" type="chevron-down-icon"></li-icon>
+      </button>
+      
+    <ul class="custom-header__dropdownlink-list--mobile hidden" data-dropdownlinks-list="true">
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/linkedin-ads" class="t-sans t-black t-normal header-nav__link" target="_self">LinkedIn Ads</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/linkedin-pages" class="t-sans t-black t-normal header-nav__link" target="_self">LinkedIn Pages</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/channel" class="t-sans t-black t-normal header-nav__link" target="_self">LinkedIn Marketing Partners</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/customer-stories" class="t-sans t-black t-normal header-nav__link" target="_self">Customer Success Stories</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/campaignmanager/new-advertiser?businessId=personal" class="t-sans t-black t-normal header-nav__link" target="_self">Create an Ad</a>
+        </li>
+    </ul>
+  
+
+        </li>
+        <li class="custom-header__list-item--mobile" data-mobile-navigation-list-item="true">
+          
+    
+
+    <a href="https://www.linkedin.com/business/marketing/blog/marketing-collective" class="t-16 t-sans t-black t-semibold header-nav__toplink" target="_self">
+      Marketing Collective
+    </a>
+
+      <button class="header-navigation__button" aria-label="Expand to show more links for Marketing Collective" aria-expanded="false" data-mobile-dropdown-trigger type="button">
+        <li-icon size="small" type="chevron-down-icon"></li-icon>
+      </button>
+      
+    <ul class="custom-header__dropdownlink-list--mobile hidden" data-dropdownlinks-list="true">
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/collective-conversation" class="t-sans t-black t-normal header-nav__link" target="_self">Collective Conversation</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/research-and-insights" class="t-sans t-black t-normal header-nav__link" target="_self">Research &amp; Insights </a>
+        </li>
+    </ul>
+  
+
+        </li>
+        <li class="custom-header__list-item--mobile" data-mobile-navigation-list-item="true">
+          
+    
+
+    <a href="https://www.linkedin.com/business/marketing/blog/strategy-best-practices" class="t-16 t-sans t-black t-semibold header-nav__toplink" target="_self">
+      Strategy
+    </a>
+
+      <button class="header-navigation__button" aria-label="Expand to show more links for Strategy" aria-expanded="false" data-mobile-dropdown-trigger type="button">
+        <li-icon size="small" type="chevron-down-icon"></li-icon>
+      </button>
+      
+    <ul class="custom-header__dropdownlink-list--mobile hidden" data-dropdownlinks-list="true">
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/abm" class="t-sans t-black t-normal header-nav__link" target="_self">ABM</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/lead-generation" class="t-sans t-black t-normal header-nav__link" target="_self">Lead Generation</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/measurement" class="t-sans t-black t-normal header-nav__link" target="_self">Measurement and ROI</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/targeting" class="t-sans t-black t-normal header-nav__link" target="_self">Target &amp; Audience Building</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/trends-tips" class="t-sans t-black t-normal header-nav__link" target="_self">Trends, Tips &amp; Best Practices</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/smb" class="t-sans t-black t-normal header-nav__link" target="_self">Small Business Marketing</a>
+        </li>
+    </ul>
+  
+
+        </li>
+        <li class="custom-header__list-item--mobile" data-mobile-navigation-list-item="true">
+          
+    
+
+    <a href="https://www.linkedin.com/business/marketing/blog/content-creative" class="t-16 t-sans t-black t-semibold header-nav__toplink" target="_self">
+      Creative
+    </a>
+
+      <button class="header-navigation__button" aria-label="Expand to show more links for Creative" aria-expanded="false" data-mobile-dropdown-trigger type="button">
+        <li-icon size="small" type="chevron-down-icon"></li-icon>
+      </button>
+      
+    <ul class="custom-header__dropdownlink-list--mobile hidden" data-dropdownlinks-list="true">
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/brand" class="t-sans t-black t-normal header-nav__link" target="_self">Brand Building</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/content-marketing" class="t-sans t-black t-normal header-nav__link" target="_self">Content</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/social-media-marketing" class="t-sans t-black t-normal header-nav__link" target="_self">Social Media</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/events" class="t-sans t-black t-normal header-nav__link" target="_self">Events</a>
+        </li>
+    </ul>
+  
+
+        </li>
+        <li class="custom-header__list-item--mobile" data-mobile-navigation-list-item="true">
+          
+    
+
+    <a href="https://www.linkedin.com/business/marketing/blog/workplace-culture" class="t-16 t-sans t-black t-semibold header-nav__toplink" target="_self">
+      Workplace &amp; Culture
+    </a>
+
+      <button class="header-navigation__button" aria-label="Expand to show more links for Workplace &amp;amp; Culture" aria-expanded="false" data-mobile-dropdown-trigger type="button">
+        <li-icon size="small" type="chevron-down-icon"></li-icon>
+      </button>
+      
+    <ul class="custom-header__dropdownlink-list--mobile hidden" data-dropdownlinks-list="true">
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/skills" class="t-sans t-black t-normal header-nav__link" target="_self">Diversity in Marketing</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/skills" class="t-sans t-black t-normal header-nav__link" target="_self">Skill Building &amp; Careers</a>
+        </li>
+    </ul>
+  
+
+        </li>
+        <li class="custom-header__list-item--mobile" data-mobile-navigation-list-item="true">
+          
+    
+
+    <a href="https://www.linkedin.com/business/marketing/blog/vertical-insights" class="t-16 t-sans t-black t-semibold header-nav__toplink" target="_self">
+      Vertical Insights
+    </a>
+
+      <button class="header-navigation__button" aria-label="Expand to show more links for Vertical Insights" aria-expanded="false" data-mobile-dropdown-trigger type="button">
+        <li-icon size="small" type="chevron-down-icon"></li-icon>
+      </button>
+      
+    <ul class="custom-header__dropdownlink-list--mobile hidden" data-dropdownlinks-list="true">
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/agency" class="t-sans t-black t-normal header-nav__link" target="_self">Agency</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/education" class="t-sans t-black t-normal header-nav__link" target="_self">Education</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/financial-services" class="t-sans t-black t-normal header-nav__link" target="_self">FinServ</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/startups" class="t-sans t-black t-normal header-nav__link" target="_self">Startups</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/business/marketing/blog/tech" class="t-sans t-black t-normal header-nav__link" target="_self">Tech</a>
+        </li>
+    </ul>
+  
+
+        </li>
+    </ul>
+  
+
+      <div class="custom-header__button-share-container--mobile">
+          <a class="medium-secondary-muted-button" href="https://forms.feedblitz.com/ea4?src=topnavbutton" target="_blank">
+            Subscribe to blog
+          </a>
+
+      </div>
+    </nav>
+  
+    </div>
+  
+
+        <main role="main">
+          
+        <div id="lithograph-app">
+          
+
+    <section id="component-container" data-attach-collapse-behavior="true">
+      
+
+      <div id class="component component-banner" data-component-type="banner">
+        
+
+        
+
+    <div class="banner banner--v3 banner--full-width banner--light-background banner--left banner-height-desktop--300dp banner-height-tablet--150dp banner-height-mobile--100dp" data-banner>
+      <div class="banner__image-container " aria-hidden="true">
+          <img class="banner__image image-pin--middle-center" alt srcset="https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit1920/B4DZd6gOjHGUAU-/0/1750106958859?e=2147483647&amp;v=beta&amp;t=UusEla3kq2nGCIqoxVYpt0ny4SklnmuCn_DDW3Ucdy4 1920w,https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit1200/B4DZd6gOjHGUAg-/0/1750106958859?e=2147483647&amp;v=beta&amp;t=hhyxsb-lzVzK4OYMi5SqLRsy82PGWIaAQcIj6yjZaew 1200w,https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit767/B4DZd6gOjHGUAQ-/0/1750106958859?e=2147483647&amp;v=beta&amp;t=E--na1QdUeWdzSrZetZUvMhksC8vhz0Y-bkM7AKz_Jw 767w,https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit1024/B4DZd6gOjHGUAc-/0/1750106958839?e=2147483647&amp;v=beta&amp;t=igSML4F0rJs-vlNNDyEhucQqrGdShvcUv10kSbKMcVA 1024w,https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit480/B4DZd6gOjHGUAM-/0/1750106958839?e=2147483647&amp;v=beta&amp;t=vTEDmJB4qxcLslqrS413ZLfWCkpRLZ2iaD4QYjvhBNs 480w,https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit600/B4DZd6gOjHGUAY-/0/1750106958840?e=2147483647&amp;v=beta&amp;t=sFYCTs_cmiZtZaujjz__QoCoXXCu25nKorU8qnP0Ws8 600w," sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 1920px" src="https://media.licdn.com/dms/image/v2/D4D08AQGiguqTf6ZEBA/croft-frontend-shrinkToFit600/B4DZd6gOjHGUAY-/0/1750106958840?e=2147483647&amp;v=beta&amp;t=sFYCTs_cmiZtZaujjz__QoCoXXCu25nKorU8qnP0Ws8">
+
+<!---->      </div>
+
+      <div class="banner__headline-container">
+        <div class="banner__position">
+<!---->              <h1 class="banner__headline t-64">
+                Marketing Blog
+              </h1>
+<!----><!---->
+              <p class="banner__subheadline t-20">
+                Get inspiration, insight and innovative ideas
+              </p>
+<!----><!----><!---->
+          <div class="banner__button-container">
+<!----><!---->          </div>
+        </div>
+      </div>
+    </div>  
+  
+      </div>
+      <div id class="component component-featuredPost" data-component-type="featuredPost">
+        
+
+        
+
+      <section class="featured-post">
+        <div class="image-container">
+           
+
+        <img class="post__image" srcset="https://media.licdn.com/dms/image/v2/D4D08AQGRK2vFrhqWAQ/croft-frontend-shrinkToFit480/B4DZgyb96_GsAM-/0/1753192850419?e=2147483647&amp;v=beta&amp;t=5wUcD5-VPJIgY68axOSsoLiDpjda8iZhqfKhPctHeXE 480w,https://media.licdn.com/dms/image/v2/D4D08AQGRK2vFrhqWAQ/croft-frontend-shrinkToFit600/B4DZgyb96_GsAY-/0/1753192850419?e=2147483647&amp;v=beta&amp;t=jY3gS-mCK_r_r5tRE_XhKOjclSB_-es0JmKP1xJA5iI 600w,https://media.licdn.com/dms/image/v2/D4D08AQGRK2vFrhqWAQ/croft-frontend-shrinkToFit1920/B4DZgyb96_GsAU-/0/1753192850419?e=2147483647&amp;v=beta&amp;t=ZNY5vpDjqUmjWBYVR4gn9DlbwVWxW8Ci7q-gtExcPss 1920w,https://media.licdn.com/dms/image/v2/D4D08AQGRK2vFrhqWAQ/croft-frontend-shrinkToFit1200/B4DZgyb96_GsAg-/0/1753192850395?e=2147483647&amp;v=beta&amp;t=M3Iwrw8C_4P27BxaIzeciw9W7XwS48BUxqr8jn4_2xY 1200w,https://media.licdn.com/dms/image/v2/D4D08AQGRK2vFrhqWAQ/croft-frontend-shrinkToFit767/B4DZgyb96_GsAQ-/0/1753192850395?e=2147483647&amp;v=beta&amp;t=MGxabbr_1ui_Capb8wrjm07Tpzc5WEN1JQ4t4gcirMs 767w,https://media.licdn.com/dms/image/v2/D4D08AQGRK2vFrhqWAQ/croft-frontend-shrinkToFit1024/B4DZgyb96_GsAc-/0/1753192850395?e=2147483647&amp;v=beta&amp;t=iB_Q3TuGvwyXGVM9Umwo3geMnDxihrzRX2_9-U6HO0o 1024w," alt sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+        </div>
+        <div class="post-container">
+            <p class="featured-post__topic t-14">
+              <a href="https://www.linkedin.com/business/marketing/blog/marketing-collective">LinkedIn Marketing Collective</a>
+            </p>
+
+          <a href="https://www.linkedin.com/business/marketing/blog/marketing-collective/2025-b2b-marketing-benchmar-the-video-influence-effect-starts-with-trust" class="featured-post__headline t-40 t-normal t-black">
+              2025 B2B Marketing Benchmark: The Video + Influence Effect Sta...
+          </a>
+
+          <p class="featured-post__description t-16 t-sans t-black">
+              Trust is the foundation of B2B influence. See why video and creators are the most effective tools for building it in the 2025 Benchmark Report.
+          </p>
+
+          <div class="featured-post__byline">
+                <p class="featured-post__author featured-post__author--no-date t-14 t-sans t-bold t-black">
+                    Tequia Burt
+                </p>
+
+<!---->          </div>
+        </div>
+      </section>
+  
+  
+      </div>
+      <div id class="component component-callout" data-component-type="callout">
+        
+
+        
+
+    <div class="callout callout-color--blue">
+        <li-icon type="lightbulb-icon"></li-icon>
+      <div class="callout__content ">
+        <h3 class="callout__headline t-16 t-black t-bold t-roman">You’ve Got Questions. We’ve Got Benchmarks.</h3>
+        <div class="callout__description"><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>Are you leading the pack—or falling behind? The 2025 Benchmark breaks down what top marketers are doing differently, across video, AI, influence and brand.<strong><strong></strong><p></p><p></p>Ready to measure up? <a rel="" href="https://business.linkedin.com/marketing-solutions/marketing-research" target="_blank">See how your strategy stacks up on our Intelligence Hub →</a></strong><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div>
+      </div>
+<!---->    </div>
+  
+      </div>
+      <div id class="component component-banner" data-component-type="banner">
+        
+
+        
+
+    <div class="banner banner--v3 banner--full-width banner--dark-background banner--left banner-height-desktop--default banner-height-tablet--default banner-height-mobile--default" data-banner>
+      <div class="banner__image-container " aria-hidden="true">
+          <img class="banner__image image-pin--middle-left" alt srcset="https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit480/B4DZeEu9g7GgAM-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=P2ZgcWdUFZha3lCi7YdULaUEKGPEOIszgoZOiG3dHRw 480w,https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit767/B4DZeEu9g7GgAQ-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=3m8vYbui4452GqEcuostZngXLfLRBlQ8VZqydakpVxA 767w,https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit1920/B4DZeEu9g7GgAU-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=d09Aa9lY3_i-aKYZKoc1UbdYtTWrNMQEgC1ZRbjF6gw 1920w,https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit1024/B4DZeEu9g7GgAc-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=3Zfd4DUr75wwTx07mEbksmBv7XrfsDYSdFxIh0tv4MQ 1024w,https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit600/B4DZeEu9g7GgAY-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=eNi4gkgpyStPMk2gAIHkwgGQWB9bP9opdooQGhspAjQ 600w,https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit1200/B4DZeEu9g7GgAg-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=d8SdZezvUNcg3O6IDSn_nFUrk4NVL3upMYFpRuABCMA 1200w," sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 1920px" src="https://media.licdn.com/dms/image/v2/D4D08AQHAhY86pv1cpg/croft-frontend-shrinkToFit1200/B4DZeEu9g7GgAg-/0/1750278593865?e=2147483647&amp;v=beta&amp;t=d8SdZezvUNcg3O6IDSn_nFUrk4NVL3upMYFpRuABCMA">
+
+<!---->      </div>
+
+      <div class="banner__headline-container">
+        <div class="banner__position">
+              <p class="banner__headline t-32">
+                Video of the Week
+              </p>
+<!----><!----><!---->
+              <p class="banner__subheadline t-20">
+                
+              </p>
+<!----><!----><!---->
+          <div class="banner__button-container">
+<!----><!---->          </div>
+        </div>
+      </div>
+    </div>  
+  
+      </div>
+      <div id class="component component-video" data-component-type="video">
+        
+
+        
+
+    
+
+    <div class="video video__article-width" data-video-with-thumbnail="false" data-video>
+      <div class="video-padding-wrapper">
+        <div class="video__container">
+              <div class="video__content" tabindex="-1" data-video-content>
+                
+      <iframe allowfullscreen frameborder="0" data-delayed-url="https://www.youtube-nocookie.com/embed/Gzh65CER5Rk?rel=0&amp;amp;autohide=1&amp;amp;playsinline=0&amp;amp;html5=1&amp;amp;wmode=opaque&amp;amp;autoplay=0" title="There's no doubt about it: The professional B2B creator is on the rise. ">
+      </iframe>
+    
+              </div>
+        </div>
+      </div>
+
+<!---->    </div>  
+  
+      </div>
+      <div id class="component component-banner" data-component-type="banner">
+        
+
+        
+
+    <div class="banner banner--v3 banner--full-width banner--light-colored-background banner--left banner-height-desktop--default banner-height-tablet--default banner-height-mobile--default" data-banner>
+      <div class="banner__image-container " aria-hidden="true">
+          <img class="banner__image image-pin--bottom-center" alt srcset="https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit767/B4DZeFBl3hH4AQ-/0/1750283477037?e=2147483647&amp;v=beta&amp;t=C6EeFq4nR7TqYsaW292WyQTv3029s1GFkGFAu7kfIZ4 767w,https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit480/B4DZeFBl3hH4AM-/0/1750283477037?e=2147483647&amp;v=beta&amp;t=n12D8XOPxUGoMhq-WRkP2amr5qyj78yrWMTtIoprnOM 480w,https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit600/B4DZeFBl3hH4AY-/0/1750283477037?e=2147483647&amp;v=beta&amp;t=6ZJYh3PkhwtSt4F97eR3VTBmeSal9kw129ODVgKjM-I 600w,https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit1200/B4DZeFBl3hH4Ag-/0/1750283477099?e=2147483647&amp;v=beta&amp;t=q7WSa4xH0U8jjs5pZ5AfIx6JimWTfe0A9fM2gg6Nx4A 1200w,https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit1920/B4DZeFBl3hH4AU-/0/1750283477099?e=2147483647&amp;v=beta&amp;t=Ed6Zrro41DsCtNHYz7PT2tmP0XP5rjSV2WT0ziwNf0Y 1920w,https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit1024/B4DZeFBl3hH4Ac-/0/1750283477100?e=2147483647&amp;v=beta&amp;t=SLCGIr36XFXfQIsvuH_aT8jqmgpE_O6bKYet4F5cRd4 1024w," sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 1920px" src="https://media.licdn.com/dms/image/v2/D4D08AQFXWco9yMomoQ/croft-frontend-shrinkToFit1024/B4DZeFBl3hH4Ac-/0/1750283477100?e=2147483647&amp;v=beta&amp;t=SLCGIr36XFXfQIsvuH_aT8jqmgpE_O6bKYet4F5cRd4">
+
+<!---->      </div>
+
+      <div class="banner__headline-container">
+        <div class="banner__position">
+              <p class="banner__headline t-32">
+                Best practices, trends and can't-miss stories from the Marketing Blog
+              </p>
+<!----><!----><!---->
+              <p class="banner__subheadline t-20">
+                
+              </p>
+<!----><!----><!---->
+          <div class="banner__button-container">
+<!---->                <a class="banner__button button__mainButton button__primary" href="https://forms.feedblitz.com/ea4?src=topnavbutton" target="_self">
+                  Get our newsletter
+                </a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  
+      </div>
+      <div id class="component component-postList" data-component-type="postList">
+        
+
+        
+
+    <section id="postList0FocusPoint" class="component__content-container grid-layout" data-post-list>
+<!---->
+<!---->
+        <section class="grid-layout__headline-container">
+          
+
+        <h2 class="grid-layout__headline t-32 t-sans">What's New in the Marketing Collective</h2>
+  
+          
+
+        <p class="grid-layout__headline--secondary t-18 t-black">A community designed for and by B2B marketers to inspire excellence and success in the industry.</p>
+        
+        </section>
+
+        <ul class="grid-layout__posts">
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Our latest LinkedIn B2B Benchmark Report, titled AI Is The New Advantage, reveals that AI is no longer new to B2B marketers and that it is part of their daily workflow. This pos..." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQH2otCrSmED1w/croft-frontend-shrinkToFit1024/B4DZikaHOKH4Ao-/0/1755104966512?e=2147483647&amp;v=beta&amp;t=ybbGk3FnydliesnbGqCKckF1MHaJsv0Jk9Ku6PjeYjU" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+<!---->      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/marketing-collective/ai-is-b2bs-competitive-advantage-only-for-marketers-who-go-deeper">
+          AI Is B2B’s Competitive Advantage Only for Marketers Who Go De...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Our latest LinkedIn B2B Benchmark Report, titled AI Is The New Advantage, reveals that AI is no longer new to B2B marketers and that it is part of their daily workflow. This pos...
+        </p>
+
+      <div class="grid-post__byline">
+<!---->
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 14, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="We've all heard the adage: buyers don't trust brands; they trust people. In a business environment where trust is more elusive than ever, the cost of brand mistrust is an expens..." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQE3p44FHAB7jg/croft-frontend-shrinkToFit480/B4DZg9SMXuGgAM-/0/1753374837046?e=2147483647&amp;v=beta&amp;t=4nkZiT0pqbMZCMxJxL1fwo51BDmdPbPpfbtBCK91juQ" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/marketing-collective">
+            LinkedIn Marketing Collective
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/marketing-collective/trusted-voices-trusted-brands-how-b2b-influence-powers-buyer-confidence">
+          Trusted Voices, Trusted Brands: How B2B Influence Powers Buyer...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          We've all heard the adage: buyers don't trust brands; they trust people. In a business environment where trust is more elusive than ever, the cost of brand mistrust is an expens...
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Lee Odden
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 24, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Discover how to turn trust into a growth strategy using creators, video and a practical framework built to scale credibility in modern B2B marketing." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQE0QRZsiJuk0Q/croft-frontend-shrinkToFit600/B4DZg9atLEGkAY-/0/1753377069393?e=2147483647&amp;v=beta&amp;t=GwOPaxgAWskPHQqbjkhCzd8uPLKNpDdaWezXpzJuRxU" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/marketing-collective">
+            LinkedIn Marketing Collective
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/marketing-collective/whats-next-turning-trust-into-action">
+          What’s Next: Turning Trust Into Action
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Discover how to turn trust into a growth strategy using creators, video and a practical framework built to scale credibility in modern B2B marketing.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Tequia Burt
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 24, 2025
+          </p>
+      </div>
+    </li>
+  
+        </ul>
+
+<!---->    </section>
+  
+  
+      </div>
+      <div id class="component component-banner" data-component-type="banner">
+        
+
+        
+
+    <div class="banner banner--v3 banner--full-width banner--light-background banner--left banner-height-desktop--200dp banner-height-tablet--200dp banner-height-mobile--250dp" data-banner>
+      <div class="banner__image-container " aria-hidden="true">
+          <img class="banner__image image-pin--bottom-center" alt srcset="https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit767/B4DZeFBqL8GsAQ-/0/1750283495119?e=2147483647&amp;v=beta&amp;t=GD1YuhS8mTk__MMd3j6Z5tkqQ31NE8Mh4O5_o0zsmiA 767w,https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit1024/B4DZeFBqL8GsAc-/0/1750283495119?e=2147483647&amp;v=beta&amp;t=7T4CxlSqUSafdKhlIIdMcxrfCuDv4_8iSQZJbJicLkY 1024w,https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit1920/B4DZeFBqL8GsAU-/0/1750283495119?e=2147483647&amp;v=beta&amp;t=ghBonknv9WB5VKcic-RnCgseV2o4da4a99z-f6J8DVM 1920w,https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit1200/B4DZeFBqL8GsAg-/0/1750283495100?e=2147483647&amp;v=beta&amp;t=Lujyee98wArkV3r9IQpwk2RYGa-Z0ADBrNZlpuaMuXE 1200w,https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit600/B4DZeFBqL8GsAY-/0/1750283495100?e=2147483647&amp;v=beta&amp;t=LqGOwIf-oZT-55G19JiZOmWoR0EQwG-hRFdUOSlqqYw 600w,https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit480/B4DZeFBqL8GsAM-/0/1750283495100?e=2147483647&amp;v=beta&amp;t=MOmez207FPb1H-O-dzcOfpCEFghHzsCMvDfD0mYx0gM 480w," sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 1920px" src="https://media.licdn.com/dms/image/v2/D4D08AQEYpVcyeibltg/croft-frontend-shrinkToFit480/B4DZeFBqL8GsAM-/0/1750283495100?e=2147483647&amp;v=beta&amp;t=MOmez207FPb1H-O-dzcOfpCEFghHzsCMvDfD0mYx0gM">
+
+<!---->      </div>
+
+      <div class="banner__headline-container">
+        <div class="banner__position">
+              <p class="banner__headline t-32">
+                Product Spotlight
+              </p>
+<!----><!----><!---->
+              <p class="banner__subheadline t-20">
+                Your Guide to LinkedIn Ads: From Basics to Brilliance
+              </p>
+<!----><!----><!---->
+          <div class="banner__button-container">
+<!----><!---->          </div>
+        </div>
+      </div>
+    </div>  
+  
+      </div>
+      <div id class="component component-postList" data-component-type="postList">
+        
+
+        
+
+    <section id="postList1FocusPoint" class="component__content-container grid-layout" data-post-list>
+<!---->
+<!---->
+<!---->
+        <ul class="grid-layout__posts">
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="See how Salesforce used CTV Ads on LinkedIn and iSpot’s integration to reduce media waste, improve targeting, and boost impact, all without increasing spend." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQEXVfRt_zoqiA/croft-frontend-shrinkToFit480/B4DZi_92VVGkAM-/0/1755567319501?e=2147483647&amp;v=beta&amp;t=yRO02H2GD4Az5wf_pFlqh5bvMIApq35aXdDfTtX5E6U" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/customer-stories">
+            Customer stories
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/customer-stories/salesforce-linkedin-ispot-ctv-advertising">
+          How Salesforce Used LinkedIn’s CTV Ads and iSpot to Reach More...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          See how Salesforce used CTV Ads on LinkedIn and iSpot’s integration to reduce media waste, improve targeting, and boost impact, all without increasing spend.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Heather Timmerman Moller
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 20, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Go behind the scenes of Zapier’s LinkedIn creator pilot: how we chose creators, collaborated on messaging, boosted results, and landed a 27% higher landing page CTR—with screens..." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQFkVxdTtOXCXw/croft-frontend-shrinkToFit1200/B4DZiL8PVTG8Ao-/0/1754694486854?e=2147483647&amp;v=beta&amp;t=tX9DMe4N1aOHCWRf4EulQVw4m9xvF6r6UhLiknpUrs8" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/customer-stories">
+            Customer stories
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/customer-stories/when-creators-tell-your-story-better-inside-zapiers-b2b-creator-test">
+          When Creators Tell Your Story Better: Inside Zapier’s B2B Crea...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Go behind the scenes of Zapier’s LinkedIn creator pilot: how we chose creators, collaborated on messaging, boosted results, and landed a 27% higher landing page CTR—with screens...
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Miranda Sambrook 
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 13, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Have you been thinking about advertising on LinkedIn? Discover advice that can lower the intimidation factor and help you create your first campaign with confidence. " data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQGsADLc_Ogzmg/croft-frontend-shrinkToFit1200/B4DZiME24yHYAk-/0/1754696741675?e=2147483647&amp;v=beta&amp;t=f9VzDHxjSLQvl671vRWKfl9wg929-fb_9QFlfh5Q8aI" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/linkedin-ads">
+            LinkedIn Ads
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/linkedin-ads/new-to-linkedin-ads-start-here">
+          Getting Started with LinkedIn Ads? Start Here.
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Have you been thinking about advertising on LinkedIn? Discover advice that can lower the intimidation factor and help you create your first campaign with confidence. 
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Alexandra Rynne
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 12, 2025
+          </p>
+      </div>
+    </li>
+  
+        </ul>
+
+<!---->    </section>
+  
+  
+      </div>
+      <div id class="component component-postList" data-component-type="postList">
+        
+
+        
+
+    <section id="postList2FocusPoint" class="component__content-container grid-layout" data-post-list>
+<!---->
+<!---->
+        <section class="grid-layout__headline-container">
+          
+
+        <h1 class="grid-layout__headline t-32 t-sans">Latest Stories</h1>
+  
+          
+
+<!---->  
+        </section>
+
+        <ul class="grid-layout__posts">
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="See how Salesforce used CTV Ads on LinkedIn and iSpot’s integration to reduce media waste, improve targeting, and boost impact, all without increasing spend." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQEXVfRt_zoqiA/croft-frontend-shrinkToFit480/B4DZi_92VVGkAM-/0/1755567319501?e=2147483647&amp;v=beta&amp;t=yRO02H2GD4Az5wf_pFlqh5bvMIApq35aXdDfTtX5E6U" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/customer-stories">
+            Customer stories
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/customer-stories/salesforce-linkedin-ispot-ctv-advertising">
+          How Salesforce Used LinkedIn’s CTV Ads and iSpot to Reach More...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          See how Salesforce used CTV Ads on LinkedIn and iSpot’s integration to reduce media waste, improve targeting, and boost impact, all without increasing spend.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Heather Timmerman Moller
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 20, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="LinkedIn is rated as the number one platform for collecting quality leads. Lead Gen Forms are the tool that puts your pipeline building in motion." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQG3RVXaTYDgDQ/croft-frontend-shrinkToFit1200/B4DZi_XV1oGsAk-/0/1755557229723?e=2147483647&amp;v=beta&amp;t=HWSOz3jKZOKy2JKIyQiavHJxCtIO2QfjX0IBgutl508" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/lead-generation">
+            Lead generation
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/lead-generation/how-to-use-linkedin-lead-gen-forms">
+          How to Use LinkedIn Lead Gen Forms
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          LinkedIn is rated as the number one platform for collecting quality leads. Lead Gen Forms are the tool that puts your pipeline building in motion.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Alexandra Rynne
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 19, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Go behind the scenes of Zapier’s LinkedIn creator pilot: how we chose creators, collaborated on messaging, boosted results, and landed a 27% higher landing page CTR—with screens..." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQFkVxdTtOXCXw/croft-frontend-shrinkToFit1200/B4DZiL8PVTG8Ao-/0/1754694486854?e=2147483647&amp;v=beta&amp;t=tX9DMe4N1aOHCWRf4EulQVw4m9xvF6r6UhLiknpUrs8" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/customer-stories">
+            Customer stories
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/customer-stories/when-creators-tell-your-story-better-inside-zapiers-b2b-creator-test">
+          When Creators Tell Your Story Better: Inside Zapier’s B2B Crea...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Go behind the scenes of Zapier’s LinkedIn creator pilot: how we chose creators, collaborated on messaging, boosted results, and landed a 27% higher landing page CTR—with screens...
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Miranda Sambrook 
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Aug 13, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Expanded revenue measurement in LinkedIn’s Campaign Manager helps B2B marketers understand company-level and campaign-level impact to grow business outcomes." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQH5PIZa5c1XSg/croft-frontend-shrinkToFit600/B4DZhOu5BtGkAY-/0/1753667581746?e=2147483647&amp;v=beta&amp;t=dJwDsDBQAIBfDKdSbC0wyY0kgHc_aKyhIVq4AxK_aBs" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement">
+            Measurement and ROI
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/measurement/learn-about-linkedins-expanded-revenue-attribution-measurement">
+          The Era of Outcomes-based Measurement: Unlock the Full Value o...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Expanded revenue measurement in LinkedIn’s Campaign Manager helps B2B marketers understand company-level and campaign-level impact to grow business outcomes.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Sanjana Palepu
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 28, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Discover how B2B influencers and video combine to build trust, expand reach and connect with today’s buyers in a more authentic, impactful way." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQG7ThfnomsqkA/croft-frontend-shrinkToFit1200/B4DZgO4ouPHwAk-/0/1752596386008?e=2147483647&amp;v=beta&amp;t=10LrL9nNGqPO5aU-2NKNUjrjrtXoehNGBml7gkHwBUs" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/content-marketing">
+            Content marketing
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/content-marketing/b2b-influencer-video">
+          Your Next Best B2B Video Strategy? Influencers. Here’s Why.
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Discover how B2B influencers and video combine to build trust, expand reach and connect with today’s buyers in a more authentic, impactful way.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Tequia Burt
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 15, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Want to grow your brand’s market share? Learn why Share of Voice and Extra Share of Voice are essential in B2B marketing – and how creativity can help." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQHOq57SKPCGfA/croft-frontend-shrinkToFit480/B4DZf7A2mlH8AM-/0/1752262995903?e=2147483647&amp;v=beta&amp;t=ujY77mVCntpHQAlU1YgH1r4ZOPe4i0ZHBYc94UuJgC8" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement">
+            Measurement and ROI
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/measurement/share-of-voice-and-esov-why-theyre-taking-center-stage-in-b2b-marketing">
+          Share of Voice and ESoV: Why They’re Taking Center Stage in B2...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Want to grow your brand’s market share? Learn why Share of Voice and Extra Share of Voice are essential in B2B marketing – and how creativity can help.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Tequia Burt
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 11, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Create highly optimized B2B marketing campaigns by knowing which key performance indicators to measure and track." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQFHoOaDGL2TOA/croft-frontend-shrinkToFit1024/croft-frontend-shrinkToFit1024/0/1675455540678?e=2147483647&amp;v=beta&amp;t=07VbSXmrkrhPWrvdub_8BVH232jDvhAp80HF1H7VDkA" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement">
+            Measurement and ROI
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/measurement/the-most-common-b2b-marketing-kpis-and-how-to-use-them">
+          The 10 Most Common B2B Marketing KPIs and How to Use Them
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Create highly optimized B2B marketing campaigns by knowing which key performance indicators to measure and track.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Alexandra Rynne
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 10, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Marketing strategists: How are you using AI to build a smarter marketing strategy? Still stuck at the starting line? Here are five ways B2B marketers can use AI tools to strengt..." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQGReFj0L2cSxg/croft-frontend-shrinkToFit600/B4DZfK_8pdHkAc-/0/1751457452340?e=2147483647&amp;v=beta&amp;t=7412DoRh6RZCvy3EQH2ZC-blqz3CZkXUucw0IMMOUrU" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/trends-tips">
+            Trends, tips, and best practices
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/trends-tips/building-a-smarter-marketing-strategy-with-ai-tools">
+          5 Ways AI Can Help B2B Marketers Build a Smarter Marketing Str...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Marketing strategists: How are you using AI to build a smarter marketing strategy? Still stuck at the starting line? Here are five ways B2B marketers can use AI tools to strengt...
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Tequia Burt
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 9, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Learn how B2B marketers are using video retargeting to boost familiarity, trust, and ultimately conversions throughout the long, non-linear buying journey." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQF9r9lElGocmQ/croft-frontend-shrinkToFit1200/B4DZfWSO6TGsAg-/0/1751646795696?e=2147483647&amp;v=beta&amp;t=4x5KjZQSKP7QSxAhb0QQ3HvL84pIjjoBV9tb96ZTsb4" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/content-marketing">
+            Content marketing
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/content-marketing/how-b2b-marketers-can-use-video-retargeting-to-boost-campaign-conversions2">
+          How B2B Marketers Can Use Video Retargeting to Boost Campaign ...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Learn how B2B marketers are using video retargeting to boost familiarity, trust, and ultimately conversions throughout the long, non-linear buying journey.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Tequia Burt
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 9, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="B2B marketers face growing challenges in data fragmentation, measurement gaps, and evolving privacy regulations. Discover how LinkedIn Ads and Adobe Real-Time CDP enable more pr..." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQH4_Jhzq7EFTA/croft-frontend-shrinkToFit600/B4DZfGVlpKGYAc-/0/1751379239235?e=2147483647&amp;v=beta&amp;t=Xfs6KaOSEtMIUTBZIWBIqtfTEz2F7Jw2aWcZ8jaslgk" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement">
+            Measurement and ROI
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/trends-tips/reclaiming-lost-signals-how-linkedin-and-adobe-power-smarter-b2b-marketing2">
+          Reclaiming Lost Signals: How LinkedIn and Adobe Power Smarter ...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          B2B marketers face growing challenges in data fragmentation, measurement gaps, and evolving privacy regulations. Discover how LinkedIn Ads and Adobe Real-Time CDP enable more pr...
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Jessica Cross
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jul 1, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Learn how Adobe is reinventing the content supply chain—scaling creativity, speed and personalization with GenStudio and Firefly Enterprise." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQEcLYfZpzfCUA/croft-frontend-shrinkToFit600/B4DZezMt06HMAc-/0/1751058145658?e=2147483647&amp;v=beta&amp;t=d4XRvq7ssTqyK6_QiI1C8_39HBFWniY0OuMI5_6cGb4" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/channel">
+            Channel partner
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/channel/adobe-reinventing-the-content-supply-chain">
+          Reinventing the Content Supply Chain: Creativity, AI and the F...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Learn how Adobe is reinventing the content supply chain—scaling creativity, speed and personalization with GenStudio and Firefly Enterprise.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Varun Parmar
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jun 27, 2025
+          </p>
+      </div>
+    </li>
+  
+              
+
+    <li class="post-list__item grid-post">
+      <figure class="grid-post__image-container">
+        
+
+        <img class="post__image" alt="Discover proven ways to promote your B2B event using social media. Learn tactics for before, during and after the event that maximize reach and ROI." data-delayed-url="https://media.licdn.com/dms/image/v2/D4D08AQGbNUotWnXWzQ/croft-frontend-shrinkToFit1920/B4DZey8TQoGsAY-/0/1751053842772?e=2147483647&amp;v=beta&amp;t=cfFLuk0vMNziYy82ap8l2gi6-e_WASg0cGjbgf24bbo" data-ghost-url="https://static.licdn.com/aero-v1/sc/h/8pouyb1ly746xtru0x7p2axm0" sizes="(max-width: 480px) 480px, (max-width: 767px) 767px, (max-width: 1024px) 1024px, 480px">
+  
+      </figure>
+
+        <p class="grid-post__topic">
+          <a class="t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/events">
+            Events
+          </a>
+        </p>
+      <div class="grid-post__title">
+        <a class="grid-post__link t-20 t-black" href="https://www.linkedin.com/business/marketing/blog/events/how-to-advertise-an-event-on-social-media">
+          Ready to Fill Seats? Here’s How to Advertise an Event on Socia...
+        </a>
+      </div>
+
+        <p class="grid-post__description t-14">
+          Discover proven ways to promote your B2B event using social media. Learn tactics for before, during and after the event that maximize reach and ROI.
+        </p>
+
+      <div class="grid-post__byline">
+            <p class="grid-post__author t-14 t-bold t-black">
+                Tequia Burt
+            </p>
+
+          <p class="grid-post__date t-14 t-black--light">
+            Jun 26, 2025
+          </p>
+      </div>
+    </li>
+  
+        </ul>
+
+        
+
+    
+    
+    
+    
+
+    <section id="pagination" class="pagination__container" data-pagination-id="2">
+        <button class="artdeco-button artdeco-button__icon artdeco-button--1 artdeco-button--tertiary artdeco-button--muted artdeco-button--disabled pagination__button" disabled type="button">
+          <li-icon size="small" type="chevron-left-icon"></li-icon>
+          Previous
+        </button>
+
+      <nav class="pagination__navigation" aria-label="Pagination">
+        <ol class="pagination__pages artdeco-pagination__pages" data-pagination-list>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="1">
+              <a href="?page2=1#postlist2FocusPoint" aria-label="Page 1" data-page-link>
+                1
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="2">
+              <a href="?page2=2#postlist2FocusPoint" aria-label="Page 2" data-page-link>
+                2
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="3">
+              <a href="?page2=3#postlist2FocusPoint" aria-label="Page 3" data-page-link>
+                3
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="4">
+              <a href="?page2=4#postlist2FocusPoint" aria-label="Page 4" data-page-link>
+                4
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="5">
+              <a href="?page2=5#postlist2FocusPoint" aria-label="Page 5" data-page-link>
+                5
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="6">
+              <a href="?page2=6#postlist2FocusPoint" aria-label="Page 6" data-page-link>
+                6
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="7">
+              <a href="?page2=7#postlist2FocusPoint" aria-label="Page 7" data-page-link>
+                7
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="8">
+              <a href="?page2=8#postlist2FocusPoint" aria-label="Page 8" data-page-link>
+                8
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="9">
+              <a href="?page2=9#postlist2FocusPoint" aria-label="Page 9" data-page-link>
+                9
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="10">
+              <a href="?page2=10#postlist2FocusPoint" aria-label="Page 10" data-page-link>
+                ...
+              </a>
+            </li>
+            <li class="artdeco-pagination__indicator artdeco-pagination__indicator--number" data-page-number="153">
+              <a href="?page2=153#postlist2FocusPoint" aria-label="Page 153" data-page-link>
+                153
+              </a>
+            </li>
+        </ol>
+      </nav>
+
+        <a href="?page2=2#postList2FocusPoint" class="artdeco-button artdeco-button__icon artdeco-button--1 artdeco-button--tertiary artdeco-button--muted pagination__button" data-pagination-button>
+          Next
+          <li-icon size="small" type="chevron-right-icon"></li-icon>
+        </a>
+    </section>
+   
+    </section>
+  
+  
+      </div>
+      <div id class="component component-topicDiscovery" data-component-type="topicDiscovery">
+        
+
+        
+
+    <div class="topic-discovery">
+        
+
+    <section class="component__content-container preview-section-layout">
+      <section class="preview-section-layout__headline-container">
+        
+
+        <h2 class="headline t-24">Explore popular topics</h2>
+  
+
+          <div class="headline-pipe">|</div>
+
+          <div>
+            <a class="button-url t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/topics" target="_blank">
+               View all topics
+            </a>
+          </div>
+      </section>
+
+      <section class="preview-section-layout__posts">
+          <div class="preview-section-layout__post">
+            <a class="post-topic t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/skills">
+              Skill building and careers
+            </a>
+
+            <hr class="post-divider">
+
+            <ul>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/skills/navigating-the-future-of-work-for-marketers">
+                      Navigating the Future of Work for Marketers (Infographic)
+                    </a>
+                  </li>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/marketing-collective/global-marketing-jobs-outlook-trends-skills">
+                       Fall Marketing Jobs Outlook: Connections, Collaborations, Continual Learning
+                    </a>
+                  </li>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/marketing-collective/collective-conversation-linkedins-mel-furze-breaks-down-the-job-market-for-marketers">
+                      LinkedIn’s Mel Furze Breaks Down the Job Market for Marketers
+                    </a>
+                  </li>
+            </ul>
+          </div>
+          <div class="preview-section-layout__post">
+            <a class="post-topic t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/content-marketing">
+              Content marketing
+            </a>
+
+            <hr class="post-divider">
+
+            <ul>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/content-marketing/b2b-influencer-video">
+                      Your Next Best B2B Video Strategy? Influencers. Here’s Why. 
+                    </a>
+                  </li>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/content-marketing/how-b2b-marketers-can-use-video-retargeting-to-boost-campaign-conversions2">
+                      How B2B Marketers Can Use Video Retargeting to Boost Campaign Conversions
+                    </a>
+                  </li>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/content-marketing/13-top-tips-for-compelling-b2b-video-content-on-linkedin">
+                      13 Tips for Compelling B2B Video Content on LinkedIn (Plus Bonus Resources!)
+                    </a>
+                  </li>
+            </ul>
+          </div>
+          <div class="preview-section-layout__post">
+            <a class="post-topic t-14 t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement">
+              Measurement and ROI
+            </a>
+
+            <hr class="post-divider">
+
+            <ul>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement/learn-about-linkedins-expanded-revenue-attribution-measurement">
+                      The Era of Outcomes-based Measurement: Unlock the Full Value of LinkedIn’s Reven...
+                    </a>
+                  </li>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement/share-of-voice-and-esov-why-theyre-taking-center-stage-in-b2b-marketing">
+                      Share of Voice and ESoV: Why They’re Taking Center Stage in B2B Marketing
+                    </a>
+                  </li>
+                  <li class="post-title">
+                    <a class="t-14 t-black t-bold" href="https://www.linkedin.com/business/marketing/blog/measurement/the-most-common-b2b-marketing-kpis-and-how-to-use-them">
+                       The 10 Most Common B2B Marketing KPIs and How to Use Them
+                    </a>
+                  </li>
+            </ul>
+          </div>
+      </section>
+    </section>  
+    </div>  
+  
+      </div>
+      <div id class="component component-banner" data-component-type="banner">
+        
+
+        
+
+    <div class="banner banner--v3 banner--full-width banner--light-background banner--center banner-height-desktop--default banner-height-tablet--default banner-height-mobile--default" data-banner>
+      <div class="banner__image-container banner__image-container--background-cool-gray-30" aria-hidden="true">
+          <img class="banner__image image-pin--middle-center">
+
+<!---->      </div>
+
+      <div class="banner__headline-container">
+        <div class="banner__position">
+<!----><!----><!---->              <h3 class="banner__headline t-32">
+                Want to Reach the Right Buyers?
+              </h3>
+
+              <p class="banner__subheadline t-20">
+                Get the skills and certification you need to succeed with LinkedIn Ads
+              </p>
+<!----><!----><!---->
+          <div class="banner__button-container">
+                <a class="banner__button button__supportingButton button__tertiary" href="https://business.linkedin.com/marketing-solutions/success?trk=lms-blog-header-resources" target="_self">
+                  LinkedIn Ads Basics
+                </a>
+                <a class="banner__button button__mainButton button__tertiary" href="https://training.marketing.linkedin.com/?trk=lms-blog-header-labs" target="_self">
+                  Get certified
+                </a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  
+      </div>
+  
+
+          <div id>
+            
+
+    <div class="messaging-overlay__container" data-collapse-container="true">
+      <button class="messaging-overlay__header t-16 t-bold t-sans" data-collapse-trigger data-messaging-overlay-header>
+        <div>
+            <li-icon class="messaging-overlay__header-icon t-16" size="small" type="rss-icon"></li-icon>
+          <span class="messaging-overlay__header-title t-16 t-bold">
+            Advertise on Linkedin
+          </span>
+        </div>
+        <li-icon class="messaging-overlay__header-icon messaging-overlay__header-icon--closed" size="small" a11y-text="Messaging overlay" type="chevron-down-icon"></li-icon>
+      </button>
+
+      <div class="messaging-overlay__body t-16 t-normal t-sans" data-collapse-target="true" data-collapsed="true" data-messaging-overlay-content="true" data-open-automatically="false">
+        <p class="messaging-overlay__body-text">
+          Discover what LinkedIn Ads can do
+        </p>
+
+          <div class="messaging-overlay__button-container">
+            <a class="medium-button" href="https://business.linkedin.com/marketing-solutions/ads?trk=lms-blog-header-advertise-on-linkedin" target="_self">
+              Advertise Now
+            </a>
+          </div>
+
+<!---->      </div>
+    </div>
+  
+          </div>
+    </section>  
+        </div>
+
+        <script src="https://static.licdn.com/aero-v1/sc/h/8hfbuq1ftcvnnx4dd5067pi0t" async></script>
+        <script src="https://static.licdn.com/aero-v1/sc/h/34otz69fotp65jtf0lwf4ofhz" async></script>
+        <script src="https://static.licdn.com/aero-v1/sc/h/bezjoabndnsg6f97wvwsav2c1" async></script>
+      
+        </main>
+
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    <footer class="li-footer bg-transparent w-full ">
+      <ul class="li-footer__list flex flex-wrap flex-row items-start justify-start w-full h-auto min-h-[50px] my-[0px] mx-auto py-3 px-2 papabear:w-[1128px] papabear:p-0">
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        
+          <span class="sr-only">LinkedIn</span>
+          <icon class="li-footer__copy-logo text-color-logo-brand-alt inline-block self-center h-[14px] w-[56px] mr-1" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/5mebydpuuijm3uhv1q375inqh"></icon>
+          <span class="li-footer__copy-text flex items-center">&copy; 2025</span>
+        
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://about.linkedin.com?trk=content_footer-about" data-tracking-control-name="content_footer-about" data-tracking-will-navigate>
+          
+          About
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/accessibility?trk=content_footer-accessibility" data-tracking-control-name="content_footer-accessibility" data-tracking-will-navigate>
+          
+          Accessibility
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/user-agreement?trk=content_footer-user-agreement" data-tracking-control-name="content_footer-user-agreement" data-tracking-will-navigate>
+          
+          User Agreement
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/privacy-policy?trk=content_footer-privacy-policy" data-tracking-control-name="content_footer-privacy-policy" data-tracking-will-navigate>
+          
+          Privacy Policy
+        
+        </a>
+  </li>
+
+<!---->        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/cookie-policy?trk=content_footer-cookie-policy" data-tracking-control-name="content_footer-cookie-policy" data-tracking-will-navigate>
+          
+          Cookie Policy
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/copyright-policy?trk=content_footer-copyright-policy" data-tracking-control-name="content_footer-copyright-policy" data-tracking-will-navigate>
+          
+          Copyright Policy
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://brand.linkedin.com/policies?trk=content_footer-brand-policy" data-tracking-control-name="content_footer-brand-policy" data-tracking-will-navigate>
+          
+          Brand Policy
+        
+        </a>
+  </li>
+
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/psettings/guest-controls?trk=content_footer-guest-controls" data-tracking-control-name="content_footer-guest-controls" data-tracking-will-navigate>
+          
+            Guest Controls
+          
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/help/linkedin/answer/34593?trk=content_footer-community-guide" data-tracking-control-name="content_footer-community-guide" data-tracking-will-navigate>
+          
+          Community Guidelines
+        
+        </a>
+  </li>
+
+        
+<!---->
+          
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        
+              
+
+    
+    
+
+    
+
+    
+
+    <div class="collapsible-dropdown collapsible-dropdown--footer collapsible-dropdown--up flex items-center relative hyphens-auto language-selector z-2">
+<!---->
+        <ul class="collapsible-dropdown__list hidden container-raised absolute w-auto overflow-y-auto flex-col items-stretch z-1 bottom-[100%] top-auto" role="menu" tabindex="-1">
+          
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="العربية (Arabic)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ar_AE" data-locale="ar_AE" role="menuitem" lang="ar_AE">
+                العربية (Arabic)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="বাংলা (Bangla)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-bn_IN" data-locale="bn_IN" role="menuitem" lang="bn_IN">
+                বাংলা (Bangla)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Čeština (Czech)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-cs_CZ" data-locale="cs_CZ" role="menuitem" lang="cs_CZ">
+                Čeština (Czech)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Dansk (Danish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-da_DK" data-locale="da_DK" role="menuitem" lang="da_DK">
+                Dansk (Danish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Deutsch (German)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-de_DE" data-locale="de_DE" role="menuitem" lang="de_DE">
+                Deutsch (German)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Ελληνικά (Greek)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-el_GR" data-locale="el_GR" role="menuitem" lang="el_GR">
+                Ελληνικά (Greek)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="English (English) selected" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link--selected" data-tracking-control-name="language-selector-en_US" data-locale="en_US" role="menuitem" lang="en_US">
+                <strong>English (English)</strong>
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Español (Spanish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-es_ES" data-locale="es_ES" role="menuitem" lang="es_ES">
+                Español (Spanish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="فارسی (Persian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fa_IR" data-locale="fa_IR" role="menuitem" lang="fa_IR">
+                فارسی (Persian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Suomi (Finnish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fi_FI" data-locale="fi_FI" role="menuitem" lang="fi_FI">
+                Suomi (Finnish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Français (French)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fr_FR" data-locale="fr_FR" role="menuitem" lang="fr_FR">
+                Français (French)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="हिंदी (Hindi)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-hi_IN" data-locale="hi_IN" role="menuitem" lang="hi_IN">
+                हिंदी (Hindi)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Magyar (Hungarian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-hu_HU" data-locale="hu_HU" role="menuitem" lang="hu_HU">
+                Magyar (Hungarian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Bahasa Indonesia (Indonesian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-in_ID" data-locale="in_ID" role="menuitem" lang="in_ID">
+                Bahasa Indonesia (Indonesian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Italiano (Italian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-it_IT" data-locale="it_IT" role="menuitem" lang="it_IT">
+                Italiano (Italian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="עברית (Hebrew)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-iw_IL" data-locale="iw_IL" role="menuitem" lang="iw_IL">
+                עברית (Hebrew)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="日本語 (Japanese)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ja_JP" data-locale="ja_JP" role="menuitem" lang="ja_JP">
+                日本語 (Japanese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="한국어 (Korean)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ko_KR" data-locale="ko_KR" role="menuitem" lang="ko_KR">
+                한국어 (Korean)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="मराठी (Marathi)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-mr_IN" data-locale="mr_IN" role="menuitem" lang="mr_IN">
+                मराठी (Marathi)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Bahasa Malaysia (Malay)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ms_MY" data-locale="ms_MY" role="menuitem" lang="ms_MY">
+                Bahasa Malaysia (Malay)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Nederlands (Dutch)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-nl_NL" data-locale="nl_NL" role="menuitem" lang="nl_NL">
+                Nederlands (Dutch)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Norsk (Norwegian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-no_NO" data-locale="no_NO" role="menuitem" lang="no_NO">
+                Norsk (Norwegian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="ਪੰਜਾਬੀ (Punjabi)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pa_IN" data-locale="pa_IN" role="menuitem" lang="pa_IN">
+                ਪੰਜਾਬੀ (Punjabi)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Polski (Polish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pl_PL" data-locale="pl_PL" role="menuitem" lang="pl_PL">
+                Polski (Polish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Português (Portuguese)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pt_BR" data-locale="pt_BR" role="menuitem" lang="pt_BR">
+                Português (Portuguese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Română (Romanian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ro_RO" data-locale="ro_RO" role="menuitem" lang="ro_RO">
+                Română (Romanian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Русский (Russian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ru_RU" data-locale="ru_RU" role="menuitem" lang="ru_RU">
+                Русский (Russian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Svenska (Swedish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-sv_SE" data-locale="sv_SE" role="menuitem" lang="sv_SE">
+                Svenska (Swedish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="తెలుగు (Telugu)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-te_IN" data-locale="te_IN" role="menuitem" lang="te_IN">
+                తెలుగు (Telugu)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="ภาษาไทย (Thai)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-th_TH" data-locale="th_TH" role="menuitem" lang="th_TH">
+                ภาษาไทย (Thai)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Tagalog (Tagalog)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-tl_PH" data-locale="tl_PH" role="menuitem" lang="tl_PH">
+                Tagalog (Tagalog)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Türkçe (Turkish)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-tr_TR" data-locale="tr_TR" role="menuitem" lang="tr_TR">
+                Türkçe (Turkish)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Українська (Ukrainian)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-uk_UA" data-locale="uk_UA" role="menuitem" lang="uk_UA">
+                Українська (Ukrainian)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="Tiếng Việt (Vietnamese)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-vi_VN" data-locale="vi_VN" role="menuitem" lang="vi_VN">
+                Tiếng Việt (Vietnamese)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="简体中文 (Chinese (Simplified))" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-zh_CN" data-locale="zh_CN" role="menuitem" lang="zh_CN">
+                简体中文 (Chinese (Simplified))
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="正體中文 (Chinese (Traditional))" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-zh_TW" data-locale="zh_TW" role="menuitem" lang="zh_TW">
+                正體中文 (Chinese (Traditional))
+            </button>
+          </li>
+<!---->      
+        </ul>
+
+          
+        <button class="language-selector__button select-none relative pr-2 font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover hover:cursor-pointer focus:text-color-link-focus focus:outline-dotted focus:outline-1" aria-expanded="false" data-tracking-control-name="footer-lang-dropdown_trigger">
+          <span class="language-selector__label-text mr-0.5 break-words">
+            Language
+          </span>
+          <icon class="language-selector__label-chevron w-2 h-2 absolute top-0 right-0" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/cyolgscd0imw2ldqppkrb84vo"></icon>
+        </button>
+      
+    </div>
+  
+  
+          
+  </li>
+
+      </ul>
+
+<!---->    </footer>
+  
+      
+
+            <script src="https://static.licdn.com/aero-v1/sc/h/3u6tucmd15ltqnm6bha3r4erb" async></script>
+<!---->          
+          
+<!----><!---->  
+      </body>
+    </html>
+  
+  
+  

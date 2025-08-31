@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://business.linkedin.com/talent-solutions/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://business.linkedin.com/marketing-solutions/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://business.linkedin.com/sales-solutions/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://business.linkedin.com/talent-solutions/blog/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://business.linkedin.com/marketing-solutions/blog/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://business.linkedin.com/sales-solutions/blog/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>

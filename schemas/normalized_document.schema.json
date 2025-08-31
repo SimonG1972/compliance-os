@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NormalizedPolicyDocument",
+  "type": "object",
+  "required": ["source_name", "doc_type", "url", "version_date", "sections", "hash"],
+  "properties": {
+    "source_name": {"type": "string"},
+    "platform_or_regulator": {"type": "string"},
+    "jurisdiction": {"type": "string"},
+    "doc_type": {"type": "string", "enum": ["tos","privacy","guidelines","ads","commerce","law","regulation","ip","appeals","developer"]},
+    "url": {"type": "string", "format": "uri"},
+    "effective_date": {"type": ["string","null"]},
+    "version_date": {"type": "string"},
+    "topics": {"type": "array", "items": {"type":"string"}},
+    "sections": {
+      "type": "array",
+      "items": {
+        "type":"object",
+        "required":["title","text"],
+        "properties": {
+          "id":{"type":["string","null"]},
+          "title":{"type":"string"},
+          "text":{"type":"string"},
+          "anchors":{"type":"array","items":{"type":"string"}}
+        }
+      }
+    },
+    "penalties": {"type":"array", "items":{"type":"string"}},
+    "appeals": {"type":"string"},
+    "raw_path": {"type":"string"},
+    "hash": {"type":"string"}
+  }
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "__init__.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\__init__.py"
+  },
+  {
+    "name": "alert_changes.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\alert_changes.py"
+  },
+  {
+    "name": "answer_synth.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\answer_synth.py"
+  },
+  {
+    "name": "auto_tag_chunks.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\auto_tag_chunks.py"
+  },
+  {
+    "name": "build_pipeline.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\build_pipeline.py"
+  },
+  {
+    "name": "build_vectors.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\build_vectors.py"
+  },
+  {
+    "name": "check_changes.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\check_changes.py"
+  },
+  {
+    "name": "chunk_docs.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\chunk_docs.py"
+  },
+  {
+    "name": "chunk_documents.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\chunk_documents.py"
+  },
+  {
+    "name": "chunks_status.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\chunks_status.py"
+  },
+  {
+    "name": "dashboard.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\dashboard.py"
+  },
+  {
+    "name": "db_check.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\db_check.py"
+  },
+  {
+    "name": "db_repair.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\db_repair.py"
+  },
+  {
+    "name": "detect_changes.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\detect_changes.py"
+  },
+  {
+    "name": "discover.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\discover.py"
+  },
+  {
+    "name": "fts_smoke.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\fts_smoke.py"
+  },
+  {
+    "name": "hybrid_counts.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\hybrid_counts.py"
+  },
+  {
+    "name": "hybrid_export.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\hybrid_export.py"
+  },
+  {
+    "name": "hybrid_search.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\hybrid_search.py"
+  },
+  {
+    "name": "hydrate_smart.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\hydrate_smart.py"
+  },
+  {
+    "name": "init_chunks.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\init_chunks.py"
+  },
+  {
+    "name": "init_revisions.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\init_revisions.py"
+  },
+  {
+    "name": "init_tags.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\init_tags.py"
+  },
+  {
+    "name": "init_upgrade_pack.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\init_upgrade_pack.py"
+  },
+  {
+    "name": "migrate_revisions.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\migrate_revisions.py"
+  },
+  {
+    "name": "migrate_simhash.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\migrate_simhash.py"
+  },
+  {
+    "name": "pipeline_probe.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\pipeline_probe.py"
+  },
+  {
+    "name": "rebuild_chunks_fts.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\rebuild_chunks_fts.py"
+  },
+  {
+    "name": "repair_chunks_fts.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\repair_chunks_fts.py"
+  },
+  {
+    "name": "report.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\report.py"
+  },
+  {
+    "name": "search_by_tag.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\search_by_tag.py"
+  },
+  {
+    "name": "search_chunks.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\search_chunks.py"
+  },
+  {
+    "name": "search_chunks_counts.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\search_chunks_counts.py"
+  },
+  {
+    "name": "search_chunks_export.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\search_chunks_export.py"
+  },
+  {
+    "name": "simulate_changes.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\simulate_changes.py"
+  },
+  {
+    "name": "text_clean.py",
+    "command": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe scripts\\text_clean.py"
+  }
+]

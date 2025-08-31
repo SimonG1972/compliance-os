@@ -1,0 +1,4 @@
+host: guide.line.me
+# These "guide" endpoints don't host legal policy docs; suppress discovery.
+discovery:
+  path_deny_regexes: [".*"]

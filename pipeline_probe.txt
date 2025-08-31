@@ -1,0 +1,1196 @@
+### PIPELINE PROBE (generated 2025-08-28 12:12:31)
+
+= =   S C R I P T S   P R E S E N T   = =
+
+Name                                   Size   Modified
+---------------------------------- --------   ----------------------------
+__init__.py                               0   2025-08-27 18:58:08
+alert_changes.py                       2810   2025-08-27 19:47:02
+answer_synth.py                        7853   2025-08-28 07:26:54
+auto_tag_chunks.py                     2617   2025-08-27 12:35:30
+build_pipeline.py                      1104   2025-08-28 12:09:48
+build_vectors.py                       1256   2025-08-27 20:12:22
+check_changes.py                       1011   2025-08-27 12:34:28
+chunk_docs.py                          1973   2025-08-27 19:07:15
+chunk_documents.py                     3369   2025-08-27 09:18:36
+chunks_status.py                        779   2025-08-27 09:29:28
+dashboard.py                           4612   2025-08-26 17:59:21
+db_check.py                             657   2025-08-27 19:28:38
+db_repair.py                           2826   2025-08-27 19:32:00
+detect_changes.py                      6996   2025-08-27 20:03:09
+discover.py                            3402   2025-08-27 19:43:10
+fts_smoke.py                           1140   2025-08-27 11:09:13
+hybrid_counts.py                       1161   2025-08-28 06:33:35
+hybrid_export.py                       4454   2025-08-28 06:33:04
+hybrid_search.py                       5106   2025-08-28 06:22:52
+hydrate_smart.py                       4966   2025-08-27 19:44:18
+init_chunks.py                         1589   2025-08-27 12:31:00
+init_revisions.py                       907   2025-08-27 12:33:54
+init_tags.py                            508   2025-08-27 12:35:00
+init_upgrade_pack.py                   1776   2025-08-27 18:17:48
+migrate_revisions.py                   4276   2025-08-27 20:07:34
+migrate_simhash.py                      935   2025-08-27 19:05:27
+pipeline_probe.py                      2986   2025-08-28 12:12:24
+rebuild_chunks_fts.py                   698   2025-08-27 12:32:05
+repair_chunks_fts.py                    701   2025-08-27 11:10:04
+report.py                              3990   2025-08-28 10:59:41
+search_by_tag.py                        895   2025-08-27 12:36:01
+search_chunks.py                       3151   2025-08-27 19:21:17
+search_chunks_counts.py                1152   2025-08-27 12:32:38
+search_chunks_export.py                3300   2025-08-27 19:21:39
+simulate_changes.py                    2428   2025-08-27 20:10:47
+text_clean.py                          3141   2025-08-27 12:30:31
+
+==== SCRIPT: __init__.py ====
+
+---- HEAD (first 20 lines) ----
+
+
+---- HELP ----
+( !) help failed and no output with no args
+
+==== SCRIPT: alert_changes.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import os, sqlite3, argparse, smtplib
+from email.message import EmailMessage
+from datetime import datetime, timedelta
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+
+def send_email(to_addr, subject, body):
+    host = os.environ.get("SMTP_HOST")
+    port = int(os.environ.get("SMTP_PORT", "587"))
+    user = os.environ.get("SMTP_USER")
+    pwd  = os.environ.get("SMTP_PASS")
+    frm  = os.environ.get("SMTP_FROM", user or "alerts@localhost")
+    if not host or not user or not pwd:
+        print("SMTP not configured; printing alert:\n", body[:2000])
+        return
+    msg = EmailMessage()
+    msg["From"], msg["To"], msg["Subject"] = frm, to_addr, subject
+    msg.set_content(body)
+    with smtplib.SMTP(host, port) as s:
+
+---- HELP ----
+usage: alert_changes.py [-h] [--hours HOURS] [--tags TAGS] [--hosts HOSTS]
+                        [--to TO]
+
+options:
+  -h, --help     show this help message and exit
+  --hours HOURS
+  --tags TAGS
+  --hosts HOSTS
+  --to TO        email address
+
+==== SCRIPT: answer_synth.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import re
+import sys
+import math
+import argparse
+import sqlite3
+from collections import defaultdict, Counter
+from urllib.parse import urlparse
+
+# Optional embeddings for hybrid re-rank (falls back to FTS-only)
+_HAS_ST = True
+try:
+    from sentence_transformers import SentenceTransformer
+    import numpy as np
+except Exception:
+    _HAS_ST = False
+
+---- HELP ----
+usage: answer_synth.py [-h] [--k K] [--near NEAR] [--alpha ALPHA]
+                       [--fetch-mult FETCH_MULT] [--out OUT]
+                       query
+
+Synthesize a sourced answer from top passages.
+
+positional arguments:
+  query                 FTS5 query, e.g. "children data retention" or
+                        "children AND data"
+
+options:
+  -h, --help            show this help message and exit
+  --k K                 How many ranked chunks to consider
+  --near NEAR           Proximity guardrail termA:termB:window
+  --alpha ALPHA         FTS vs embedding mix (0..1)
+  --fetch-mult FETCH_MULT
+                        Over-fetch multiple before re-rank
+  --out OUT             Write Markdown to this path
+
+==== SCRIPT: auto_tag_chunks.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/auto_tag_chunks.py
+import os, sqlite3, argparse, re
+from collections import defaultdict
+
+RULES = {
+    "children_data": [
+        r"\b(child|children|minor|teen)s?\b",
+        r"\b(parental|guardian|age[- ]?verification|consent)\b",
+    ],
+    "account_deletion": [
+        r"\b(delete|deletion|erase|erasure|remove)\b",
+        r"\b(account|profile)\b",
+    ],
+    "advertising_targeting": [
+        r"\b(advertis\w*|target\w*|profil\w*)\b",
+    ],
+    "cookie_retention": [
+        r"\bcookies?\b",
+        r"\b(retention|expire|expiration|max[- ]?age|duration)\b",
+    ],
+
+---- HELP ----
+usage: auto_tag_chunks.py [-h] [--db DB] [--limit LIMIT]
+                          [--min-score MIN_SCORE]
+
+options:
+  -h, --help            show this help message and exit
+  --db DB
+  --limit LIMIT
+  --min-score MIN_SCORE
+
+==== SCRIPT: build_pipeline.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import json, re, os
+
+def normalize_spaced_name(s: str) -> str:
+    """Turn 'a l e r t _ c h a n g e s . p y' into 'alert_changes.py'"""
+    return s.replace(" ", "")
+
+def main():
+    probe_file = "pipeline_probe.txt"
+    out_file = "pipeline.json"
+
+    if not os.path.exists(probe_file):
+        print(f"Missing {probe_file}")
+        return
+
+    scripts = []
+    with open(probe_file, encoding="utf-8", errors="ignore") as f:
+        text = f.read()
+
+    # Find lines like '= = = =   a l e r t _ c h a n g e s . p y   = = = ='
+
+---- HELP ----
+Wrote pipeline.json with 0 scripts
+
+==== SCRIPT: build_vectors.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import os, sqlite3, argparse, sys
+DB = os.path.join(os.getcwd(), "compliance.db")
+
+def main():
+    try:
+        from sentence_transformers import SentenceTransformer
+        import numpy as np
+    except Exception:
+        print("sentence-transformers not installed; skipping vector build.")
+        return
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--limit", type=int, default=200000)
+    args = ap.parse_args()
+
+    con = sqlite3.connect(DB)
+    cur = con.cursor()
+    rows = cur.execute("SELECT rowid, chunk_text FROM document_chunks LIMIT ?", (args.limit,)).fetchall()
+    texts = [t for _, t in rows]
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+
+---- HELP ----
+sentence-transformers not installed; skipping vector build.
+
+==== SCRIPT: check_changes.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/check_changes.py
+import os, sqlite3, argparse
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--db", default=os.path.join(os.getcwd(), "compliance.db"))
+    ap.add_argument("--since", default="-7 days", help="SQLite relative interval, e.g. '-3 days', '-24 hours'")
+    ap.add_argument("--limit", type=int, default=100)
+    args = ap.parse_args()
+
+    con = sqlite3.connect(args.db)
+    cur = con.cursor()
+    rows = cur.execute(f"""
+      SELECT url, fetched_at, substr(clean_text,1,120)
+      FROM document_revisions
+      WHERE datetime(fetched_at) >= datetime('now', ?)
+      ORDER BY datetime(fetched_at) DESC
+      LIMIT ?
+    """, (args.since, args.limit)).fetchall()
+
+---- HELP ----
+usage: check_changes.py [-h] [--db DB] [--since SINCE] [--limit LIMIT]
+
+options:
+  -h, --help     show this help message and exit
+  --db DB
+  --since SINCE  SQLite relative interval, e.g. '-3 days', '-24 hours'
+  --limit LIMIT
+
+==== SCRIPT: chunk_docs.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3, argparse, textwrap
+from src.clean_text import strip_html_keep_text, to_sentences, signal_score
+from src.simhash import simhash_hex
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--limit", type=int, default=1000)
+    ap.add_argument("--prefer-clean", action="store_true")
+    ap.add_argument("--per-url-topk", type=int, default=50)
+    args = ap.parse_args()
+
+    print("Using DB:", DB)
+    con = sqlite3.connect(DB)
+    cur = con.cursor()
+
+    rows = cur.execute("""
+        SELECT url, COALESCE(NULLIF(clean_text,''), body) AS txt
+        FROM documents
+
+---- HELP ----
+usage: chunk_docs.py [-h] [--limit LIMIT] [--prefer-clean]
+                     [--per-url-topk PER_URL_TOPK]
+
+options:
+  -h, --help            show this help message and exit
+  --limit LIMIT
+  --prefer-clean
+  --per-url-topk PER_URL_TOPK
+
+==== SCRIPT: chunk_documents.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/chunk_documents.py
+import os, sqlite3, re, argparse, math
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+
+def split_into_chunks(text, max_chars=1200, min_chars=400):
+    # normalize whitespace
+    text = re.sub(r'\r\n?', '\n', text)
+    paragraphs = [p.strip() for p in text.split('\n') if p.strip()]
+    chunks, buf = [], []
+    size = 0
+    for p in paragraphs:
+        if size + len(p) + 1 <= max_chars or size < min_chars:
+            buf.append(p)
+            size += len(p) + 1
+        else:
+            if buf:
+                chunks.append('\n'.join(buf))
+            buf = [p]
+            size = len(p) + 1
+
+---- HELP ----
+usage: chunk_documents.py [-h] [--max-chars MAX_CHARS] [--min-chars MIN_CHARS]
+                          [--limit LIMIT]
+
+options:
+  -h, --help            show this help message and exit
+  --max-chars MAX_CHARS
+  --min-chars MIN_CHARS
+  --limit LIMIT         limit # of docs to process (0 = all)
+
+==== SCRIPT: chunks_status.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/chunks_status.py
+import os, sqlite3
+
+db = os.path.join(os.getcwd(), "compliance.db")
+con = sqlite3.connect(db)
+cur = con.cursor()
+
+docs_with_body = cur.execute("""
+  SELECT COUNT(*) FROM documents WHERE COALESCE(clean_text,'') <> '' OR COALESCE(body,'') <> ''
+""").fetchone()[0]
+
+chunk_rows = cur.execute("SELECT COUNT(*) FROM document_chunks").fetchone()[0]
+fts_rows = cur.execute("SELECT COUNT(*) FROM document_chunks_fts").fetchone()[0]
+distinct_urls = cur.execute("SELECT COUNT(DISTINCT url) FROM document_chunks").fetchone()[0]
+
+print("DB:", db)
+print("Documents with content:", docs_with_body)
+print("document_chunks rows:", chunk_rows)
+print("document_chunks_fts rows:", fts_rows)
+print("URLs already chunked:", distinct_urls)
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+TimeoutExpired: Command '['C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe', 'scripts\\chunks_status.py']' timed out after 8 seconds
+
+==== SCRIPT: dashboard.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/dashboard.py
+from flask import Flask, render_template_string
+import sqlite3, os, datetime
+from urllib.parse import urlparse
+from collections import Counter
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DB_PATH = os.path.join(ROOT, "compliance.db")
+
+TEMPLATE = """
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Compliance-OS Dashboard</title>
+    <meta http-equiv="refresh" content="5">
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; margin: 24px; }
+      h1 { margin: 0 0 12px 0; }
+      .grid { display: grid; grid-template-columns: repeat(3, minmax(260px, 1fr)); gap: 16px; }
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+Traceback (most recent call last):
+  File "C:\Users\scgla\OneDrive\Desktop\compliance-os\scripts\dashboard.py", line 2, in <module>
+    from flask import Flask, render_template_string
+ModuleNotFoundError: No module named 'flask'
+
+==== SCRIPT: db_check.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3, sys
+
+DB = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.getcwd(), "compliance.db")
+print("DB:", DB)
+
+con = sqlite3.connect(DB)
+cur = con.cursor()
+
+# integrity
+status = cur.execute("PRAGMA integrity_check;").fetchone()[0]
+print("integrity_check:", status)
+
+# show row counts if possible
+def count(table):
+    try:
+        return cur.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+    except Exception as e:
+        return f"ERR({e.__class__.__name__})"
+
+for t in ["documents", "document_chunks", "document_chunks_fts", "chunk_tags", "document_revisions"]:
+
+---- HELP ----
+DB: -h
+integrity_check: ok
+documents: ERR(OperationalError)
+document_chunks: ERR(OperationalError)
+document_chunks_fts: ERR(OperationalError)
+chunk_tags: ERR(OperationalError)
+document_revisions: ERR(OperationalError)
+
+==== SCRIPT: db_repair.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sys, sqlite3, time
+
+SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.getcwd(), "compliance.db")
+DST = sys.argv[2] if len(sys.argv) > 2 else os.path.join(os.getcwd(), "compliance_repaired.db")
+
+print("Source DB:", SRC)
+print("Dest   DB:", DST)
+
+if os.path.exists(DST):
+    os.remove(DST)
+
+# 1) Low-level backup into a fresh file
+src = sqlite3.connect(SRC)
+dst = sqlite3.connect(DST)
+print("Backing up…")
+src.backup(dst)
+dst.commit()
+src.close()
+
+cur = dst.cursor()
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+TimeoutExpired: Command '['C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe', 'scripts\\db_repair.py']' timed out after 8 seconds
+
+==== SCRIPT: detect_changes.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/detect_changes.py
+import os, sys, csv, sqlite3, re
+from datetime import datetime
+from difflib import ndiff
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+
+def table_exists(cur, name):
+    return cur.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name=?",
+        (name,)
+    ).fetchone() is not None
+
+def cols(cur, table):
+    cur.execute(f"PRAGMA table_info({table})")
+    return [r[1] for r in cur.fetchall()]
+
+def pick(colnames, patterns, prefer=None):
+    """
+    Pick the first column whose lowercase name matches any regex in patterns.
+
+---- HELP ----
+usage: detect_changes.py [-h] [--db DB] [--limit LIMIT] [--csv CSV]
+
+options:
+  -h, --help     show this help message and exit
+  --db DB
+  --limit LIMIT
+  --csv CSV
+
+==== SCRIPT: discover.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import os, re, sys, json, sqlite3, argparse, urllib.parse
+from urllib.request import urlopen, Request
+from xml.etree import ElementTree as ET
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+UA = "ComplianceOS-Discovery/1.0"
+
+LEGAL_HINTS = re.compile(
+    r"(privacy|cookies?|cookie-policy|legal|terms|policy|children|safety|data|processing|retention|deletion|account)",
+    re.I,
+)
+
+def fetch(url):
+    try:
+        req = Request(url, headers={"User-Agent": UA})
+        with urlopen(req, timeout=15) as r:
+            ct = r.headers.get("Content-Type", "")
+            return (r.read().decode("utf-8", "ignore"), ct)
+    except Exception as e:
+
+---- HELP ----
+usage: discover.py [-h] [--max MAX] root
+
+positional arguments:
+  root        e.g. https://snap.com
+
+options:
+  -h, --help  show this help message and exit
+  --max MAX
+
+==== SCRIPT: fts_smoke.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3, random
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+print("DB:", DB)
+if not os.path.exists(DB):
+    raise SystemExit("DB not found")
+
+con = sqlite3.connect(DB)
+cur = con.cursor()
+
+# Basic table counts
+rows = cur.execute("SELECT COUNT(*) FROM document_chunks_fts").fetchone()[0]
+print("document_chunks_fts rows:", rows)
+
+# Peek at one row to confirm there’s readable text
+row = cur.execute("SELECT url, substr(chunk_text,1,200) FROM document_chunks_fts LIMIT 1").fetchone()
+print("\nSample row url/text:")
+print(row)
+
+# Try simple MATCH terms that should exist in a big web corpus
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+TimeoutExpired: Command '['C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe', 'scripts\\fts_smoke.py']' timed out after 8 seconds
+
+==== SCRIPT: hybrid_counts.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/hybrid_counts.py
+import argparse
+import os
+import sqlite3
+from urllib.parse import urlparse
+from collections import Counter
+
+def main():
+    ap = argparse.ArgumentParser(description="Count hosts for a hybrid FTS slice (FTS rank only).")
+    ap.add_argument("query")
+    ap.add_argument("--db", default=os.path.join(os.getcwd(), "compliance.db"))
+    ap.add_argument("--limit", type=int, default=5000)
+    args = ap.parse_args()
+
+    con = sqlite3.connect(args.db)
+    con.row_factory = sqlite3.Row
+    cur = con.cursor()
+
+    rows = cur.execute(
+        """
+
+---- HELP ----
+usage: hybrid_counts.py [-h] [--db DB] [--limit LIMIT] query
+
+Count hosts for a hybrid FTS slice (FTS rank only).
+
+positional arguments:
+  query
+
+options:
+  -h, --help     show this help message and exit
+  --db DB
+  --limit LIMIT
+
+==== SCRIPT: hybrid_export.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/hybrid_export.py
+import argparse
+import csv
+import os
+import re
+import sqlite3
+from math import isfinite
+from typing import List, Tuple
+
+try:
+    from sentence_transformers import SentenceTransformer
+    import numpy as np
+    _HAS_ST = True
+except Exception:
+    _HAS_ST = False
+
+def parse_near(near: str | None):
+    if not near:
+        return None
+    a, b, w = near.split(":")
+
+---- HELP ----
+usage: hybrid_export.py [-h] [--db DB] [--k K] [--alpha ALPHA] [--near NEAR]
+                        [--fetch-mult FETCH_MULT]
+                        query out_csv
+
+Hybrid search export to CSV.
+
+positional arguments:
+  query                 FTS5 query
+  out_csv               Output CSV path
+
+options:
+  -h, --help            show this help message and exit
+  --db DB
+  --k K
+  --alpha ALPHA
+  --near NEAR           termA:termB:window (e.g., children:data:25)
+  --fetch-mult FETCH_MULT
+
+==== SCRIPT: hybrid_search.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/hybrid_search.py
+import argparse
+import os
+import re
+import sqlite3
+from math import isfinite
+from typing import List, Tuple
+
+# Optional hybrid re-rank
+try:
+    from sentence_transformers import SentenceTransformer
+    import numpy as np
+    _HAS_ST = True
+except Exception:
+    _HAS_ST = False
+
+
+def parse_near(near: str | None):
+    if not near:
+        return None
+
+---- HELP ----
+usage: hybrid_search.py [-h] [--db DB] [--k K] [--alpha ALPHA] [--near NEAR]
+                        [--fetch-mult FETCH_MULT]
+                        query
+
+Hybrid search (FTS5 + embedding re-rank).
+
+positional arguments:
+  query                 FTS5 query (supports AND/OR, wildcards, quotes).
+
+options:
+  -h, --help            show this help message and exit
+  --db DB
+  --k K                 Results to return.
+  --alpha ALPHA         Blend weight: FTS vs embedding.
+  --near NEAR           termA:termB:window (e.g., children:data:25)
+  --fetch-mult FETCH_MULT
+                        Over-fetch factor before re-rank.
+
+==== SCRIPT: hydrate_smart.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import os, time, sqlite3, argparse, hashlib, urllib.parse, sys
+import urllib.request
+from datetime import datetime, timezone
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+UA = "ComplianceOS-Fetch/1.0"
+PROXY = os.environ.get("COMPLIANCE_HTTP_PROXY") or None
+
+def http_get(url, etag=None, last_mod=None):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    if etag: req.add_header("If-None-Match", etag)
+    if last_mod: req.add_header("If-Modified-Since", last_mod)
+    if PROXY:
+        proxy_handler = urllib.request.ProxyHandler({"http": PROXY, "https": PROXY})
+        opener = urllib.request.build_opener(proxy_handler)
+        urllib.request.install_opener(opener)
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            body = r.read().decode("utf-8", "ignore")
+
+---- HELP ----
+usage: hydrate_smart.py [-h] [--limit LIMIT] [--pause PAUSE] [--changed-only]
+
+options:
+  -h, --help      show this help message and exit
+  --limit LIMIT
+  --pause PAUSE
+  --changed-only  skip if 304 or hash unchanged
+
+==== SCRIPT: init_chunks.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/init_chunks.py
+import os, sqlite3
+
+db = os.path.join(os.getcwd(), "compliance.db")
+print("Using DB:", db)
+con = sqlite3.connect(db)
+cur = con.cursor()
+
+cur.execute("""
+CREATE TABLE IF NOT EXISTS document_chunks (
+  id INTEGER PRIMARY KEY,
+  url TEXT NOT NULL,
+  chunk_index INTEGER NOT NULL,
+  chunk_text TEXT NOT NULL,
+  token_estimate INTEGER,
+  created_at TEXT DEFAULT (datetime('now')),
+  UNIQUE(url, chunk_index)
+);
+""")
+
+---- HELP ----
+Using DB: C:\Users\scgla\OneDrive\Desktop\compliance-os\compliance.db
+OK: document_chunks + document_chunks_fts + triggers are ready.
+
+==== SCRIPT: init_revisions.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/init_revisions.py
+import os, sqlite3
+db = os.path.join(os.getcwd(), "compliance.db")
+print("Using DB:", db)
+con = sqlite3.connect(db)
+cur = con.cursor()
+
+cur.execute("""
+CREATE TABLE IF NOT EXISTS document_revisions (
+  id INTEGER PRIMARY KEY,
+  url TEXT NOT NULL,
+  fetched_at TEXT NOT NULL,
+  content_hash TEXT,
+  clean_text TEXT,
+  created_at TEXT DEFAULT (datetime('now'))
+);
+""")
+
+# When documents.content_hash changes, capture a snapshot row
+cur.execute("""
+
+---- HELP ----
+Using DB: C:\Users\scgla\OneDrive\Desktop\compliance-os\compliance.db
+OK: document_revisions table + trigger installed.
+
+==== SCRIPT: init_tags.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/init_tags.py
+import os, sqlite3
+db = os.path.join(os.getcwd(), "compliance.db")
+print("Using DB:", db)
+con = sqlite3.connect(db)
+cur = con.cursor()
+
+cur.execute("""
+CREATE TABLE IF NOT EXISTS chunk_tags (
+  id INTEGER PRIMARY KEY,
+  chunk_id INTEGER NOT NULL,
+  tag TEXT NOT NULL,
+  score REAL,
+  created_at TEXT DEFAULT (datetime('now')),
+  UNIQUE(chunk_id, tag),
+  FOREIGN KEY(chunk_id) REFERENCES document_chunks(id)
+);
+""")
+con.commit()
+print("OK: chunk_tags table ready.")
+
+---- HELP ----
+Using DB: C:\Users\scgla\OneDrive\Desktop\compliance-os\compliance.db
+OK: chunk_tags table ready.
+
+==== SCRIPT: init_upgrade_pack.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import os, sqlite3, sys
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+print("Using DB:", DB)
+con = sqlite3.connect(DB)
+cur = con.cursor()
+
+# 0.1 document_chunks quality columns (safe if exist)
+for sql in [
+    "ALTER TABLE document_chunks ADD COLUMN signal_score REAL",
+    "ALTER TABLE document_chunks ADD COLUMN simhash INTEGER",
+]:
+    try:
+        cur.execute(sql)
+        print("OK:", sql)
+    except sqlite3.OperationalError:
+        pass
+
+# 0.2 fetch metadata on documents (for caching & diff)
+
+---- HELP ----
+Using DB: C:\Users\scgla\OneDrive\Desktop\compliance-os\compliance.db
+OK: change_events
+OK: discovery_queue
+OK: host_boilerplate
+Done.
+
+==== SCRIPT: migrate_revisions.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/migrate_revisions.py
+import os, sqlite3, argparse, sys
+from datetime import datetime
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+
+ADD_COLS_SQL = [
+    ("prev_hash",  "TEXT"),
+    ("new_hash",   "TEXT"),
+    ("prev_text",  "TEXT"),
+    ("new_text",   "TEXT"),
+    ("changed_at", "TEXT"),
+    ("change_kind","TEXT"),
+]
+
+TRIGGER_SQL = r"""
+CREATE TRIGGER IF NOT EXISTS trg_documents_change_capture
+AFTER UPDATE OF content_hash, clean_text, body ON documents
+WHEN COALESCE(OLD.content_hash,'') != COALESCE(NEW.content_hash,'')
+BEGIN
+
+---- HELP ----
+usage: migrate_revisions.py [-h] [--db DB] [--backfill]
+
+options:
+  -h, --help  show this help message and exit
+  --db DB
+  --backfill  Backfill prev/new columns from existing rows
+
+==== SCRIPT: migrate_simhash.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3, sys
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+print("Using DB:", DB)
+con = sqlite3.connect(DB)
+cur = con.cursor()
+
+# Add simhash_hex TEXT if it doesn't exist
+cur.execute("PRAGMA table_info(document_chunks)")
+cols = {r[1] for r in cur.fetchall()}
+if "simhash_hex" not in cols:
+    print("-> Adding column simhash_hex TEXT …")
+    cur.execute("ALTER TABLE document_chunks ADD COLUMN simhash_hex TEXT")
+else:
+    print("-> simhash_hex already exists")
+
+# Optional: fast lookup index (not required, but nice)
+cur.execute("SELECT name FROM sqlite_master WHERE type='index' AND name='idx_chunks_simhash_hex'")
+if not cur.fetchone():
+    print("-> Creating index idx_chunks_simhash_hex …")
+
+---- HELP ----
+Using DB: C:\Users\scgla\OneDrive\Desktop\compliance-os\compliance.db
+-> simhash_hex already exists
+-> index idx_chunks_simhash_hex already exists
+Done.
+
+==== SCRIPT: pipeline_probe.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+import os, sys, glob, subprocess, datetime
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+SCRIPTS_DIR = os.path.join(ROOT, "scripts")
+OUT_PATH = os.path.join(ROOT, "pipeline_probe.txt")
+PY = sys.executable or "python"
+
+def run_cmd(cmd, timeout=8):
+    try:
+        p = subprocess.run(
+            cmd, cwd=ROOT, capture_output=True, text=True, timeout=timeout
+        )
+        out = (p.stdout or "") + (("\n" + p.stderr) if p.stderr else "")
+        return p.returncode, out.strip()
+    except Exception as e:
+        return -1, f"{e.__class__.__name__}: {e}"
+
+def head_lines(path, n=20):
+    try:
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+TimeoutExpired: Command '['C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe', 'scripts\\pipeline_probe.py']' timed out after 8 seconds
+
+==== SCRIPT: rebuild_chunks_fts.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/rebuild_chunks_fts.py
+import os, sqlite3
+db = os.path.join(os.getcwd(), "compliance.db")
+print("Using DB:", db)
+con = sqlite3.connect(db)
+cur = con.cursor()
+cur.execute("INSERT INTO document_chunks_fts(document_chunks_fts) VALUES('rebuild');")
+con.commit()
+cnt = cur.execute("SELECT count(*) FROM document_chunks_fts").fetchone()[0]
+print(f"Rebuilt document_chunks_fts. FTS rows: {cnt}")
+# quick smoke for snippet
+row = cur.execute("""
+SELECT snippet(document_chunks_fts, 0, '[', ']', ' … ', 12)
+FROM document_chunks_fts
+WHERE document_chunks_fts MATCH 'privacy'
+LIMIT 1
+""").fetchone()
+print("snippet sample:", (row[0][:120] + "…") if row and row[0] else "(none)")
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+TimeoutExpired: Command '['C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe', 'scripts\\rebuild_chunks_fts.py']' timed out after 8 seconds
+
+==== SCRIPT: repair_chunks_fts.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3
+
+DB = os.path.join(os.getcwd(), "compliance.db")
+print("DB:", DB)
+if not os.path.exists(DB):
+    raise SystemExit("DB not found")
+
+con = sqlite3.connect(DB)
+cur = con.cursor()
+
+print("Before:", cur.execute("SELECT COUNT(*) FROM document_chunks_fts").fetchone()[0], "rows")
+print("Rebuilding FTS index…")
+cur.execute("INSERT INTO document_chunks_fts(document_chunks_fts) VALUES('rebuild')")
+con.commit()
+print("Optimizing FTS index…")
+cur.execute("INSERT INTO document_chunks_fts(document_chunks_fts) VALUES('optimize')")
+con.commit()
+
+print("After:", cur.execute("SELECT COUNT(*) FROM document_chunks_fts").fetchone()[0], "rows")
+con.close()
+
+---- HELP ----
+( !) help failed or empty; showing output with no args
+
+TimeoutExpired: Command '['C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\.venv\\Scripts\\python.exe', 'scripts\\repair_chunks_fts.py']' timed out after 8 seconds
+
+==== SCRIPT: report.py ====
+
+---- HEAD (first 20 lines) ----
+#!/usr/bin/env python
+from __future__ import annotations
+import sys
+from pathlib import Path
+import argparse
+from datetime import datetime, timezone
+
+# Ensure 'import src' works when running from ./scripts
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from src.report.pdf_build import (
+    build_report_from_md,
+    build_report_from_query,
+)
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Build a PDF report from a synthesized Markdown (or directly from a query)."
+    )
+    sub = parser.add_subparsers(dest="cmd", required=True)
+
+---- HELP ----
+usage: report.py [-h] {from-md,from-query} ...
+
+Build a PDF report from a synthesized Markdown (or directly from a query).
+
+positional arguments:
+  {from-md,from-query}
+    from-md             Render a PDF from an existing synthesized Markdown
+                        file
+    from-query          Run synth CLI, then render a PDF
+
+options:
+  -h, --help            show this help message and exit
+
+==== SCRIPT: search_by_tag.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/search_by_tag.py
+import os, sqlite3, argparse
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("tag")
+    ap.add_argument("limit", nargs="?", type=int, default=25)
+    ap.add_argument("--db", default=os.path.join(os.getcwd(), "compliance.db"))
+    args = ap.parse_args()
+
+    con = sqlite3.connect(args.db)
+    cur = con.cursor()
+    rows = cur.execute("""
+      SELECT c.url,
+             c.chunk_index,
+             substr(c.chunk_text,1,260)
+      FROM chunk_tags t
+      JOIN document_chunks c ON c.id = t.chunk_id
+      WHERE t.tag = ?
+      LIMIT ?
+
+---- HELP ----
+usage: search_by_tag.py [-h] [--db DB] tag [limit]
+
+positional arguments:
+  tag
+  limit
+
+options:
+  -h, --help  show this help message and exit
+  --db DB
+
+==== SCRIPT: search_chunks.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3, argparse, re
+from urllib.parse import urlparse
+
+DB_DEFAULT = os.path.join(os.getcwd(), "compliance.db")
+
+def tokenize(s: str):
+    return re.findall(r"[A-Za-z0-9']+", (s or "").lower())
+
+def within_window(tokens, a, b, w):
+    if not tokens: return False
+    pos_a = [i for i,t in enumerate(tokens) if t == a]
+    pos_b = [i for i,t in enumerate(tokens) if t == b]
+    if not pos_a or not pos_b: return False
+    j = 0
+    for i in pos_a:
+        while j < len(pos_b) and pos_b[j] < i - w:
+            j += 1
+        k = j
+        while k < len(pos_b) and pos_b[k] <= i + w:
+            return True
+
+---- HELP ----
+usage: search_chunks.py [-h] [--db DB] [--near NEAR] query [limit]
+
+Search chunk FTS with optional proximity guardrails.
+
+positional arguments:
+  query        FTS5 query string (AND/OR, wildcards, quotes, etc.)
+  limit        Max results to print (fetches more if --near used).
+
+options:
+  -h, --help   show this help message and exit
+  --db DB
+  --near NEAR  e.g. "children:data:25,consent:parental:15"
+
+==== SCRIPT: search_chunks_counts.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/search_chunks_counts.py
+import os, sqlite3, argparse, collections, urllib.parse
+
+def try_fetch_urls(cur, q, cap=10000):
+    sql = """
+    SELECT c.url
+    FROM document_chunks_fts
+    JOIN document_chunks c ON c.id = document_chunks_fts.rowid
+    WHERE document_chunks_fts MATCH ?
+    LIMIT ?
+    """
+    return [r[0] for r in cur.execute(sql, (q, cap)).fetchall()]
+
+def host_of(u: str) -> str:
+    try:
+        return urllib.parse.urlparse(u).netloc or "unknown"
+    except Exception:
+        return "unknown"
+
+def main():
+
+---- HELP ----
+usage: search_chunks_counts.py [-h] [--db DB] query [top]
+
+positional arguments:
+  query
+  top
+
+options:
+  -h, --help  show this help message and exit
+  --db DB
+
+==== SCRIPT: search_chunks_export.py ====
+
+---- HEAD (first 20 lines) ----
+import os, sqlite3, argparse, csv, re
+from urllib.parse import urlparse
+
+DB_DEFAULT = os.path.join(os.getcwd(), "compliance.db")
+
+def tokenize(s: str):
+    return re.findall(r"[A-Za-z0-9']+", (s or "").lower())
+
+def within_window(tokens, a, b, w):
+    if not tokens: return False
+    pos_a = [i for i,t in enumerate(tokens) if t == a]
+    pos_b = [i for i,t in enumerate(tokens) if t == b]
+    if not pos_a or not pos_b: return False
+    j = 0
+    for i in pos_a:
+        while j < len(pos_b) and pos_b[j] < i - w:
+            j += 1
+        k = j
+        while k < len(pos_b) and pos_b[k] <= i + w:
+            return True
+
+---- HELP ----
+usage: search_chunks_export.py [-h] [--max MAX] [--db DB] [--near NEAR]
+                               query outfile
+
+Export chunk hits to CSV with optional proximity guardrails.
+
+positional arguments:
+  query
+  outfile
+
+options:
+  -h, --help   show this help message and exit
+  --max MAX    Max rows to write (fetches more if --near used).
+  --db DB
+  --near NEAR  e.g. "children:data:25,consent:parental:15"
+
+==== SCRIPT: simulate_changes.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/simulate_changes.py
+import os, sqlite3, argparse
+from datetime import datetime, timezone
+
+DB_DEFAULT = os.path.join(os.getcwd(), "compliance.db")
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--db", default=DB_DEFAULT)
+    ap.add_argument("--limit", type=int, default=5, help="How many URLs to simulate updates for")
+    ap.add_argument("--like", default="", help="Optional filter: only URLs LIKE this (e.g. '%%snap.com%%')")
+    args = ap.parse_args()
+
+    con = sqlite3.connect(args.db)
+    cur = con.cursor()
+
+    where_like = ""
+    params = []
+    if args.like:
+        where_like = "AND url LIKE ?"
+
+---- HELP ----
+usage: simulate_changes.py [-h] [--db DB] [--limit LIMIT] [--like LIKE]
+
+options:
+  -h, --help     show this help message and exit
+  --db DB
+  --limit LIMIT  How many URLs to simulate updates for
+  --like LIKE    Optional filter: only URLs LIKE this (e.g. '%snap.com%')
+
+==== SCRIPT: text_clean.py ====
+
+---- HEAD (first 20 lines) ----
+# scripts/text_clean.py
+import re, html
+
+try:
+    from bs4 import BeautifulSoup
+    HAVE_BS4 = True
+except Exception:
+    HAVE_BS4 = False
+
+
+_WS_RE = re.compile(r"\s+")
+_SCRIPT_STYLE_RE = re.compile(r"<(script|style|noscript)\b[^>]*>.*?</\1>", re.I | re.S)
+_TAG_RE = re.compile(r"<[^>]+>")
+
+VISIBLE_BLOCK_TAGS = {
+    "p","li","td","th","div","section","article","aside","header","footer","main",
+    "h1","h2","h3","h4","h5","h6","pre","code","blockquote","summary","figcaption"
+}
+
+---- HELP ----
+( !) help failed and no output with no args

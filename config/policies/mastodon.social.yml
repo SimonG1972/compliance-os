@@ -1,0 +1,17 @@
+host: mastodon.social
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  strip_fragments: true
+discovery:
+  # Keep to the handful of real policy pages; avoid app UI and tags.
+  path_allow_regexes:
+    - ^/terms
+    - ^/privacy
+    - ^/about
+  path_deny_regexes:
+    - ^/web/
+    - ^/tags/
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25

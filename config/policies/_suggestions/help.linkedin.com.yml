@@ -1,0 +1,14 @@
+host: help.linkedin.com
+normalization: {}
+hydration:
+  render_on:
+    - 401
+    - 403
+    - 406
+    - 429
+  render_timeout: 25
+discovery: {}
+tagging:
+  add: []
+_notes:
+  - High render reliance; ensure render fallback.

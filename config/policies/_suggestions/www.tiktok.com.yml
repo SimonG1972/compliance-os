@@ -1,0 +1,17 @@
+host: www.tiktok.com
+normalization:
+  path_deny_regexes:
+    - ^/legal/open-source
+    - ^/legal/page/.*/open-source/
+hydration: {}
+discovery:
+  path_allow_regexes:
+    - ^/legal
+    - ^/privacy
+    - ^/policy
+    - ^/safety
+    - ^/community-guidelines
+tagging:
+  add: []
+_notes:
+  - Exclude giant open-source pages; focus on legal/safety paths.

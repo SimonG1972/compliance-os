@@ -1,0 +1,28 @@
+host: soundcloud.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  path_deny_regexes:
+    - ^/you
+    - ^/discover
+    - ^/stream
+    - ^/search
+    - ^/collections
+    - ^/tags/
+    - ^/[A-Za-z0-9_-]+/tracks?
+    - ^/[A-Za-z0-9_-]+/sets?
+    - ^/player/
+    - ^/blog/
+discovery:
+  path_allow_regexes:
+    - ^/terms
+    - ^/privacy
+    - ^/cookies
+    - ^/community-guidelines
+    - ^/copyright
+    - ^/dmca
+    - ^/safety
+    - ^/transparency
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25

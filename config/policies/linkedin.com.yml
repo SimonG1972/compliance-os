@@ -1,0 +1,38 @@
+# config/policies/linkedin.com.yml
+host: linkedin.com
+aliases:
+  - www.linkedin.com
+  - legal.linkedin.com
+  - help.linkedin.com
+  - linkedin.com
+normalization:
+  strip_params: ["trk","utm_*","fbclid","original_referer","refId"]
+  collapse_www: true
+  drop_fragments: true
+  default_port_strip: true
+  path_allow_prefixes:
+    - "/legal"
+    - "/help"
+discovery:
+  static_max: 400
+  dyn_max: 2500
+hydration:
+  render_on_status: [401,403,406,429]
+  render_if:
+    thin_html_min_text_chars: 800
+    script_ratio_over: 0.30
+  timeout_s: 25
+  render_timeout_s: 25
+cleaning:
+  remove_selectors: ["header","footer","nav",".global-nav","aside"]
+  keep_main_like: ["main","article","[role=main]","#main-content"]
+chunking:
+  size: 1700
+  overlap: 200
+tagging:
+  static_tags: ["platform:linkedin","surface:legal"]
+backoff:
+  base_seconds: 0.35
+  jitter_seconds: 0.25
+  on_429_multiplier: 2.5
+version: "2025-08-31"

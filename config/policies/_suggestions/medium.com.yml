@@ -1,0 +1,9 @@
+host: medium.com
+normalization: {}
+hydration:
+  min_html_len: 1200
+discovery: {}
+tagging:
+  add: []
+_notes:
+  - Many empty clean_text; likely auth/cookie walls.

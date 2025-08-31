@@ -1,0 +1,11 @@
+﻿compliance.db
+*.db
+*.db-*
+*.sqlite
+__pycache__/
+*.pyc
+logs/
+playwright/.cache/
+compliance.db.bak_*
+compliance.db.bak_*/
+compliance.db.bak_*

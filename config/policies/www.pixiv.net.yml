@@ -1,0 +1,19 @@
+host: www.pixiv.net
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  strip_fragments: true
+discovery:
+  # Pixiv policy pages vary by locale; allow the known legal surfaces and info pages.
+  path_allow_regexes:
+    - ^/terms
+    - ^/privacy
+    - ^/policy
+    - ^/info\.php
+  path_deny_regexes:
+    - ^/artworks/
+    - ^/users/
+    - ^/tags/
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 30

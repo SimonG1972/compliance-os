@@ -1,0 +1,29 @@
+# config/policies/default.yml
+host: default
+aliases: []
+normalization:
+  strip_params: ["utm_*", "fbclid"]
+  collapse_www: true
+  drop_fragments: true
+  default_port_strip: true
+discovery: {}
+hydration:
+  render_on_status: [401,403,406,429]
+  render_if:
+    thin_html_min_text_chars: null
+    script_ratio_over: null
+  timeout_s: 25
+  render_timeout_s: 25
+  headers: {}
+cleaning:
+  remove_selectors: []
+  keep_main_like: ["main","article","[role=main]"]
+chunking:
+  size: null
+  overlap: null
+tagging: {}
+backoff:
+  base_seconds: 0.3
+  jitter_seconds: 0.2
+  on_429_multiplier: 2.0
+version: "2025-08-31"

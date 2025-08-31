@@ -1,0 +1,25 @@
+host: bandcamp.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  path_deny_regexes:
+    - ^/tag/
+    - ^/search
+    - ^/discover
+    - ^/player/
+    - ^/album/
+    - ^/track/
+    - ^/music
+    - ^/feed
+discovery:
+  path_allow_regexes:
+    - ^/privacy
+    - ^/terms
+    - ^/legal
+    - ^/copyright
+    - ^/dmca
+    - ^/community
+    - ^/cookies
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25

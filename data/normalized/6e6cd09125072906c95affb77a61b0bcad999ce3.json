@@ -1,0 +1,842 @@
+{
+  "source_name": "FTC's Endorsement Guides: What People Are Asking | Federal Trade Commission",
+  "platform_or_regulator": "www.ftc.gov",
+  "doc_type": "other",
+  "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+  "jurisdiction": "global",
+  "effective_date": null,
+  "version_date": "2025-08-25T00:01:17.249361",
+  "topics": [
+    "counterfeit",
+    "political-ads"
+  ],
+  "sections": [
+    {
+      "title": "(intro)",
+      "text": "An official website of the United States government\nHere’s how you know\nThe .gov means it’s official. Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.\nThe site is secure. The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.\nReport Fraud\nGet Consumer Alerts\nSearch the Legal Library",
+      "anchors": []
+    },
+    {
+      "title": "Main Menu Mega",
+      "text": "Show/hide Enforcement menu items Enforcement We enforce federal competition and consumer protection laws that prevent anticompetitive, deceptive, and unfair business practices. View Enforcement Search or browse the Legal Library Find legal resources and guidance to understand your business responsibilities and comply with the law. Browse legal resources Search small Search Sections Cases and Proceedings Premerger Notification Program Merger Review Anticompetitive Practices Rulemaking Statutes Horseracing Integrity and Safety Authority (HISA) Oversight Competition and Consumer Protection Guidance Documents Warning Letters Consumer Sentinel Network Criminal Liaison Unit FTC Refund Programs Notices of Penalty Offenses Competition Matters Blog Take action Submit Merger/Antitrust Comment File adjudicative documents Find banned debt collectors View competition guidance Competition Matters Blog Competition Matters First Research Published from Physician 6(b) Study Tom Koch (Acting DAD, BE Office of Applied Research and Outreach) and Ted Rosenbaum (Acting BE Director) June 17, 2025 View all Competition Matters Blog posts",
+      "anchors": [
+        "block-menu-block-main-menu-mega-menu"
+      ]
+    },
+    {
+      "title": "Enforcement",
+      "text": "We enforce federal competition and consumer protection laws that prevent anticompetitive, deceptive, and unfair business practices.\nView Enforcement",
+      "anchors": []
+    },
+    {
+      "title": "Search or browse the Legal Library",
+      "text": "Find legal resources and guidance to understand your business responsibilities and comply with the law.\nBrowse legal resources",
+      "anchors": []
+    },
+    {
+      "title": "Sections",
+      "text": "Cases and Proceedings\nPremerger Notification Program\nMerger Review\nAnticompetitive Practices\nRulemaking\nStatutes\nHorseracing Integrity and Safety Authority (HISA) Oversight\nCompetition and Consumer Protection Guidance Documents\nWarning Letters\nConsumer Sentinel Network\nCriminal Liaison Unit\nFTC Refund Programs\nNotices of Penalty Offenses\nCompetition Matters Blog",
+      "anchors": [
+        "-menu"
+      ]
+    },
+    {
+      "title": "Take action",
+      "text": "Submit Merger/Antitrust Comment\nFile adjudicative documents\nFind banned debt collectors\nView competition guidance",
+      "anchors": []
+    },
+    {
+      "title": "First Research Published from Physician 6(b) Study",
+      "text": "View all Competition Matters Blog posts\nShow/hide Policy menu items Policy We work to advance government policies that protect consumers and promote competition. View Policy Search or browse the Legal Library Find legal resources and guidance to understand your business responsibilities and comply with the law. Browse legal resources Search small Search Sections Advocacy and Research Advisory Opinions Cooperation Agreements Federal Register Notices Reports Public Comments Studies Testimony Policy Statements International Office of Technology Blog Take action Find policy statements Submit a public comment Technology Blog Technology Blog The FTC Is on the Front Lines of Tech Innovation & Regulation Stephanie T. Nguyen, Chief Technologist January 17, 2025 View all Technology Blog posts",
+      "anchors": []
+    },
+    {
+      "title": "Policy",
+      "text": "We work to advance government policies that protect consumers and promote competition.\nView Policy",
+      "anchors": []
+    },
+    {
+      "title": "Search or browse the Legal Library",
+      "text": "Find legal resources and guidance to understand your business responsibilities and comply with the law.\nBrowse legal resources",
+      "anchors": []
+    },
+    {
+      "title": "Sections",
+      "text": "Advocacy and Research\nAdvisory Opinions\nCooperation Agreements\nFederal Register Notices\nReports\nPublic Comments\nStudies\nTestimony\nPolicy Statements\nInternational\nOffice of Technology Blog",
+      "anchors": [
+        "-menu"
+      ]
+    },
+    {
+      "title": "Take action",
+      "text": "Find policy statements\nSubmit a public comment",
+      "anchors": []
+    },
+    {
+      "title": "The FTC Is on the Front Lines of Tech Innovation & Regulation",
+      "text": "View all Technology Blog posts\nShow/hide Advice and Guidance menu items Advice and Guidance Learn more about your rights as a consumer and how to spot and avoid scams. Find the resources you need to understand how consumer protection law impacts your business. Take action Report fraud Report identity theft Register for Do Not Call Sign up for consumer alerts Get Business Blog updates Get your free credit report Find refund cases Order bulk publications Consumer Advice Shopping and Donating Credit, Loans, and Debt Jobs and Making Money Unwanted Calls, Emails, and Texts Identity Theft and Online Security Scams Business Guidance Advertising and Marketing Credit and Finance Privacy and Security By Industry For Small Businesses Browse Business Guidance Resources Business Blog Servicemembers: Your tool for financial readiness Visit militaryconsumer.gov Get consumer protection basics, plain and simple Visit consumer.gov Learn how the FTC protects free enterprise and consumers Visit Competition Counts Looking for competition guidance? Competition Guidance",
+      "anchors": []
+    },
+    {
+      "title": "Advice and Guidance",
+      "text": "Learn more about your rights as a consumer and how to spot and avoid scams. Find the resources you need to understand how consumer protection law impacts your business.",
+      "anchors": []
+    },
+    {
+      "title": "Take action",
+      "text": "Report fraud\nReport identity theft\nRegister for Do Not Call\nSign up for consumer alerts\nGet Business Blog updates\nGet your free credit report\nFind refund cases\nOrder bulk publications",
+      "anchors": []
+    },
+    {
+      "title": "Consumer Advice",
+      "text": "Shopping and Donating\nCredit, Loans, and Debt\nJobs and Making Money\nUnwanted Calls, Emails, and Texts\nIdentity Theft and Online Security\nScams",
+      "anchors": []
+    },
+    {
+      "title": "Business Guidance",
+      "text": "Advertising and Marketing\nCredit and Finance\nPrivacy and Security\nBy Industry\nFor Small Businesses\nBrowse Business Guidance Resources\nBusiness Blog",
+      "anchors": []
+    },
+    {
+      "title": "Servicemembers: Your tool for financial readiness",
+      "text": "Visit militaryconsumer.gov",
+      "anchors": []
+    },
+    {
+      "title": "Get consumer protection basics, plain and simple",
+      "text": "Visit consumer.gov",
+      "anchors": []
+    },
+    {
+      "title": "Learn how the FTC protects free enterprise and consumers",
+      "text": "Visit Competition Counts",
+      "anchors": []
+    },
+    {
+      "title": "Looking for competition guidance?",
+      "text": "Competition Guidance\nShow/hide News and Events menu items News and Events Latest News Press Release FTC Chairman Ferguson Warns Companies Against Censoring or Weakening the Data Security of Americans at the Behest of Foreign Powers August 21, 2025 View News and Events Upcoming Event Aug 28 Scheduling Conference before Administrative Law Judge Jay L. Himes In the Matter of Edwards Lifesciences, Corp. and JenaValve Technology, Inc. Thursday, August 28, 2025 | 10:00AM - 11:00AM View more Events Sections News Events Features Topics Contests Stay Connected Data Spotlight Explore Data Social Media Sign up for the latest news Follow us on social media Feature Playing it Safe: Explore the FTC's Top Video Game Cases Learn about the FTC's notable video game cases and what our agency is doing to keep the public safe. Latest Data Visualization FTC Refunds to Consumers Explore refund statistics including where refunds were sent and the dollar amounts refunded with this visualization.",
+      "anchors": []
+    },
+    {
+      "title": "FTC Chairman Ferguson Warns Companies Against Censoring or Weakening the Data Security of Americans at the Behest of Foreign Powers",
+      "text": "View News and Events",
+      "anchors": []
+    },
+    {
+      "title": "Scheduling Conference before Administrative Law Judge Jay L. Himes In the Matter of Edwards Lifesciences, Corp. and JenaValve Technology, Inc.",
+      "text": "View more Events",
+      "anchors": []
+    },
+    {
+      "title": "Sections",
+      "text": "News\nEvents\nFeatures\nTopics\nContests\nStay Connected\nData Spotlight\nExplore Data\nSocial Media\nSign up for the latest news",
+      "anchors": [
+        "-menu"
+      ]
+    },
+    {
+      "title": "Playing it Safe: Explore the FTC's Top Video Game Cases",
+      "text": "Learn about the FTC's notable video game cases and what our agency is doing to keep the public safe.",
+      "anchors": []
+    },
+    {
+      "title": "FTC Refunds to Consumers",
+      "text": "Explore refund statistics including where refunds were sent and the dollar amounts refunded with this visualization.\nShow/hide About the FTC menu items About the FTC Our mission is protecting the public from deceptive or unfair business practices and from unfair methods of competition through law enforcement, advocacy, research, and education. Learn more about the FTC Sections Mission History Commissioners and Staff Bureaus and Offices Budget and Strategy Office of Inspector General Contact Featured Meet the Chairman Andrew N. Ferguson is Chairman of the Federal Trade Commission. Chairman Andrew N. Ferguson",
+      "anchors": []
+    },
+    {
+      "title": "About the FTC",
+      "text": "Our mission is protecting the public from deceptive or unfair business practices and from unfair methods of competition through law enforcement, advocacy, research, and education.\nLearn more about the FTC",
+      "anchors": []
+    },
+    {
+      "title": "Sections",
+      "text": "Mission\nHistory\nCommissioners and Staff\nBureaus and Offices\nBudget and Strategy\nOffice of Inspector General\nContact",
+      "anchors": [
+        "-menu"
+      ]
+    },
+    {
+      "title": "Meet the Chairman",
+      "text": "Andrew N. Ferguson is Chairman of the Federal Trade Commission.\nChairman Andrew N. Ferguson\nSearch Show/hide Search menu items Enter Search Term(s): Looking for legal documents or records? Search the Legal Library instead.\nLooking for legal documents or records? Search the Legal Library instead.\nEnglish\nespañol\nReport Fraud\nGet Consumer Alerts\nSearch the Legal Library\nEnforcement Show/hide Enforcement menu items Cases and Proceedings Premerger Notification Program Merger Review Anticompetitive Practices Rulemaking Statutes Horseracing Integrity and Safety Authority (HISA) Oversight Competition and Consumer Protection Guidance Documents Warning Letters Consumer Sentinel Network Criminal Liaison Unit FTC Refund Programs Notices of Penalty Offenses Competition Matters Blog\nCases and Proceedings\nPremerger Notification Program\nMerger Review\nAnticompetitive Practices\nRulemaking\nStatutes\nHorseracing Integrity and Safety Authority (HISA) Oversight\nCompetition and Consumer Protection Guidance Documents\nWarning Letters\nConsumer Sentinel Network\nCriminal Liaison Unit\nFTC Refund Programs\nNotices of Penalty Offenses\nCompetition Matters Blog\nPolicy Show/hide Policy menu items Advocacy and Research Advisory Opinions Cooperation Agreements Federal Register Notices Reports Public Comments Studies Testimony Policy Statements International Office of Technology Blog\nAdvocacy and Research\nAdvisory Opinions\nCooperation Agreements\nFederal Register Notices\nReports\nPublic Comments\nStudies\nTestimony\nPolicy Statements\nInternational\nOffice of Technology Blog\nAdvice and Guidance Show/hide Advice and Guidance menu items Consumer Advice Military Consumer Consumer.gov Business Guidance Competition Guidance Bulk Publications\nConsumer Advice\nMilitary Consumer\nConsumer.gov\nBusiness Guidance\nCompetition Guidance\nBulk Publications\nNews and Events Show/hide News and Events menu items News Events Features Topics Contests Stay Connected Data Spotlight Explore Data Social Media\nNews\nEvents\nFeatures\nTopics\nContests\nStay Connected\nData Spotlight\nExplore Data\nSocial Media\nAbout the FTC Show/hide About the FTC menu items Mission History Commissioners and Staff Bureaus and Offices Budget and Strategy Office of Inspector General Contact\nMission\nHistory\nCommissioners and Staff\nBureaus and Offices\nBudget and Strategy\nOffice of Inspector General\nContact\nLooking for legal documents or records? Search the Legal Library instead.",
+      "anchors": []
+    },
+    {
+      "title": "Breadcrumb",
+      "text": "Home\nBusiness Guidance\nBusiness Guidance Resources",
+      "anchors": [
+        "system-breadcrumb"
+      ]
+    },
+    {
+      "title": "FTC's Endorsement Guides: What People Are Asking",
+      "text": "Tags:\nAdvertising and Marketing\nEndorsements, Influencers, and Reviews\nOnline Advertising and Marketing\nCredit and Finance\nFinTech\nSuppose you meet someone who tells you about a great new product. The person says it performs wonderfully and offers fantastic new features that nobody else has. Would that recommendation factor into your decision to buy the product? Probably.\nNow suppose the person works for the company that sells the product or has been paid by the company to tout the product. Would you want to know that when you’re evaluating the person’s glowing recommendation? You bet. That common-sense premise is at the heart of the Federal Trade Commission’s (FTC) Endorsement Guides . The Guides, at their core, reflect the basic truth-in-advertising principle that endorsements must be honest and not misleading. An endorsement must reflect the honest opinion of the endorser and can’t be used to make a claim the marketer of the product couldn’t legally make.\nIn addition, the Guides say, if there’s a connection between an endorser and the marketer that a significant minority of consumers wouldn’t expect and it would affect how they evaluate the endorsement, that connection should be disclosed clearly and conspicuously. For example, if an ad features an endorser who is a relative or employee of the marketer, the ad is misleading unless the connection is made clear. The same is usually true if the endorser has been paid or given something of value to tout the product. The reason is obvious: Knowing about the connection is important information for anyone evaluating the endorsement.\nSay you’re planning a vacation. You do some research and find a glowing YouTube video review saying that a particular resort is the most luxurious place the reviewer has ever stayed. If you knew the hotel had paid the reviewer hundreds of dollars to say great things about it or that the reviewer had stayed there for several days for free, it could affect how much weight you’d give the endorsement. The reviewer should, therefore, let viewers know about that relationship.\nAnother principle in the Guides applies to ads that feature endorsements from people who achieved exceptional, or even above average, results. An example is an endorser who claims to have lost 20 pounds in two months using the advertised product. If the advertiser doesn’t have proof that the endorser’s experience represents what people will generally achieve using the product as described in the ad (for example, by just taking a pill daily for two months), an ad featuring that endorser must make clear to the audience what the generally expected results of following that same regimen are.\nHere are answers to some of the most frequently asked questions from advertisers, ad agencies, influencers, bloggers, and others. Our staff guidance can’t be definitive because the context of any particular endorsement is very important in determining whether a disclosure is needed and whether a particular disclosure is sufficient. Given that much of our guidance depends on consumer understanding, there will be times when we don’t have sufficient information about what consumers know, what they understand, and how they behave. Moreover, all these factors depend on the context or may change over time. This guidance doesn’t provide a safe harbor from potential liability; whether a particular advertising claim is deceptive or otherwise violates the FTC Act will depend on the facts of the specific case.\nIn addition, we recommend that you read the latest version of the Endorsement Guides , which were revised in 2023 with new or revised principles, examples, and definitions, including a new definition of “clearly and conspicuously.� We also have Disclosures 101 for Social Media Influencers and Soliciting and Paying for Online Reviews: A Guide for Marketers , both of which are short and easy-to-read documents with basic guidance.\nTABLE OF CONTENTS\nAbout the Endorsement Guides\nWhen Does the FTC Act Apply to Product Recommendations?\nProduct Placements\nEndorsements by Ordinary Consumers on Social Media\nHow Should I Disclose That I Was Given Something for My Endorsement?\nOther Things for Endorsers and Advertisers to Know\nSocial Media Contests\nOnline Review Programs\nSoliciting Endorsements\nWhat are an Advertiser ’ s Responsibilities for What Others Say on Social Media?\nWhat About Intermediaries?\nWhat About Affiliate or Network Marketing?\nExpert Endorsers Making Claims Outside of Traditional Advertisements\nEmployee Endorsements\nUsing Endorsements That Don’t Reflect the Typical Consumer Experience",
+      "anchors": []
+    },
+    {
+      "title": "ABOUT THE ENDORSEMENT GUIDES What is an endorsement?",
+      "text": "According to the dictionary, an endorsement is a recommendation of something or an expression of approval or support for something, but the Endorsement Guides are talking about a particular type of endorsement. As used in the Guides, an endorsement is an advertising message that consumers are likely to believe reflects the opinions or beliefs of someone other than the sponsoring advertiser. So, if the message isn’t an advertising message by or on behalf of a marketer, it isn’t an endorsement.",
+      "anchors": []
+    },
+    {
+      "title": "Do the Endorsement Guides apply to social media?",
+      "text": "Yes. Truth in advertising is important in all media, whether they have been around for many decades (like television and magazines) or are relatively new (like social media).",
+      "anchors": []
+    },
+    {
+      "title": "Isn’t it common knowledge that social media influencers, bloggers, and other content creators are paid to tout products or that, if you click on their links to buy a product, they will get a commission?",
+      "text": "It may be common knowledge that some of them get paid this way, but others may have no connection to marketers whose products they mention. They may not get a commission or anything else for their recommendations, which they may be making only because they believe in those products.\nMoreover, the existence of financial arrangements between some content creators and advertisers may be apparent to some people, but not to everyone. Under the law, an act or practice is deceptive if it misleads “a significant minority� of consumers. That’s why disclosure is important.",
+      "anchors": []
+    },
+    {
+      "title": "Are you monitoring social media influencers and bloggers?",
+      "text": "If concerns about possible violations of the FTC Act come to our attention, we evaluate them case by case. If law enforcement becomes necessary, our focus usually will be on advertisers or their ad agencies and public relations firms. However, action against an individual endorser might be appropriate in certain circumstances – for example, if the endorser hasn’t made required disclosures despite warnings.",
+      "anchors": []
+    },
+    {
+      "title": "Does the FTC hold influencers and bloggers to a higher standard than reviewers for traditional media outlets?",
+      "text": "No. The FTC Act applies across the board. The issue is – and always has been – whether the audience understands the reviewer’s relationship to the company whose products are being recommended. If the audience understands the relationship, a disclosure isn’t needed.\nIf you’re employed by a newspaper or TV station to give reviews – whether online or offline – your audience probably understands that your job is to provide your personal opinion on behalf of your employer. In that situation, it’s clear that you didn’t buy the product yourself – whether it’s a book or a car or a movie ticket. But people viewing a review on social media, in a blog, or in an online video might not realize that the reviewer has a relationship with the company whose products are being recommended. Disclosure of that relationship helps readers decide how much weight to give the review.",
+      "anchors": []
+    },
+    {
+      "title": "What is the legal basis for the Guides?",
+      "text": "The FTC conducts investigations and brings cases involving endorsements made on behalf of an advertiser under Section 5 of the FTC Act,�which generally prohibits deceptive advertising.\nThe Guides are intended to give insight into what the FTC thinks about various marketing activities involving endorsements and how Section 5 might apply to those activities.�The Guides themselves don’t have the force of law. However, practices inconsistent with the Guides may result in law enforcement actions alleging Section 5 violations.�Law enforcement actions can result in orders requiring the defendants in the case to pay money that goes back to consumers harmed as a result of their violations and to abide by various requirements in the future. Moreover, if the defendants received a Notice of Penalty Offenses regarding endorsements and then engaged in certain deceptive or unfair endorsement practices, the FTC could seek substantial civil penalties.",
+      "anchors": []
+    },
+    {
+      "title": "Sometimes you talk in this document about “viewers� of a post and sometimes you talk about an influencer’s or other person’s “followers.� What’s the difference and whose understanding matters?",
+      "text": "If social media posts can be seen by people who aren’t followers, the interpretations and expectations of non-followers matter. That said, posts are more likely to be seen by followers, and followers are more likely to trust and rely upon people they follow, so the poster’s credibility is more likely to matter to them.",
+      "anchors": []
+    },
+    {
+      "title": "Do the FTC Endorsement Guides apply to political advertisements?",
+      "text": "The FTC doesn’t have jurisdiction over political advertisements.",
+      "anchors": []
+    },
+    {
+      "title": "Can a brand hire several influencers to post the same content created by the brand and not the influencers themselves (e.g., a picture for a Facebook post or pre-written text for a tweet)?",
+      "text": "There isn’t a blanket prohibition against asking an influencer to post a standard image that a brand provided. The question is whether posting the picture conveys something that isn’t true or that is otherwise misleading. For example, say the picture communicates that the influencer used the product or had a particular experience with the product. If that isn’t true, the use of the picture would be misleading.\nHiring multiple influencers to post pre-written posts raises a similar concern because endorsements must reflect the truthful experiences and opinions of the endorsers. There is nothing inherently wrong with using pre-written posts as long as the influencers are being truthful.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a blogger. I heard that every time I mention a product on my blog, I have to say whether I got it for free or paid for it myself. Is that true?",
+      "text": "No. If you mention a product you paid for yourself, there isn’t an issue. Nor is it an issue if you get the product for free because a store is giving out free samples to its customers. In those situations, your recommendation isn’t a commercial practice covered by the FTC Act.\nThe FTC Act applies to product recommendations and other endorsements made on behalf of a sponsoring advertiser. For example, your product recommendation would be covered by the FTC Act if an advertiser – or someone working for an advertiser – pays you or gives you something of value to have you mention that product. If you receive free products or other perks with the expectation that you’ll promote or discuss the advertiser’s products in your blog, the FTC Act applies to you. Bloggers who are part of network marketing programs, where they sign up to receive free product samples in exchange for writing about them, also are subject to the FTC Act.",
+      "anchors": []
+    },
+    {
+      "title": "What if I upload a video to YouTube that shows me endorsing several products? Should I disclose that I got them from an advertiser?",
+      "text": "Yes. The guidance on when to make disclosures is the same no matter what format your review takes or where it appears.",
+      "anchors": []
+    },
+    {
+      "title": "What if all I get from a company is a $1-off coupon, an entry in a sweepstakes or a contest, or a product worth only a few dollars? Does that still have to be disclosed?",
+      "text": "The answer depends on whether knowing about that gift or incentive would affect the weight or credibility your readers give to your recommendation. If it could, you should disclose it. For example, if your endorsement of a product allows you to enter a sweepstakes to win a thousand dollars, it could very well affect how people view that endorsement. (See the Q&A below in the section entitled “Social Media Contests. � Determining whether a small gift would affect the weight or credibility of an endorsement can be difficult. It’s always safer to disclose that information.\nAlso, even if getting one small item for free wouldn’t affect the weight and credibility of your endorsement, continually getting free stuff from one or more advertisers could suggest that you expect future benefits from positive reviews. If you have a relationship with an advertiser that sends you free stuff in the hope of endorsements, it’s best to let readers know about that relationship whenever you recommend that advertiser’s products.\nEven an incentive with no financial value might affect the weight or credibility of an endorsement and would need to be disclosed. The Guides give the example of a restaurant patron who, before giving an opinion about a particular menu item, is offered the opportunity to appear in a TV ad. Because the chance to appear in the ad could sway what someone says, that incentive should be disclosed.",
+      "anchors": []
+    },
+    {
+      "title": "My company makes a donation to charity anytime someone reviews our product. Do we need to make a disclosure?",
+      "text": "The overarching principle is that if readers would evaluate the reviews differently knowing that the reviews were motivated in part by charitable donations, there should be a disclosure. It’s possible that some readers might think that the donation program makes reviewers more favorably inclined to your company and its product. Therefore, we suggest erring on the side of caution and disclosing that you make donations in exchange for reviews.",
+      "anchors": []
+    },
+    {
+      "title": "What if an advertiser lends me a product to review and I return it after my review is posted? Should I still make a disclosure?",
+      "text": "That might depend on the product and how long you are allowed to use it. For example, if you get free use of a car for a month, we recommend a disclosure even though you have to return it. But even for less valuable products, it’s best to be open and transparent.",
+      "anchors": []
+    },
+    {
+      "title": "Two months ago, I signed a one-year contract with a company to promote its brand. Every time I’ve posted about the brand, I’ve disclosed my relationship. By now, my followers might have seen eight disclosures that I’m working with the brand. Do I still have to disclose the relationship in every post going forward?",
+      "text": "Each new endorsement made without a disclosure could be deceptive because viewers might not have seen the prior posts.",
+      "anchors": []
+    },
+    {
+      "title": "A year ago, I was given a free $60 video game (and nothing else) in exchange for live streaming my game play. I still love the game and stream it. Do I still need to disclose that I got the game for free?",
+      "text": "How long it would be reasonable for you to make disclosures really depends on the expectations of your fans. After some period of time, it probably wouldn’t matter to them that you got the game for free. If you’re choosing to play a game a year after you got it for free, it probably means you truly like it. The analysis would likely be different if, instead of a $60 video game, you got a free $50,000 car and continued to post about it over the life of the car.",
+      "anchors": []
+    },
+    {
+      "title": "I’m an influencer and a company sent me a free product which I posted about. If I buy more of the product with my own money and continue using it, can I post about it without disclosing that the company once sent it me for free?",
+      "text": "If you have an ongoing relationship with a brand, you should still disclose that relationship even if you buy the brand’s product yourself.\nIf you received nothing but a free product to try and are now buying it with your own money, it seems unlikely that your viewers would care that you initially received the product for free. That said, transparency with your viewers is always a good choice, e.g., “A couple of months ago, XYZ gave me a free ABC, and I loved it so much that I keep buying it with my own money.�",
+      "anchors": []
+    },
+    {
+      "title": "I have a website that reviews local restaurants. Some restaurants pay for display ads on my site , and it’s clear what is an ad and what isn’t. Do I also have to disclose which restaurants give me free meals?",
+      "text": "If you get free meals from a restaurant that you review, you should let your readers know so they can weigh that factor for themselves. If the display ads are clearly ads, there is no need to disclose their commercial nature. If, however, the purchase of a display ad positively impacts the editorial content of the review, the review could be deceptive.",
+      "anchors": []
+    },
+    {
+      "title": "I’m opening a new restaurant. To get feedback on the food and service, I’m inviting my family and friends to eat for free. If they talk about their experiences on social media, is that something that should be disclosed?",
+      "text": "You’ve raised two issues here. First, yes, they should disclose that they are your relative or friend because it may be relevant to people reading that endorsement. Second, if you give free meals to people – whether relatives or strangers – and seek their endorsement, they should disclose this fact because, again, it would be relevant to people reading those reviews. Even if you didn’t specifically ask for an endorsement, people reading those social media messages would probably want to know that the meal was on the house.",
+      "anchors": []
+    },
+    {
+      "title": "I have a YouTube channel that focuses on hunting and camping. Sometimes I’ll do a product review. Knife manufacturers know how much I love knives, so they send me knives as free gifts, hoping that I’ll review them. I’m under no obligation to talk about any knife, and getting the knives as gifts really doesn’t affect my judgment. Do I need to disclose when I’m talking about a knife I got for free?",
+      "text": "Even if you don’t think it affects your evaluation, what matters is whether the fact that you got the knife for free might affect how your audience views what you say about it. It doesn’t matter that you aren’t required to review every knife you receive. Your viewers may assess your review differently if they knew you got the knife for free. So we advise disclosing that fact.",
+      "anchors": []
+    },
+    {
+      "title": "I’ve been paid by a manufacturer to post a video reviewing of one of its products. My review recognizes the product’s good points as well as its negative ones. Because my review discusses the negatives, is it really an endorsement and do I really have to disclose anything?",
+      "text": "Even if your review mentions one or more negative points, it’s still an endorsement. Readers of the review would likely think differently about it if they knew you were paid. So you should disclose the payment.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a skin care influencer and I have an endorsement deal with a brand. If I post negative comments about a competing brand, do I have to disclose my endorsement deal?",
+      "text": "Yes. If you criticize a competitor of a brand that you are paid to endorse, you should disclose your paid relationship. It would likely affect the weight and credibility that your audience gives to your negative comments.",
+      "anchors": []
+    },
+    {
+      "title": "I was paid by a company to endorse its product on Facebook and Instagram. If I throw in a free endorsement on Snapchat, does my snap need a disclosure?",
+      "text": "Yes. Even if you weren’t specifically paid to make the Snapchat endorsement, you still have a paid relationship with the company that could affect the weight or credibility given to that endorsement.",
+      "anchors": []
+    },
+    {
+      "title": "A trade association hired me to be its “ambassador� and promote its upcoming conference on social media, primarily on Twitter. The association is only paying me for five hours a week. I disclose my relationship with the association when I tweet about the event during those hours. But sometimes I get questions about the conference in my off time. If I respond via Twitter when I’m not officially working, do I need to make a disclosure? If so, can I do it by placing a badge for the conference in my Twitter profile?",
+      "text": "You have a financial connection to the company that hired you and that relationship exists whether or not you’re being paid for a particular tweet. If you’re endorsing the conference in your tweets, your audience has a right to know about your relationship. That said, some tweets responding to questions about the event would likely not be endorsements if they aren’t communicating your opinions about the event – for example, if you are merely giving someone a requested link to the conference agenda.\nAlso, if you respond via email or text to someone’s questions about the event, that person probably already knows your affiliation with the trade association or they wouldn’t be asking you. You probably wouldn’t need a disclosure in that context. But when you respond via social media, all your followers see your posts, and some of them might not have seen your earlier disclosures.\nMerely posting the conference’s badge on your Twitter profile page wouldn’t be sufficient because many people in your audience probably wouldn’t see it. Also, the badge itself may be simply a logo or hashtag for the event or may otherwise not adequately inform consumers of your connection to the trade association.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a blogger and a company wants me to attend the launch of its new product. They will fly me to the launch and put me up in a hotel for a couple of nights. They aren’t paying me or giving me anything else. If I write a blog sharing my thoughts about the product, should I disclose anything?",
+      "text": "Yes. You should disclose that you received free travel and accommodations because it could affect how much weight your readers give to your thoughts about the product.",
+      "anchors": []
+    },
+    {
+      "title": "In my social media posts, I mention or show products I use. If I say nothing positive about a product, is the post an endorsement covered by the FTC Act?",
+      "text": "Simply posting a picture of a product on social media, such as on Pinterest, or a video of you using it, could convey – even without words – that you like and approve of the product. If it does convey that kind of positive message, the post is an endorsement. Of course, if you don’t have any relationship with the advertiser, your posts aren’t subject to the FTC Act, no matter what you show or say about the product. The FTC Act covers only endorsements that can be attributed to an advertiser or marketer.",
+      "anchors": []
+    },
+    {
+      "title": "If I post a picture of myself to Instagram and tag the brand of dress I’m wearing, but I don’t say anything about the brand in my description of the picture, is that an endorsement? And, even if it is an endorsement, wouldn’t my followers understand that I only tag the brands of my sponsors?",
+      "text": "Tagging a brand you’re wearing is an endorsement of the brand. Just like any other endorsement, it could require a disclosure if you have a relationship with that brand. Some influencers only tag the brands of their sponsors, some tag brands with which they don’t have relationships, and some do a bit of both. Followers might not know why you’re tagging a dress. Some might think you’re doing it just because you like the dress and want them to know.",
+      "anchors": []
+    },
+    {
+      "title": "If I don’t tag the dress, is a picture of me wearing it while at a restaurant an endorsement that makes a disclosure necessary?",
+      "text": "Probably not. In an analogous situation, one of the examples in the Endorsement Guides says that no disclosure is required because no representation is being made about the clothes in this context.",
+      "anchors": []
+    },
+    {
+      "title": "Say a car company pays a blogger to write about wanting to buy a certain new electric sports car. The post includes a link to the company’s site, but it doesn’t say that the blogger is actually going to buy the car or has even driven it. Is the post still an endorsement subject to the FTC’s Endorsement Guides?",
+      "text": "Yes. An endorsement can be aspirational. In this case, it’s an endorsement because the blogger is expressing – at least implicitly – positive views about the car ( e.g. , “I want it�). If the blogger was paid, it should be disclosed.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a travel influencer and I’m on a free cruise. We stop in a port and I go shopping on my own. I stop in a small antique shop, which doesn’t pay or give me anything. Can I post about the shop on social media without disclosing anything?",
+      "text": "Yes. If you have no connection to the shop and are posting about it just because you like it, no disclosure is necessary even if you’re on a free trip.",
+      "anchors": []
+    },
+    {
+      "title": "I wrote a book and belong to a group of authors who agree to post reviews for each other. I’ll review someone else’s book on a book review site or a bookstore site if they review my book. No money changes hands. Do I need to make a disclosure?",
+      "text": "Yes. It sounds like you have�a connection that might materially affect the weight or credibility of your endorsements (that is, your reviews), since bad reviews of each other’s books could jeopardize the arrangement. These circumstances illustrate how the need to make a disclosure isn’t limited to situations in which money changes hands. Connections that require a disclosure could be based instead on things like friendship, family, or employment relationships, or deals between acquaintances.",
+      "anchors": []
+    },
+    {
+      "title": "My Facebook page identifies my employer. Should I include an additional disclosure when I post on Facebook about how useful one of our products is?",
+      "text": "Yes. People reading your posts in their news feed – or on your profile page – might not know where you work or what products your employer makes. In addition, many businesses are so diversified that readers might not realize that the products you’re talking about are sold by your company.",
+      "anchors": []
+    },
+    {
+      "title": "A famous athlete has millions of followers on Twitter and is well known as a spokesperson for a particular product. Does the athlete have to disclose being paid in every tweet about the product?",
+      "text": "It depends on what readers of the tweets would understand. If a significant minority of viewers doesn’t know about the relationship and would care if they did, the relationship should be disclosed. Determining whether the audience for a tweet is aware of and cares about a relationship can be tricky, so we recommend disclosure.\nAlso, if a disclosure is needed in one post for a brand, it’s probably needed in all posts, because you can’t assume that viewers will see multiple posts.",
+      "anchors": []
+    },
+    {
+      "title": "A celebrity has millions of followers on Instagram. Many people know that the celebrity regularly charges advertisers to mention their products in posts. Does the celebrity have to disclose being paid for a particular post about a product?",
+      "text": "It depends on the extent to which people reading the celebrity’s posts understand that a particular post is a paid endorsement. Many followers may know generally about the celebrity’s connections to advertisers, but, for any one post, if a significant minority of readers don’t know it was paid, a disclosure may be needed. Again, determining what readers know can be tricky, so we recommend disclosure.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a video blogger who lives in London. I create sponsored videos on YouTube for products that are also sold in the U.S. Do I need to tell my viewers that I’ve been paid to endorse the products even though I don’t live in the U.S.?",
+      "text": "If it’s reasonably foreseeable that your YouTube videos will be seen by and impact U.S. consumers, U.S. law would apply and you would need a disclosure. Also, the U.K. and many other countries have similar laws and policies relating to endorsements. So, you’ll want to check those, too.",
+      "anchors": []
+    },
+    {
+      "title": "An influencer creates their own brand and sells their product through their social media accounts and website. Do they need to disclose anything?",
+      "text": "If it is obvious from an influencer’s endorsement that that the brand is the influencer’s own, no disclosure is necessary. If it’s not clear or sometimes not clear that it’s the influencer’s brand, that fact should be disclosed.",
+      "anchors": []
+    },
+    {
+      "title": "What does the FTC have to say about product placements on television shows?",
+      "text": "Federal Communications Commission law (FCC, not FTC) requires TV stations to include disclosures of product placement in TV shows.\nThe FTC has expressed the opinion that, under the FTC Act, product placement (that is, merely showing products or brands in third-party entertainment content, as distinguished from sponsored content or disguised commercials) doesn’t require a disclosure that the advertiser paid for the placement.",
+      "anchors": []
+    },
+    {
+      "title": "What if a pair of TV talk show hosts express an opinion on their show about a video game they were paid to promote? The segment is humorous and the hosts aren’t video game experts. Is that a product placement and does the payment have to be disclosed?",
+      "text": "By expressing a positive opinion about the product – even if the segment just shows them playing the game against each other and reacting positively – the hosts are making endorsements, which is more than a mere product placement. If the audience doesn’t know the hosts are getting paid and if that information would affect the weight or credibility the audience gives the endorsement, it should be disclosed. It doesn’t matter that the segment is humorous or that the hosts aren’t experts. However, in some cases, a host may say something about a product that is obviously an advertisement, in which case a disclosure probably isn’t necessary. For example, think of an old-time TV show where the host goes to a different set, holds up a cup of coffee, says “Wake up with EFG Coffee. It’s how I start my day!� and takes a sip.",
+      "anchors": []
+    },
+    {
+      "title": "What if a talk show has a “bargains segment� where the show’s producers have partnered with a brand or brands to recommend certain discount products to viewers? Is that just a product placement? Does there need to be a disclosure?",
+      "text": "That isn’t just a product placement as the show is recommending certain products. So there should be disclosures of the paid relationship with the marketer(s). To be most effective, the disclosures should be presented at the beginning of the segment and when specific products are endorsed. The disclosures should be straightforward in explaining the financial connection and shouldn’t use unclear expressions like “we’ve partnered with vendors.�",
+      "anchors": []
+    },
+    {
+      "title": "Many social media platforms allow you to share your interests with friends and followers by clicking a button or sharing a link to show that you’re a fan of a particular business, product, website or service. Is that an \"endorsement\" that needs a disclosure?",
+      "text": "Many people enjoy sharing their fondness for a particular product or service with their social networks. If you write about how much you like something you bought on your own and you have no relationship with the advertiser, no disclosure is necessary. However, if you’re doing it as part of a sponsored campaign or you’re being compensated – for example, getting a discount on a future purchase or being entered into a sweepstakes for a significant prize – a disclosure is appropriate.",
+      "anchors": []
+    },
+    {
+      "title": "I’m an avid social media user who often gets rewards for participating in online campaigns on behalf of brands. Is it OK for me to click a “like� button, pin a picture, or share a link to show that I’m a fan of a particular business, product, website or service as part of a paid campaign?",
+      "text": "Pinning a picture or sharing a link to endorse a company’s products or services as part of a sponsored brand campaign probably requires a disclosure.\nWe realize that some platform features – like Facebook’s “like� buttons – don’t allow you to make a disclosure. Advertisers shouldn’t encourage endorsements using features that don’t allow for clear and conspicuous disclosures. Whether the FTC would say a disclosure is needed may depend on the overall impression of the endorsement – for example, whether consumers would consider “likes� to be material in their decision to patronize a business or buy a product.\nHowever, an advertiser buying fake “likes� is very different from an advertiser offering incentives for “likes� from actual consumers. If “likes� are from non-existent people or people who have no experience using the product or service, they are clearly deceptive, and both the purchaser and the seller of the fake “likes� could face enforcement action.",
+      "anchors": []
+    },
+    {
+      "title": "I posted a review of a service on a website. Now the marketer has taken my review and changed it in a way I think is misleading. Am I liable for that? What can I do?",
+      "text": "No. You aren’t liable for the changes the marketer made to your review. You could, and probably should, complain to the marketer and ask it to stop using your altered review. You also could report it to the FTC , your local consumer protection organization, and the Better Business Bureau.",
+      "anchors": []
+    },
+    {
+      "title": "Is tagging a brand in a social media post a sufficient disclosure that I have a connection to a brand?",
+      "text": "No. Tagging a brand is an endorsement, but it’s not a disclosure that you have a connection to a brand. You could just be tagging it because you like it.",
+      "anchors": []
+    },
+    {
+      "title": "Is there special wording I have to use to make the disclosure?",
+      "text": "No. The point is to give readers the essential information in words that are easy to understand. The best disclosures are simple, like “This is an ad for BRAND� or “This video is paid for by BRAND� or “BRAND paid me to tell you about it.�",
+      "anchors": []
+    },
+    {
+      "title": "Do I have to hire a lawyer to help me write a disclosure?",
+      "text": "No. What matters is effective communication. A disclosure like “Company X gave me [name of product] to try, and I think it’s great� gives your readers the information they need. Or, at the start of a short video, you might say, “The products I’m going to use in this video were given to me by their manufacturers.� That gives the necessary heads-up to your viewers (assuming you weren’t also paid by the manufacturers, in addition to getting the products for free, in which case you should disclose that you were paid).",
+      "anchors": []
+    },
+    {
+      "title": "In this document, you provide examples of various disclosures you think will or are likely to be effective. Are you saying those disclosures will work for children and teens?",
+      "text": "No. As the Endorsement Guides suggest, children and teens can react differently from adults. A disclosure that works with adults might not work with younger individuals. Indeed, research suggests that disclosures will not work for younger children. Accordingly, advertisers and endorsers should be particularly careful in their use of endorsements directed to this audience.",
+      "anchors": []
+    },
+    {
+      "title": "Do I need to list the details of everything I get from a company for reviewing a product?",
+      "text": "No. What matters is whether the information would have an effect on the weight readers would give your review. So, whether you got $100 or $1,000, you could simply say you were “paid.� (That wouldn’t be good enough, however, if you’re an employee or co-owner.) And if what you got is so small that it wouldn’t affect the weight readers would give your review, you may not need to disclose anything.",
+      "anchors": []
+    },
+    {
+      "title": "How do I know if what I got is so small that it wouldn’t affect the weight readers would give my endorsement?",
+      "text": "There is no easy answer to that question and there is no threshold amount that would apply in all situations. It might vary by the endorser and by the type of product being endorsed.",
+      "anchors": []
+    },
+    {
+      "title": "Do I always need to disclose when I got a product for free, and do I need to say any more than that?",
+      "text": "It depends on the product and on what else, if anything, you got from the company. Saying only that you got a product for free suggests you didn’t get anything else.\nFor example, if an app developer gave you their 99-cent app for free for you to review it, that information might not have much effect on the weight that readers give to your review. But if the app developer also gave you $100, knowledge of that payment would have a much greater effect on that weight. So a disclosure that simply said you got the app for free wouldn’t be good enough, but, as discussed above, you don’t have to disclose exactly how much you were paid.\nSimilarly, if a company gave you a $50 gift card to give away to one of your readers and a second $50 gift card to keep for yourself, it wouldn’t be good enough only to say that the company gave you a gift card to give away.",
+      "anchors": []
+    },
+    {
+      "title": "I’m doing a review of a video game that hasn’t been released yet. The manufacturer sent me the game and is paying me to review it. Is it enough just to disclose that the manufacturer gave me a “sneak peek� of the game?",
+      "text": "No.�Merely referring to your early access doesn’t tell people that you were paid for your review. You should say that you were paid. If you weren’t paid but the manufacturer just let you keep the game for free, it might be deceptive to refer to what you were given as merely a “sneak peek.�",
+      "anchors": []
+    },
+    {
+      "title": "Would a single disclosure on my home page that “many products discussed on this site are provided free by their manufacturers� be enough?",
+      "text": "No. A single disclosure on your home page won’t be sufficient because people visiting your site might read individual reviews or watch individual videos without seeing the disclosure on your home page. Even if some viewers read the disclosure, it doesn’t tell them which products were and weren’t provided for free by their manufacturers.",
+      "anchors": []
+    },
+    {
+      "title": "If I upload a video to TikTok and that video requires a disclosure, can I put the disclosure in the text description of the video?",
+      "text": "The text description on TikTok is in small print, it doesn’t stand out, and it often doesn’t contrast against the background of the video. Also, TikTok videos often have many competing elements. A disclosure in the text description is thus very unlikely to be clear and conspicuous. When content creators want viewers to read something, they superimpose much larger text over their videos.",
+      "anchors": []
+    },
+    {
+      "title": "Can I just superimpose a larger text disclosure over my video?",
+      "text": "It depends how you make the endorsement in the video. As the Endorsement Guides say, if the endorsement is made through visual means, the disclosure should be made at least visually. If the representation is made audibly, the disclosure should be made at least audibly. And if the representation is made through both visual and audible means, the disclosure should be made both visually and audibly. A disclosure presented simultaneously in both the visual and audible portions of an ad is more likely to be clear and conspicuous.",
+      "anchors": []
+    },
+    {
+      "title": "If I upload a video to YouTube and that video requires a disclosure, can I put the disclosure in the description that accompanies the video?",
+      "text": "You can, but that’s not enough on its own because consumers can easily miss disclosures in the video description. Many people might watch the video without even seeing the description page, and even those who do see that page might not see or read the disclosure. The disclosure has the best chance of being clear and conspicuous if it’s included in the video itself. ( See the Q&A above about how a disclosure should be made in a video. )",
+      "anchors": []
+    },
+    {
+      "title": "What about having a disclosure in the description of an Instagram post? Is that good enough?",
+      "text": "When people view Instagram streams, longer descriptions are truncated, with only the first two or three lines displayed. To see the rest, you have to click “more.� If an Instagram post makes an endorsement in the beginning of the description, any required disclosure should be presented without having to click “more.�\nIf the picture on an Instagram post conveys an endorsement without the viewer having to read the accompanying description and a significant minority of viewers don’t read the description, a disclosure in the description could be inadequate. You might need a disclosure superimposed over the picture. Also, if an Instagram post makes an endorsement in a video, there should be a disclosure in the video, preferably both visually and audibly. (See the discussion in “ So, can I just superimpose a larger text disclosure over my video? �)",
+      "anchors": []
+    },
+    {
+      "title": "Would a button on a web page that says DISCLOSURE or LEGAL or something like that be enough, so long as the button links to a full disclosure?",
+      "text": "No. A hyperlinked disclosure like that is easily avoidable, meaning that the disclosure is not clear and conspicuous. Many consumers won’t click on it and will miss the disclosure. Usually, your disclosure can be brief and there is no space-related reason to use a hyperlink to provide access to it.",
+      "anchors": []
+    },
+    {
+      "title": "If a brand (for example, a tourism organization) is sponsoring a trip for an influencer, does every single post the influencer posts while in that destination need to include a disclosure like #ad?",
+      "text": "An influencer can’t assume that followers will read more than one of their posts and associate them with each other. As we say in .com Disclosures, How to Make Effective Disclosures in Digital Advertising , “Use disclosures in each ad.� If a disclosure is required in an ad, “the disclosure should be in each and every ad that would require a disclosure if that ad were viewed in isolation.�\nThat said, it’s possible that some posts made while the influencer is at that destination might not mention or promote the destination. If a post is non-promotional, e.g., a close up of the influencer’s child without tags or other clues as to the location, there is no need for a disclosure. Simply tagging a post made while in that destination as an #ad might be fine, but it could be confusing in some circumstances. When the sponsor’s identity is unclear but would matter to consumers, the sponsor should probably be identified.",
+      "anchors": []
+    },
+    {
+      "title": "The social media platform I use has a built-in feature that allows me to disclose paid endorsements. Can I just rely on that tool?",
+      "text": "Not necessarily. It’s good that some platforms offer these tools, and we don’t want to dissuade you from using them. But just because a platform offers this feature is no guarantee that it’s an effective way for influencers to disclose their material connection to a brand.\nIn an investigation, the FTC would evaluate whether the use of the tool by itself clearly and conspicuously discloses the relevant connection. Indeed, for any disclosure on social media, whether or not through the use of a platform tool, the FTC would consider several key factors in determining whether the disclosure is clear and conspicuous.\nOne factor is placement. The disclosure should catch users’ attention and be placed where they aren’t likely to miss it. A key consideration here is how users view posts on a particular platform. For example, on a photo platform, users paging through their streams will likely look at the eye-catching images. Therefore, a disclosure placed above a photo may not attract their attention. Similarly, a disclosure in the lower corner of a video could be too easy for users to overlook.\nA second factor is readability. The disclosure should use a simple-to-read font with a contrasting background that makes it stand out.\nA third factor is clarity. The disclosure should be a worded in a way that’s clear, unambiguous, and understandable to the ordinary reader. For example, simply flagging that a video “contains paid content� might not be sufficient if the video mentions multiple products or services without identifying which content is paid.\nThe big-picture point is that the ultimate responsibility for clearly and conspicuously disclosing a material connection rests with the influencer and the brand – not the platform. To be on the safe side, it’s always best to add your own disclosure even if a platform offers its own disclosure tool.\nIt would be highly beneficial if all social media platforms developed standardized, built-in disclosure tools that are easy for endorsers to use and easy for viewers to notice and understand, and if the platforms also tested the effectiveness of such disclosures. FTC staff is always willing to discuss that with any platforms that might want to make improvements.",
+      "anchors": []
+    },
+    {
+      "title": "How can I make a disclosure on Snapchat or in Instagram Stories?",
+      "text": "You can superimpose a disclosure on Snapchat or Instagram Stories, just as you can superimpose any other words over the images on those platforms. The disclosure should be easy to notice and read in the time your followers have to look at the image. Consider how much time you give your followers to look at the image, how much competing text there is to read, how large the disclosure is, and how well it contrasts against the image. (You might need to have a solid background behind the disclosure.) If your post includes video, see the discussion in “ So, can I just superimpose a larger text disclosure over my video? � Also note that, if you just include an audio disclosure, users who watch videos without sound won’t hear it.",
+      "anchors": []
+    },
+    {
+      "title": "What about a platform like Twitter or Facebook?",
+      "text": "The FTC doesn’t mandate the specific wording of disclosures. Regardless of the advertising medium or platform, the same general principle applies: people should get the information they need to evaluate sponsored statements. Starting a post with “Ad:� or “Paid ad� or “#ad� or “Advertising:� or “Advertisement� would likely be effective. The words “Sponsored� and “Promotion� at the beginning of a post might also be effective, but “Sponsored by XYZ� or “Promotion by XYZ� would be clearer (where “XYZ� is a brand name). Also see the discussion in “ So, can I just superimpose a larger text disclosure over my video? �",
+      "anchors": []
+    },
+    {
+      "title": "I’ve been paid to make an endorsement in a Facebook post. Can I disclose the relationship in the comments section?",
+      "text": "No. A disclosure in the comments to a post is easily avoidable and thus not clear and conspicuous.",
+      "anchors": []
+    },
+    {
+      "title": "You just talked about putting short disclosures at the beginning of a social media post. What about “#ad� at or near the end of a post?",
+      "text": "We’re not necessarily saying that, if you use a disclosure like “#ad,� you have to put it at the beginning of a post.�The FTC doesn’t dictate where you have to place the disclosure. The issue for us is whether the disclosure is easily noticeable, easily understandable, and hard to miss by ordinary consumer. A disclosure in the middle or at the end of a post is easier to miss and thus less likely to be effective. That’s particularly true if it’s at the end of a long post or mixed in with links or other hashtags.",
+      "anchors": []
+    },
+    {
+      "title": "Does #ad work both for a paid post as well as for the receipt of a free product?",
+      "text": "Yes, it does.",
+      "anchors": []
+    },
+    {
+      "title": "Is there anything special about hashtags in a post? Is “#ad� better than “Ad:� or “ad�?",
+      "text": "There is nothing special about hashtags from a disclosure perspective. “#ad,� “Ad:,� and “ad� at the beginning of a post are probably all equal.",
+      "anchors": []
+    },
+    {
+      "title": "What if we combine our company name, “Cool Stylle,� with “ad,� as in “#coolstyllead�?",
+      "text": "There is a good chance that consumers won’t notice and understand the significance of the word “ad� at the end of a hashtag, especially one made up of several words combined like “#coolstyllead.� Disclosures need to be easily noticed and understood.",
+      "anchors": []
+    },
+    {
+      "title": "Is “#paidforbyXYZ� (when XYZ is a brand name) an acceptable disclosure?",
+      "text": "It might work, but it’s possible that consumers would find it hard to read or understand when the words all run together. “Paid post by [brand]� or “Paid post for [brand]� would be much clearer and only takes up a few more characters.",
+      "anchors": []
+    },
+    {
+      "title": "Is it good enough if an endorser says “thank you� to the sponsoring company?",
+      "text": "No. A “thank you� to a company or a brand doesn’t necessarily communicate that the endorser got something for free or that they were given something in exchange for an endorsement. The endorser could just be thanking a company or brand for providing a great product or service. But “Thanks XYZ for the free product� or “Thanks XYZ for the gift of ABC product� would be good enough – if that’s all you got from XYZ. If that’s too many characters for the format, there’s always “Ad.�",
+      "anchors": []
+    },
+    {
+      "title": "What if I call my endorsement an “#endorsement�? Is that clear enough?",
+      "text": "No. That’s because using the word “endorsement� doesn’t make clear to people that you’re talking about the special way that word is used in the Endorsement Guides. In other words, it doesn’t inform people that you were paid or incentivized to make your endorsement or that you have any other connection to the brand.",
+      "anchors": []
+    },
+    {
+      "title": "What about saying, “XYZ Company asked me to try their product�?",
+      "text": "That disclosure might be sufficient if the context of the endorsement makes clear that the endorser got to keep the product for free after trying it, and if the endorser didn’t get anything else. It wouldn’t be sufficient if those things aren’t clear or if the company gave money or something else to the endorser.",
+      "anchors": []
+    },
+    {
+      "title": "I provide marketing consulting and advice to my clients. Sometimes I also promote my client’s products in my personal social media accounts. Are “#client,� “#advisor,� and “#consultant� all acceptable disclosures?",
+      "text": "Probably not. Those one-word hashtags are ambiguous and likely confusing. It would be much clearer to say something like, “I’m a paid consultant to the marketers of XYZ� or “I work with XYZ brand� (where XYZ is a brand name).\nOf course, on some platforms you might need a shorter disclosure, and it’s possible that a shorter message might be effective. For example, something like “XYZ_Consultant� or “XYZ_Advisor� might be clear enough.",
+      "anchors": []
+    },
+    {
+      "title": "Would “#ambassador� or “partner� work in a tweet? What about or “#XYZ_Ambassador� or “#XYZ_Partner�?",
+      "text": "The use of “#ambassador� or “partner� is ambiguous and confusing. “#XYZ_Ambassador� or “#XYZ_Partner� will likely be more understandable (where XYZ is a brand name).",
+      "anchors": []
+    },
+    {
+      "title": "Is “Gifted� a sufficiently clear disclosure?",
+      "text": "No. The word “Gifted,� by itself without a brand reference, is likely to be ambiguous. However, “Gifted by XYZ� (when XYZ is a brand name) should be sufficient when all you’ve received is a free product.",
+      "anchors": []
+    },
+    {
+      "title": "I post regularly about the night life in my city and a club gave me free tickets to one of its events so I would post about it. Is it good enough if I disclose that “I received free tickets�?",
+      "text": "No. Your followers could think you received the free tickets from a relative, a friend, or a radio giveaway, rather than from the club itself, so that disclosure is inadequate. You should say who gave you the tickets. You could instead disclose that the tickets “were complimentary� or “on the house.�\nFor similar reasons, a disclosure like “I was given [name of product] for free� won’t be effective because it doesn’t tell people who gave you the product. That’s why we don’t recommend use of the hashtag “#freeproduct.� But “I was given a free [name of product] to review,� should probably be clear enough.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a blogger, and XYZ Resort Company is flying me to one of its destinations and putting me up for a few nights. If I write an article sharing my thoughts about the resort destination, how should I disclose the free travel?",
+      "text": "Your disclosure could be just, “XYZ Resort paid for my trip� or “Thanks to XYZ Resort for the free trip.� It would also be accurate to describe your blog as “sponsored by XYZ Resort.�",
+      "anchors": []
+    },
+    {
+      "title": "Where in my blog should I disclose that my review is sponsored by a marketer?�Does it matter if the disclosure is at the top or at the bottom?",
+      "text": "Yes, it matters. A disclosure should be placed where it easily catches consumers’ attention and is difficult to miss. Readers might overlook a disclosure at the very top of the page, outside of the blog. Their eyes will probably be drawn to a picture or a headline, and they will then probably read down. Consumers may miss a disclosure at the bottom of a blog or page. Many won’t read to the very end or look after the end of the blog itself. A disclosure is more likely to be seen if it’s very close to, or – even better – part of, the endorsement to which it relates.",
+      "anchors": []
+    },
+    {
+      "title": "I’ve been paid to endorse a product on social media. My posts, videos, and tweets will be in Spanish. In what language should I disclose that I’ve been paid for the promotion?",
+      "text": "The connection between an endorser and a marketer should be disclosed in whatever language or languages the endorsement is made, so your disclosures should be in Spanish.",
+      "anchors": []
+    },
+    {
+      "title": "I’ve been paid for a video review that I’m uploading to YouTube. When in the review should I make the disclosure? Is it okay if it’s at the end?",
+      "text": "Viewers are more likely to miss a disclosure at the end of the video, especially since some may not watch the whole thing. Having it at the beginning of the review would be better.�Having multiple disclosures during the video would be even better.�Of course, if your disclosure is only at the beginning, you and the brand that paid you shouldn’t provide consumers with a link to your review that bypasses the beginning and skips over the disclosure. If YouTube has been enabled to run ads during your video, a disclosure that is obscured by ads isn’t clear and conspicuous.",
+      "anchors": []
+    },
+    {
+      "title": "Would your answer be different if my paid endorsement of a product is in the middle of a longer YouTube video?",
+      "text": "In that case, the best place for the disclosure would be right before or at the beginning of the actual endorsement.",
+      "anchors": []
+    },
+    {
+      "title": "I’m getting paid to do a videogame playthrough and give commentary while I’m playing. The playthrough – which will last several hours – will be live streamed. Would a disclosure at the beginning of the stream be okay?",
+      "text": "Since viewers can start watching at any time, they could easily miss a disclosure at the beginning of the stream or at any other single point in the stream. If there are multiple, periodic disclosures throughout the stream, people are more likely to see them no matter when they tune in. To be on the safe side, you could have a continuous, clear and conspicuous disclosure appear throughout the entire stream. We also advise that you add a disclosure to any description of the stream before potential viewers click through to it.",
+      "anchors": []
+    },
+    {
+      "title": "My YouTube channel is a product review channel, and I receive products for free from brands to do reviews. I tell the audience at the beginning of each video that the products being reviewed were sent to me for free. In the descriptions of my videos, I include affiliate links for viewers to buy the products (if they choose), and I make a commission from those sales. Do I need to disclose in my videos that I receive those commissions (along with the disclosure that I got the products for free), or is a disclosure next to the link good enough?",
+      "text": "You should disclose the affiliate relationship both in the videos and in the description near the links. (For how to make such disclosures, see the Q&A below in the section entitled “ What About Affiliate or Network Marketing? �)",
+      "anchors": []
+    },
+    {
+      "title": "I have attended sneak peek events and use #comped or #hosted. Can influencers/bloggers use #comped and #hosted for non-paid endorsements?",
+      "text": "Neither #comped nor #hosted is sufficiently clear. It would be fine to say, for example, “XYZ brand flew me to Hawaii for their launch event at the EFG Resort,� assuming that is all the brand did.",
+      "anchors": []
+    },
+    {
+      "title": "Is a personalized discount code an adequate disclosure?",
+      "text": "When an influencer uses a clearly personalized and unique discount code for a brand’s products (e.g., one matching the influencer’s Instagram name with the percentage savings, such as iammike20%), that probably conveys that a relationship exists between the influencer and the brand. Whether it conveys that they have a financial relationship is less clear. If a significant minority of readers doesn’t understand that the influencer gets paid when people use the personalized discount code, there should be a clearer disclosure. When it’s not obvious what consumers understand, we recommend erring on the side of disclosure.",
+      "anchors": []
+    },
+    {
+      "title": "Besides disclosing my relationship with the company whose product I’m endorsing, what are the essential things I need to know about endorsements?",
+      "text": "The most important principle is that an endorsement has to represent the accurate experience and opinion of the endorser:\nYou can’t talk about your experience with a product if you haven’t tried it.\nIf you’ve only tried a product once, you can’t suggest you use it regularly.\nIf you thought it was terrible or mediocre, you can’t say it’s good or terrific.\nYou can’t otherwise misrepresent your experience with or opinions about a product.\nAlso, you shouldn’t make claims about a product that would require proof the advertiser doesn’t have. The Guides say that an endorser who isn’t an expert may be liable for misleading or unsubstantiated statements about a product’s performance or effectiveness in certain circumstances. For example, the endorser could be liable when what they say or write isn’t consistent with their personal experience. They also could be liable if what they say or write isn’t approved by the advertiser and goes beyond the scope of their personal experience.",
+      "anchors": []
+    },
+    {
+      "title": "Our company is a multi-level marketing company (MLM). In our business, participants directly market the MLM’s products and attempt to recruit other individuals to become participants in the MLM program. Are participants liable as “endorsers�?",
+      "text": "Because participants are directly engaged in selling the MLM's products, the MLM's opportunity, or both, they generally would be liable as an advertiser for any misrepresentations they make. In our experience, they are also usually acting as agents of the MLM.",
+      "anchors": []
+    },
+    {
+      "title": "My company runs contests and sweepstakes on social media. To enter, participants have to send a Tweet or make a pin with the hashtag #XYZ_Rocks. (“XYZ� is the name of my product.) Isn’t that enough to notify readers that the posts were incentivized?",
+      "text": "No. Many readers would likely not understand a hashtag like that to mean those posts were made as part of a contest or that the posters had received something of value (in this case, a chance to win the contest prize). Making the word “contest� or “sweepstakes� part of the hashtag (e,g., #XZY_Contest or #XYZ_Sweepstakes) should be enough. However, the word “sweeps� probably isn’t because it’s likely that many people wouldn’t understand what that means. You should also instruct participants where to make the disclosure so that it’s clear and conspicuous (e.g., at the beginning of the post).",
+      "anchors": []
+    },
+    {
+      "title": "Is #sweepstakes by itself a good enough disclosure?",
+      "text": "No. Let’s say that JKL-Cola is having a sweepstakes and, to enter, a consumer has to make a Facebook post identifying their happiest place to drink JKL-Cola and submit a screenshot of the post. If a consumer posts, “My happiest place to drink JKL-Cola is in my jacuzzi. #sweepstakes,� their social media friends or followers might not understand that the post was incentivized by a sweepstakes. It would be clearer if the consumer said, “My happiest place to drink JKL-Cola is in my jacuzzi. #JKLCola_Sweepstakes.�",
+      "anchors": []
+    },
+    {
+      "title": "My company runs a retail website that includes customer reviews of the products we sell. We give out free products to a select group of our customers for them to review. We tell them to be honest, whether it’s positive or negative, because we just want the reviews to be helpful. Do we still need to disclose which reviews were of products the reviewer received for free?",
+      "text": "Yes. Knowing that reviewers got the product for free would probably affect the weight your customers give to the reviews, even if you didn’t intend for that to happen. Reviewers who are incentivized to write their reviews because they received free products or the like may tend to give more positive reviews. For example, they may believe they’ll stop getting free products if their reviews are negative, despite your assurances that you only want their honest opinions. Also, if these reviewers give ratings on a scale, such as a number of stars, and if those ratings are substantially higher than those given by customers who bought the products, it could result in a substantial increase in the overall rating. If that’s the case, consumers may be misled if they just look at the inflated overall star rating rather than reading individual reviews with disclosures. In instances like that, you should disclose next to every overall or other summary rating that it includes reviewers who were given free products.",
+      "anchors": []
+    },
+    {
+      "title": "My company, XYZ, operates one of the most popular multi-channel networks on YouTube. We just entered into a contract with a videogame marketer to pay some of our network members to produce and upload video reviews of the marketer’s games. We’re going to have these reviewers announce at the beginning of each video (before the action starts) that it’s “sponsored by XYZ� and also have a prominent simultaneous disclosure on the screen saying the same thing. Is that good enough?",
+      "text": "Many consumers could think XYZ is a neutral third party and won’t realize from your disclosures that the review was really sponsored (and paid for) by the videogame marketer, which has a strong interest in positive reviews. If the disclosure said, “Sponsored by [name of the video game],� that would be good enough. As to the placement of the disclosure, the Guides say that simultaneous written and spoken disclosures are the best, all other things being equal. Whether a particular disclosure is easy to understand or difficult to miss depends on the actual disclosure.",
+      "anchors": []
+    },
+    {
+      "title": "My company would like to get more online reviews by sending a link to a review page to customers in specific regions where we have the highest customer satisfaction. We would not send a link to customers in areas where we know our customer experience is poor. Is that OK?",
+      "text": "No. Only asking for reviews from customers who you think are more likely to be happy with your product would be misleading if it substantially skews the favorability of the reviews.",
+      "anchors": []
+    },
+    {
+      "title": "I understand from the Guides that I can’t use review management software to completely suppress negative reviews. Can I use it to give my company one or two days to draft a response to negative reviews so I can post the review and our response at the same time? Can I use it to delay posting the negative reviews while I try to contact the unhappy customers and get them to change their minds?",
+      "text": "If you want to delay posting reviews in order to have time to respond to them, you should delay posting all reviews, positive and negative, for the same, reasonable period of time. Treating all reviews equally in this way would not result in injury or deception. However, delaying the posting only of negative reviews, even just by a few days, could create a biased picture of a product at any given time, which makes this practice problematic.\nDelaying the posting of negative reviews while you try to change customers’ minds and then not posting the originally submitted reviews, would likely give a biased and misleading picture of what customers think about your products and services.",
+      "anchors": []
+    },
+    {
+      "title": "Is there anything wrong with contacting customers who left negative reviews and trying to make them happy? If I succeed, can I ask them to change their reviews?",
+      "text": "You’re welcome to contact unhappy customers and respond to their concerns. You can also ask them if they’ll add updates to their reviews. However, asking them to change or delete their initial negative reviews could mislead readers.",
+      "anchors": []
+    },
+    {
+      "title": "The Guides talk about deceptively organizing customer reviews. Can you give an example of deceptive organizing?",
+      "text": "Let’s say you organize consumer reviews of your products so all of the 5-star reviews are first and then all 4-star reviews, 3-star reviews, 2-star reviews, and 1-star reviews are displayed in that order, regardless of the date of the review. A consumer could get a misleading picture of what users think, because it’s unlikely the consumer will read through all of the reviews to get to the negative ones. This is true even if you give consumers the option to re-sort the reviews, because many consumers might not realize that the default sort is by star rating.",
+      "anchors": []
+    },
+    {
+      "title": "My company wants to contact customers and interview them about their experiences with our service. If we like what they say about our service, can we ask them to allow us to quote them in our ads? Can we pay them for letting us use their endorsements?",
+      "text": "Yes. You can ask your customers about their experiences with your product and feature their comments in your ads. If they have no reason to expect compensation or any other benefit before they give their comments, there’s no need to disclose your payments to them.\nHowever, if you’ve given these customers a reason to expect a benefit from providing their thoughts about your product, you should disclose that fact in your ads. For example, if customers are told in advance that their comments might be used in advertising, they might expect to receive a payment for a positive review, and that could influence what they say, even if you tell them you want their honest opinion.�In fact, even if you tell your customers you aren’t going to pay them but they might be featured in your advertising, that opportunity might be seen as having a value. So the fact that they knew this when they gave the review should be disclosed (e.g., “Customers were told in advance they might be featured in an ad.�).",
+      "anchors": []
+    },
+    {
+      "title": "I’m starting a new online business and I don't have money for advertising, so I need publicity. Can I tell people that if they say good things about my business on a third-party review platform, I’ll give them a discount on items they buy through my website?",
+      "text": "No. Endorsements must reflect the honest opinions or experiences of the endorser. You can’t condition an incentive – for example, a discount – on a review being positive, as that may motivate people to give a positive review for reasons unrelated to their honest opinion about your product. Your plan could even cause people who have never done business with you to make up positive reviews. However, assuming it doesn’t violate the review platform’s policy, it’s okay to invite all of your customers to post honest reviews, positive or negative, after they’ve actually used your products or services. If you’re offering customers something of value in return for these reviews, tell them in advance that they should disclose what they received from you and that they won’t get the discount unless they do so. (Note, however, that many platforms prohibit such incentives.) Further, if offering an incentive materially increases your average star rating over non-incentivized reviews you receive, you may still be engaging in a deceptive practice, despite the disclosures in the individual reviews.",
+      "anchors": []
+    },
+    {
+      "title": "A company is giving me a free product to post a review on one particular social media platform. They say that, if I voluntarily review it on a different social media platform or on a website, I don’t need to make any disclosures. Is that true?",
+      "text": "No. If you received a free or discounted product to provide a review somewhere, your connection to the company should be disclosed everywhere you endorse the product.",
+      "anchors": []
+    },
+    {
+      "title": "If I get a free product to review, do I need a disclosure no matter how I got it?",
+      "text": "Yes. It doesn’t matter whether the company gives you a code, ships it directly to you, gives you money to buy it yourself, or reimburses you after you buy it. The key issue is always the same: If consumers knew the company gave it to you for free (or at a substantial discount), that information could affect how much weight they give your review.",
+      "anchors": []
+    },
+    {
+      "title": "My company wants to get positive reviews. We’re thinking about distributing product discounts through various services that encourage reviews. Some services require people who want discount codes to provide information allowing sellers to read their other reviews before deciding whether to issue the codes. Other services send out offers of a limited number of discount codes and then follow up by email to see whether the recipients have reviewed the products. Still others send offers of discount codes to those who previously posted reviews in exchange for discounted products. All of these services say that reviews are not required. Does it matter which service I choose? I would prefer that recipients of my discount codes not have to disclose that they received discounts.",
+      "text": "Whichever service you choose, the recipients of your discount codes need to disclose that they received a discount to encourage their reviews. Even though the services might say that a review is not “required,� it’s at least implied that a review is expected. If these services materially inflate your product’s average star rating, you might still be engaging in a deceptive practice despite the disclosures in the individual reviews.",
+      "anchors": []
+    },
+    {
+      "title": "Our company uses a social media network to promote our products. We understand we’re responsible for monitoring our network. What kind of monitoring program do we need? Will we be liable if someone in our network says something false about our product or fails to make a disclosure?",
+      "text": "Advertisers need to have reasonable programs in place to train and monitor members of their network. The scope of the program depends on the risk that deceptive practices by network participants could cause consumer harm. For example, a network devoted to the sale of health products may require more supervision than a network promoting, say, a new fashion line. Here are some elements every program should include:\nGiven an advertiser’s responsibility for substantiating objective product claims, explain to members of your network what they can (and can’t) say about the products – for example, a list of the health claims they can make for your products, along with instructions not to go beyond those claims;\nInstruct members of the network on their responsibilities for clearly and conspicuously disclosing their connections to you, including exactly how you want them to make the disclosures;\nPeriodically search for what members of your network are saying; and\nTake appropriate action if you find questionable practices.\nIt’s unrealistic to expect you to be aware of every single statement made by a member of your network. But it’s up to you to make a reasonable effort to know what participants in your network are saying. That said, it’s unlikely that the activity of one rogue influencer would be the basis of a law enforcement action if your company has a reasonable training, monitoring, and compliance program in place.\nIf your company pre-approves your influencers’ paid social media posts, you should review the posts for truth-in-advertising compliance, including any disclosure responsibilities. If your company doesn’t have a pre-approval process like that, consider starting one. It’s much easier to review posts before they’re posted than to search for them afterwards.",
+      "anchors": []
+    },
+    {
+      "title": "You say to periodically search for what our endorsers are saying. How often do we need to do that? Can you give us a standard, like monitoring of X% of our influencers every week or every month?",
+      "text": "There’s no one-size-fits-all standard. If regular monitoring is too much for you, you should probably switch to pre-approval of posts.",
+      "anchors": []
+    },
+    {
+      "title": "For influencers who only get free products, is just sending them training material sufficient?",
+      "text": "It’s important, but insufficient. If a company sends influencers a free unsolicited product and nothing else, it should ask them to clearly and conspicuously disclose the gift in any resulting social media posts or other endorsements, tell them how it should be disclosed, and ask them to tag the brand. The company should monitor the resulting tagged posts. We understand that software solutions exist to monitor compliance online. The FTC takes no position on their quality and recognizes that software like that might be too expensive for some companies. The extent of compliance monitoring needed, whether or not you use such software, may depend upon the types of products and possible claims involved, e.g., whether the claims involve health or safety.\nAlso, even if the only things you’re sending influencers are unsolicited free products, you’re still on the hook for their deceptive claims, so the training material should describe what they can and can’t say about your products.",
+      "anchors": []
+    },
+    {
+      "title": "How can my company be expected to monitor ephemeral or short-lived endorsements like those on Instagram Stories or Snapchat?",
+      "text": "There is probably no practical way to monitor those posts in real time. That’s why you should require that paid posts aren’t made without you approving them in advance.",
+      "anchors": []
+    },
+    {
+      "title": "Our company’s social media program is run by our public relations firm. We tell them to make sure they – and people they pay on our behalf – comply with applicable laws and the FTC’s Endorsement Guides. Is that good enough?",
+      "text": "Your company is ultimately responsible for what others do on your behalf. You should make sure your public relations firm has an appropriate program in place to train and monitor members of your social media network. Ask for regular reports confirming that the program is operating properly and monitor the network periodically. Delegating part of your promotional program to an outside company doesn’t relieve you of responsibility under the FTC Act.",
+      "anchors": []
+    },
+    {
+      "title": "How long after we pay someone or give them a free product should we continue to monitor them?",
+      "text": "We don’t have a basis for setting a specific time period. The short answer is that the length of your monitoring should be reasonable and doesn’t have to go on forever. If you have an endorser under contract, you certainly should monitor them during the length of the contract and for a reasonable time, such as a few months, after the contract expires. If there was no contract and you just sent a free product, it would probably be reasonable to monitor endorsers for at least a few months. But there is no set time period that makes sense for all circumstances, and depending on the facts, you may be responsible for a post even after a few months.",
+      "anchors": []
+    },
+    {
+      "title": "We only hire influencers to post to Instagram and we have a really good monitoring program of posts on that platform. Do we have to also monitor every other social media platform for what our influencers are saying about us?",
+      "text": "If you don’t otherwise monitor those platforms, you don’t need to do so. However, if you learn that one of your influencers is saying things they shouldn’t on another platform or not making adequate disclosures, don’t ignore it.",
+      "anchors": []
+    },
+    {
+      "title": "I have a small network marketing business. Advertisers pay me to distribute their products to members of my network who then try the product for free. How do the principles in the Guides affect me?",
+      "text": "You should tell the participants in your network that, if they endorse products they have received through your program, they should make it clear they got the products for free. Advise your clients – the advertisers – that if they provide free samples directly to your members, they should remind the members of the importance of disclosing the relationship when the members talk about those products. Put a program in place to check periodically whether your members are making those disclosures, and to deal with anyone who isn’t complying.",
+      "anchors": []
+    },
+    {
+      "title": "My company recruits influencers for marketers who want product endorsements. We pay and direct the influencers. What are our responsibilities?",
+      "text": "You could be liable if you play a role in creating or disseminating endorsements containing representations you know or should know are deceptive. You may also be liable if endorsements fail to disclose unexpected material connections, whether by disseminating advertisements without necessary disclosures or by hiring and directing endorsers who fail to make necessary disclosures. Like an advertiser, your company�needs to have reasonable programs in place to train and monitor the influencers you pay and direct.",
+      "anchors": []
+    },
+    {
+      "title": "I’m an affiliate marketer with links to an online retailer on my website. When people read what I’ve written about a particular product and then click on those links and buy something from the retailer, I earn a commission from the retailer. What do I have to disclose? Where should the disclosure be?",
+      "text": "You should disclose your relationship to the retailer clearly and conspicuously on your site, so readers can decide how much weight to give your endorsement. You could say something like, “I get commissions for purchases made through links in this post.� In some instances – like when the affiliate link is embedded in your product review – a single disclosure may be adequate. When the review has a clear and conspicuous disclosure of your relationship and the reader can see both the review containing that disclosure and the link at the same time, readers have the information they need. But if the product review containing the disclosure and the link are separated, readers may not make the connection.\nAs for where to place a disclosure, the guiding principle is that it has to be clear and conspicuous. The closer the disclosure is to your recommendation, the better.",
+      "anchors": []
+    },
+    {
+      "title": "Is “affiliate link� by itself an adequate disclosure? What about a “buy now� button?",
+      "text": "Consumers might not understand that “affiliate link� means that the person placing the link is getting paid for purchases made through the link. Similarly, a “buy now� button would not be adequate.",
+      "anchors": []
+    },
+    {
+      "title": "Is “paid link� by itself an adequate disclosure?",
+      "text": "“Paid link� right next to an affiliate link should be an adequate disclosure of the nature of the link.",
+      "anchors": []
+    },
+    {
+      "title": "Is “commissionable link� a good disclosure for an affiliate link?",
+      "text": "No. “Commissionable link� is probably not a clear disclosure.",
+      "anchors": []
+    },
+    {
+      "title": "What if I’m including links to product marketers or to retailers as a convenience to my readers, but I’m not getting paid for them?",
+      "text": "Then there isn’t any connection you need to disclose.",
+      "anchors": []
+    },
+    {
+      "title": "Does this guidance about affiliate links apply to links in my product reviews that appear on someone else’s website or in my tweets?",
+      "text": "Yes. The same guidance applies anytime you endorse a product and get paid through affiliate links.",
+      "anchors": []
+    },
+    {
+      "title": "It’s clear that what’s on my website is a paid advertisement, not my own endorsement or a review of the product. Do I still have to disclose that I get a commission if people click through my website to buy the product?",
+      "text": "If it’s clear that what’s on your site is a paid advertisement, you don’t have to make additional disclosures. Just remember that what’s clear to you may not be clear to everyone visiting your site, and the FTC evaluates ads from the perspective of reasonable consumers.",
+      "anchors": []
+    },
+    {
+      "title": "My website publishes our own, independent product reviews. I also sell ad space on my website. Some marketers want to buy ad space for their products next to our reviews of those products. What do I need to do?",
+      "text": "If it’s obvious what are paid ads and if a marketer’s buying ad space from you doesn’t impact what products you review, what you say about them, or the placement or prominence of those reviews, there’s nothing you need to do. Your readers would not be misled because your only connection to the marketers is that you sell it ad space.",
+      "anchors": []
+    },
+    {
+      "title": "I’m a product manufacturer and our website provides links to all authorized sellers. Some of our authorized sellers pay us referral fees. Do we need to disclose the affiliate fees?",
+      "text": "If you provide links on your website to all authorized vendors of your products and don’t provide any benefits or preferences to the ones that pay affiliate fees, you don’t need to make any disclosures.",
+      "anchors": []
+    },
+    {
+      "title": "One of our company’s paid spokespersons is an expert who appears on news and talk shows promoting our products. They also recommend our products in their social media posts. Should the expert disclose their connection when promoting our products?",
+      "text": "Yes. Your expert spokespersons should disclose their connections when promoting your products outside of traditional advertising media (in other words, on programming that consumers won’t recognize as paid advertising). That includes talk show appearances by an expert on your payroll. The same guidance also would apply to comments by the expert in their social media posts.",
+      "anchors": []
+    },
+    {
+      "title": "I work for a terrific company. Can I mention our products to people in my social networks? My “friends� and followers won’t be misled since it’s clear in my online profiles where I work. How about on a review site?",
+      "text": "Whether you can mention your company’s products on social media posts may depend on your company’s policies. If your employer allows you to do that and you decide to mention your company’s products on social media posts, you should disclose your relationship to the company. Put yourself in the reader’s shoes. Isn’t the employment relationship something you would want to know before relying on someone else’s endorsement? Listing your employer on your profile page isn’t enough. After all, people who just read what you post won’t get that information. Even those who read your profile page might not associate your employer with the products you endorse.\nIf you write a review of one of your company’s products on a website that features consumer reviews, people reading the review probably won’t know who you are or where you work. You definitely should disclose your employment relationship when writing such a review. You should also make sure you comply with your company’s social media policy.",
+      "anchors": []
+    },
+    {
+      "title": "On their own initiative and without us asking, several of our employees used their personal social network accounts to “share� one of our company’s posts. Do they need to disclose that they work for our company?",
+      "text": "Whether there should be any disclosure depends upon whether the “shares� could be viewed as promoting one of your company’s products or services. If so, employees endorsing the post should disclose their relationship to the company. That’s fairly easy to do – for example, “Check out my company’s great new product.�",
+      "anchors": []
+    },
+    {
+      "title": "Our company’s policy says that employees shouldn’t post positive reviews online about our products without clearly disclosing their relationship to the company. All of our employees agree to abide by this policy when they’re hired. But we have several thousand people working here and we can’t monitor what they all do on their own computers and other devices when they aren’t at work. Are we liable if an employee posts a review of one of our products, either on our company website, on a third-party review site, or on social media, and doesn’t disclose that relationship?",
+      "text": "It wouldn’t be reasonable to expect you to monitor every social media posting by all of your employees. However, you should establish a formal program to remind employees periodically of your policy. Also, if you learn that employees have posted reviews on the company’s website or a social media site without adequately disclosing their relationship to the company, you should remind them of your company policy and ask them to remove those reviews or adequately disclose that they’re employees.\nIf, however, you actively encouraged your employees to write reviews of your products, you would be responsible for monitoring them (both in terms of disclosing that they are employees and for problematic claims) despite any difficulty in doing so.",
+      "anchors": []
+    },
+    {
+      "title": "What about employees of an ad agency or public relations firm? Can my agency ask our employees to spread the buzz about our clients’ products?",
+      "text": "First, an ad agency (or any company, for that matter) shouldn’t ask employees to say anything that isn’t true. No one should endorse a product they haven’t used or say things they don’t believe about a product – and an employer certainly shouldn’t encourage employees to engage in that conduct.\nMoreover, employees of an ad agency or public relations firm have a connection to the advertiser, which should be disclosed in all social media posts. Agencies asking their employees to spread the word must instruct those employees about their responsibilities to clearly and conspicuously disclose their relationship to the product they’re endorsing – for example, “My employer is paid to promote [name of product],� or simply “Advertisement,� or when space is an issue, “Ad� or “#ad.� Also, the agency would be responsible for employees who didn’t comply with those instructions (or who make unsubstantiated performance claims).",
+      "anchors": []
+    },
+    {
+      "title": "My company is a large retailer that sells many brands of products that we get from various suppliers. Do my company’s employees really need to disclose that they’re employees when reviewing third-party brands on our website?",
+      "text": "Yes. Knowing that reviewers work for a retailer that sells the products being reviewed would likely affect the weight or credibility that readers give to the reviews on your website.",
+      "anchors": []
+    },
+    {
+      "title": "My company XYZ wants to tell our employees what to disclose on social media. Is “#employee� good enough?",
+      "text": "Consumers will likely not understand “#employee� to mean that the person is an employee of your company. Consumers would be more likely to understand “I work for XYZ� or “#XYZ_Employee.� Then again, if consumers don’t associate your company’s name with the product or brand being endorsed, that disclosure might not work either. It would be much clearer to use the words “my company’s� or “my employer’s� in the body of the message when describing the product they are endorsing. It's a lot easier to understand and harder to miss.",
+      "anchors": []
+    },
+    {
+      "title": "We want to run ads featuring endorsements from consumers who achieved the best results with our company’s product. Can we do that?",
+      "text": "Endorsements claiming specific results usually will be interpreted to mean that the endorser’s experience reflects what others can also expect. Statements like “Results not typical� or “Individual results may vary� won’t change that interpretation. That leaves advertisers with two choices:\nHave adequate proof to back up the claim that the results shown in the ad are typical, or\nClearly and conspicuously disclose the generally expected performance in the circumstances shown in the ad.",
+      "anchors": []
+    },
+    {
+      "title": "How would this principle about endorsers who achieved exceptional results apply in a real ad?",
+      "text": "The Guides include several examples with practical advice on this topic. One example is about an ad in which an endorser says, “I lost 50 pounds in 6 months with QRS Weight-Loss.� If consumers can’t generally expect to get those results, the ad should say how much weight consumers can expect to lose in similar circumstances – for example, “Women who use QRS Weight-Loss for six months typically lose 15 pounds.�\nThe Guides have another example in which an endorser simply says, “I lost 50 pounds with QRS Weight-Loss,� without any reference to time period. If users don’t typically lose that much weight, the ad should disclose what results they do generally achieve – for example, “Women who use QRS Weight-Loss lose 15 pounds on average.�",
+      "anchors": []
+    },
+    {
+      "title": "Our company website includes endorsements from some of our more successful customers who used our product during the past few years and mentions the results they got. We can’t figure out now what the “generally expected results� were back then. What should we do? Do we have to remove those endorsements?",
+      "text": "There are two issues here. First, according to the Guides, if your website says or implies that the endorser currently uses the product in question, you can use that endorsement only as long as you have good reason to believe the endorser does still use the product. If you’re using endorsements that are a few years old, it’s your obligation to make sure the claims still are accurate. If your product has changed, it’s best to get new endorsements.\nSecond, if your product is the same as it was when the endorsements were given and the claims are still accurate, you probably can use the old endorsements if the disclosures are consistent with what the generally expected results are now.",
+      "anchors": []
+    },
+    {
+      "title": "Where can I find out more?",
+      "text": "The Guides offer more than 50 examples involving various endorsement scenarios.\nThe FTC works to prevent fraudulent, deceptive, and unfair practices that target businesses and consumers. Report scams and bad business practices at ReportFraud.ftc.gov . We also provide guidance at business.ftc.gov to help companies comply with the law. Looking for a quick take on recent cases and other initiatives? Subscribe to the FTC’s Business Blog .",
+      "anchors": []
+    },
+    {
+      "title": "YOUR OPPORTUNITY TO COMMENT",
+      "text": "The National Small Business Ombudsman and 10 Regional Fairness Boards collect comments from small businesses about federal compliance and enforcement activities. Each year, the Ombudsman evaluates the conduct of these activities and rates each agency’s responsiveness to small businesses. Small businesses can comment to the Ombudsman without fear of reprisal. To comment, call toll-free 1-888-REGFAIR (1-888-734-3247) or go to www.sba.gov/ombudsman .",
+      "anchors": []
+    },
+    {
+      "title": "Your opportunity to comment",
+      "text": "The National Small Business Ombudsman and 10 Regional Fairness Boards collect comments from small businesses about federal compliance and enforcement activities. Each year, the Ombudsman evaluates the conduct of these activities and rates each agency’s responsiveness to small businesses. Small businesses can comment to the Ombudsman without fear of reprisal. To comment, call toll-free 1-888-REGFAIR (1-888-734-3247) or go to www.sba.gov/ombudsman .",
+      "anchors": []
+    },
+    {
+      "title": "Secondary Menu",
+      "text": "Report Fraud\nGet Consumer Alerts\nSearch the Legal Library",
+      "anchors": [
+        "block-menu-block-secondary-menu--3-menu"
+      ]
+    },
+    {
+      "title": "Main navigation",
+      "text": "Enforcement Cases and Proceedings Premerger Notification Program Merger Review Anticompetitive Practices Rulemaking Statutes Horseracing Integrity and Safety Authority (HISA) Oversight Competition and Consumer Protection Guidance Documents Warning Letters Consumer Sentinel Network Criminal Liaison Unit FTC Refund Programs Notices of Penalty Offenses Competition Matters Blog\nCases and Proceedings\nPremerger Notification Program\nMerger Review\nAnticompetitive Practices\nRulemaking\nStatutes\nHorseracing Integrity and Safety Authority (HISA) Oversight\nCompetition and Consumer Protection Guidance Documents\nWarning Letters\nConsumer Sentinel Network\nCriminal Liaison Unit\nFTC Refund Programs\nNotices of Penalty Offenses\nCompetition Matters Blog\nPolicy Advocacy and Research Advisory Opinions Cooperation Agreements Federal Register Notices Reports Public Comments Studies Testimony Policy Statements International Office of Technology Blog\nAdvocacy and Research\nAdvisory Opinions\nCooperation Agreements\nFederal Register Notices\nReports\nPublic Comments\nStudies\nTestimony\nPolicy Statements\nInternational\nOffice of Technology Blog\nAdvice and Guidance Consumer Advice Military Consumer Consumer.gov Business Guidance Competition Guidance Bulk Publications\nConsumer Advice\nMilitary Consumer\nConsumer.gov\nBusiness Guidance\nCompetition Guidance\nBulk Publications\nNews and Events News Events Features Topics Contests Stay Connected Data Spotlight Explore Data Social Media\nNews\nEvents\nFeatures\nTopics\nContests\nStay Connected\nData Spotlight\nExplore Data\nSocial Media\nAbout the FTC Mission History Commissioners and Staff Bureaus and Offices Budget and Strategy Office of Inspector General Contact\nMission\nHistory\nCommissioners and Staff\nBureaus and Offices\nBudget and Strategy\nOffice of Inspector General\nContact",
+      "anchors": [
+        "block-menu-block-main-menu"
+      ]
+    },
+    {
+      "title": "Footer",
+      "text": "Privacy Policy\nPolicy and Notices\nAccessibility\nFOIA\nNo FEAR Act\nOffice of Inspector General\nUSA.gov",
+      "anchors": [
+        "block-menu-block-footer-menu"
+      ]
+    }
+  ],
+  "penalties": [],
+  "appeals": "",
+  "raw_path": "C:\\Users\\scgla\\OneDrive\\Desktop\\compliance-os\\data\\raw\\c4381e82e9d051b6248adcae0d0e952432664903.html",
+  "hash": "6e6cd09125072906c95affb77a61b0bcad999ce3"
+}

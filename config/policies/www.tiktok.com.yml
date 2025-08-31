@@ -1,0 +1,5 @@
+host: www.tiktok.com
+normalization:
+  path_deny_regexes:
+    - ^/legal/open-source
+    - ^/legal/page/.*/open-source/

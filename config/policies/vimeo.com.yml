@@ -1,0 +1,36 @@
+# config/policies/vimeo.com.yml
+host: vimeo.com
+aliases: ["www.vimeo.com"]
+normalization:
+  strip_params: ["utm_*","fbclid","ref"]
+  collapse_www: true
+  drop_fragments: true
+  default_port_strip: true
+  path_allow_prefixes:
+    - "/privacy"
+    - "/terms"
+    - "/help"
+    - "/policy"
+discovery:
+  static_max: 400
+  dyn_max: 2500
+hydration:
+  render_on_status: [401,403,406,429]
+  render_if:
+    thin_html_min_text_chars: 700
+    script_ratio_over: 0.28
+  timeout_s: 25
+  render_timeout_s: 25
+cleaning:
+  remove_selectors: ["header","footer","nav",".cookie-banner",".marketing"]
+  keep_main_like: ["main","article","[role=main]"]
+chunking:
+  size: 1700
+  overlap: 200
+tagging:
+  static_tags: ["platform:vimeo","surface:legal"]
+backoff:
+  base_seconds: 0.3
+  jitter_seconds: 0.2
+  on_429_multiplier: 2.0
+version: "2025-08-31"

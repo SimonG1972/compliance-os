@@ -1,0 +1,12 @@
+host: developers.soundcloud.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  path_deny_regexes:
+    - ^/blog/
+    - ^/examples/
+discovery:
+  path_allow_regexes:
+    - ^/terms
+    - ^/privacy
+    - ^/cookies
+    - ^/copyright

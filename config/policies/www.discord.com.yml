@@ -1,0 +1,8 @@
+host: www.discord.com
+# This host 404s for policy surfaces. Keep discovery off.
+discovery:
+  path_deny_regexes: [".*"]
+hydration:
+  render_on: [403, 406]
+  min_html_len: 1200
+  render_timeout: 20

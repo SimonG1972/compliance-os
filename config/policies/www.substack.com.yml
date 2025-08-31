@@ -1,0 +1,4 @@
+host: www.substack.com
+# Canonical host is substack.com; avoid www.
+discovery:
+  path_deny_regexes: [".*"]

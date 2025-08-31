@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>{{ app_title }}</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-6xl mx-auto p-6">
+    <h1 class="text-3xl font-semibold mb-2">{{ app_title }}</h1>
+    <p class="text-sm text-gray-600 mb-6">Search → Synthesize → Export — all in one place.</p>
+
+    <!-- Actions -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- From Markdown -->
+      <div class="bg-white rounded-2xl shadow p-5">
+        <h2 class="text-xl font-medium mb-3">Report from Markdown</h2>
+        <form id="form-md" class="space-y-3">
+          <input class="w-full border rounded-lg p-2" name="md_path" placeholder="Path to .md (e.g., answer_children_retention.md)" />
+          <input class="w-full border rounded-lg p-2" name="title" placeholder="Title" value="Policy Intelligence Report" />
+          <input class="w-full border rounded-lg p-2" name="subtitle" placeholder="Subtitle" value="Automated Analysis" />
+          <input class="w-full border rounded-lg p-2" name="query" placeholder="Query (optional)" />
+          <input class="w-full border rounded-lg p-2" name="tags" placeholder="Tags (comma separated)" />
+          <button class="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700">Build PDF</button>
+        </form>
+        <div id="out-md" class="text-sm mt-3"></div>
+      </div>
+
+      <!-- From Query -->
+      <div class="bg-white rounded-2xl shadow p-5">
+        <h2 class="text-xl font-medium mb-3">Report from Query</h2>
+        <form id="form-q" class="space-y-3">
+          <input class="w-full border rounded-lg p-2" name="query" placeholder="e.g., children data retention" />
+          <input class="w-full border rounded-lg p-2" name="k" type="number" value="40" />
+          <input class="w-full border rounded-lg p-2" name="near" placeholder="near filter (optional)" />
+          <input class="w-full border rounded-lg p-2" name="title" placeholder="Title" value="Policy Intelligence Report" />
+          <input class="w-full border rounded-lg p-2" name="subtitle" placeholder="Subtitle" value="Automated Analysis" />
+          <input class="w-full border rounded-lg p-2" name="tags" placeholder="Tags (comma separated)" />
+          <button class="px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700">Run + Build PDF</button>
+        </form>
+        <div id="out-q" class="text-sm mt-3"></div>
+        <p class="text-xs text-gray-500 mt-2">Note: this calls your synth CLI under the hood; if it isn’t present, you’ll see a helpful error.</p>
+      </div>
+    </div>
+
+    <!-- Reports -->
+    <div class="bg-white rounded-2xl shadow p-5 mt-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl font-medium">Reports</h2>
+        <button id="refresh" class="text-sm px-3 py-1 rounded bg-gray-200 hover:bg-gray-300">Refresh</button>
+      </div>
+      <ul id="report-list" class="mt-3 space-y-2">
+        {% for r in reports %}
+          <li><a class="text-blue-700 hover:underline" href="{{ r.href }}">{{ r.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    async function postJSON(url, data) {
+      const res = await fetch(url, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)});
+      return res.json();
+    }
+    function toTags(str){ return (str||'').split(',').map(s=>s.trim()).filter(Boolean); }
+
+    document.getElementById('form-md').addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const f = e.target;
+      const payload = {
+        md_path: f.md_path.value,
+        title: f.title.value,
+        subtitle: f.subtitle.value,
+        query: f.query.value,
+        tags: toTags(f.tags.value),
+      };
+      const out = document.getElementById('out-md');
+      out.textContent = 'Building...';
+      const data = await postJSON('/api/report/from-md', payload);
+      if (data.ok) {
+        out.innerHTML = 'Done: <a class="text-blue-700 underline" href="'+data.href+'">'+data.href+'</a>';
+        refreshReports();
+      } else {
+        out.textContent = 'Error: ' + (data.error || 'unknown');
+      }
+    });
+
+    document.getElementById('form-q').addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const f = e.target;
+      const payload = {
+        query: f.query.value,
+        k: Number(f.k.value),
+        near: f.near.value || null,
+        title: f.title.value,
+        subtitle: f.subtitle.value,
+        tags: toTags(f.tags.value),
+      };
+      const out = document.getElementById('out-q');
+      out.textContent = 'Running synth + building...';
+      const data = await postJSON('/api/report/from-query', payload);
+      if (data.ok) {
+        out.innerHTML = 'Done: <a class="text-blue-700 underline" href="'+data.href+'">'+data.href+'</a>';
+        refreshReports();
+      } else {
+        out.textContent = 'Error: ' + (data.error || 'unknown');
+      }
+    });
+
+    async function refreshReports(){
+      const ul = document.getElementById('report-list');
+      const res = await fetch('/api/reports'); const items = await res.json();
+      ul.innerHTML = items.map(i => `<li><a class="text-blue-700 hover:underline" href="${i.href}">${i.name}</a></li>`).join('');
+    }
+    document.getElementById('refresh').addEventListener('click', refreshReports);
+  </script>
+</body>
+</html>

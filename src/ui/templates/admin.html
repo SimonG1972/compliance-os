@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Compliance-OS • Control Room</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .card { @apply bg-white rounded-2xl shadow p-5; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .btn  { @apply px-3 py-2 rounded-lg bg-black text-white hover:bg-neutral-800; }
+    .btn2 { @apply px-3 py-2 rounded-lg bg-neutral-200 hover:bg-neutral-300; }
+  </style>
+</head>
+<body class="bg-neutral-100 text-neutral-900">
+<div class="max-w-7xl mx-auto p-6 space-y-4">
+  <header class="flex items-center justify-between">
+    <h1 class="text-2xl font-semibold">Compliance-OS • Control Room</h1>
+    <div id="clock" class="text-sm text-neutral-600"></div>
+  </header>
+
+  <!-- Big counters (easy to read) -->
+  <section class="card">
+    <h2 class="font-semibold mb-3">Live Counters</h2>
+    <div id="counters" class="grid grid-cols-2 md:grid-cols-4 gap-3 text-center">
+      <!-- filled by JS -->
+    </div>
+  </section>
+
+  <!-- Pipeline buttons -->
+  <section class="card">
+    <h2 class="font-semibold mb-3">Pipeline (one-click)</h2>
+    <div class="flex flex-wrap gap-2">
+      <button class="btn"   onclick="stage('discover')">Discover</button>
+      <button class="btn"   onclick="stage('hydrate')">Hydrate</button>
+      <button class="btn"   onclick="stage('chunk')">Chunk</button>
+      <button class="btn"   onclick="stage('embed')">Embed</button>
+      <button class="btn"   onclick="stage('reindex')">Reindex</button>
+      <button class="btn2"  onclick="stage('changes')">Detect Changes</button>
+      <button class="btn2"  onclick="stage('alerts')">Send Alerts</button>
+      <button class="btn"   onclick="runAll()">Start All</button>
+      <span class="text-sm text-neutral-500 ml-2">If a button fails, edit the command list in <code>src/ui/server.py</code>.</span>
+    </div>
+  </section>
+
+  <!-- Search + Report -->
+  <section class="grid md:grid-cols-2 gap-4">
+    <div class="card">
+      <h2 class="font-semibold mb-3">Search & Answer</h2>
+      <form onsubmit="return synth(event)" class="flex gap-2 mb-2">
+        <input class="w-full border rounded-lg px-3 py-2" name="query" id="q" placeholder="Ask a question…">
+        <input class="w-24 border rounded-lg px-3 py-2" name="k" id="k" type="number" value="40">
+        <button class="btn">Run</button>
+      </form>
+      <div class="text-sm text-neutral-600">Writes to <code>data/answer_tmp.md</code></div>
+    </div>
+
+    <div class="card">
+      <h2 class="font-semibold mb-3">Build Report PDF</h2>
+      <form onsubmit="return report(event)" class="flex gap-2">
+        <input class="w-full border rounded-lg px-3 py-2" name="md_path" id="md" value="data/answer_tmp.md">
+        <input class="w-64 border rounded-lg px-3 py-2" name="title" id="title" value="Policy Intelligence Report">
+        <button class="btn">Build</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Verticals & Files -->
+  <section class="grid md:grid-cols-2 gap-4">
+    <div class="card">
+      <h2 class="font-semibold mb-2">Verticals (doc counts)</h2>
+      <div id="verticals" class="text-sm"></div>
+      <div class="text-xs text-neutral-500 mt-2">Edit <code>verticals.json</code> to change which sites belong to each vertical.</div>
+    </div>
+
+    <div class="card">
+      <h2 class="font-semibold mb-2">Files</h2>
+      <div class="grid md:grid-cols-2 gap-3">
+        <div>
+          <h3 class="font-medium">Reports</h3>
+          <div id="reportsBox" class="text-sm"></div>
+        </div>
+        <div>
+          <h3 class="font-medium">Exports</h3>
+          <div id="exportsBox" class="text-sm"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Jobs + Live Log -->
+  <section class="grid md:grid-cols-2 gap-4">
+    <div class="card">
+      <h2 class="font-semibold mb-2">Jobs</h2>
+      <div id="jobsBox" class="text-sm"></div>
+    </div>
+    <div class="card">
+      <h2 class="font-semibold mb-2">Live Output</h2>
+      <pre id="log" class="mono text-sm h-72 overflow-auto bg-neutral-50 rounded-lg p-3"></pre>
+    </div>
+  </section>
+</div>
+
+<script>
+let evt;
+function connectEvents(){
+  evt = new EventSource("/events");
+  evt.onmessage = (m)=>{
+    if(!m.data) return;
+    try{ var ev = JSON.parse(m.data);}catch{ return; }
+    if(ev.type==="ping"||ev.type==="hello") return;
+    if(ev.type==="log") addLog(`[${ev.job_id}] ${ev.line}`);
+    if(ev.type==="job_start") addLog(`▶ ${ev.job_id} "${ev.cmd}" @ ${ev.ts}`);
+    if(ev.type==="job_end") addLog(`■ ${ev.job_id} rc=${ev.rc} @ ${ev.ts}`);
+    refresh();
+  };
+  evt.onerror = ()=> setTimeout(()=>{ try{evt.close()}catch{}; connectEvents(); }, 1200);
+}
+function addLog(s){
+  const el = document.getElementById("log");
+  const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 5;
+  el.textContent += s + "\n";
+  if(atBottom) el.scrollTop = el.scrollHeight;
+}
+
+async function refresh(){
+  const r = await fetch("/api/summary"); const s = await r.json();
+  document.getElementById("clock").textContent = s.now;
+
+  // counters
+  const c = (s.db && s.db.counts) || {};
+  const boxes = [
+    ["documents", c.documents ?? c.docs],
+    ["pages",     c.pages],
+    ["chunks",    c.chunks],
+    ["embeddings",c.embeddings],
+  ];
+  document.getElementById("counters").innerHTML = boxes.map(([k,v])=>{
+    v = (v==null) ? "—" : v.toLocaleString();
+    return `<div class="bg-neutral-50 rounded-xl p-4 shadow-inner">
+      <div class="text-3xl font-semibold">${v}</div>
+      <div class="text-neutral-600">${k}</div>
+    </div>`;
+  }).join("");
+
+  // verticals
+  const v = s.verticals || {};
+  if(!v.available){
+    const msg = v.reason==="no_url_column" ? "Need a URL column in docs table" : "No database yet";
+    document.getElementById("verticals").innerHTML = `<div>${msg}</div>`;
+  } else {
+    document.getElementById("verticals").innerHTML =
+      `<ul class="list-disc pl-5">${(v.rows||[]).map(row=>`<li><b>${row.name}</b>: ${row.docs==null?'—':row.docs.toLocaleString()}</li>`).join("")}</ul>`;
+  }
+
+  // files
+  const list = (arr)=> arr && arr.length ? `<ul class="list-disc pl-5">${arr.map(x=>`<li><a class="text-blue-600 hover:underline" href="/file?path=${encodeURIComponent(x.rel)}" target="_blank">${x.name}</a> <span class="text-neutral-500">(${x.size_kb} KB · ${x.mtime})</span></li>`).join("")}</ul>` : "—";
+  document.getElementById("reportsBox").innerHTML = list(s.reports||[]);
+  document.getElementById("exportsBox").innerHTML = list(s.exports||[]);
+
+  // jobs
+  const jobs = s.jobs || [];
+  document.getElementById("jobsBox").innerHTML = jobs.slice(-8).reverse().map(j=>
+    `<div><b>${j.status}</b> — ${j.title} <span class="text-neutral-500">${j.created}</span></div>`
+  ).join("") || "—";
+}
+
+async function stage(name){
+  const r = await fetch(`/run/stage/${name}`, {method:"POST"});
+  const j = await r.json(); addLog(`queued ${j.job_id} (${name})`); return false;
+}
+async function runAll(){
+  const r = await fetch(`/run/all`, {method:"POST"});
+  const j = await r.json(); addLog(`queued ${j.job_id} (Start All)`); return false;
+}
+async function synth(e){
+  e.preventDefault();
+  const fd = new FormData();
+  fd.append("query", document.getElementById("q").value);
+  fd.append("k", document.getElementById("k").value);
+  const r = await fetch("/run/synth",{method:"POST",body:fd});
+  const j = await r.json(); addLog(`queued ${j.job_id} (Search+Answer)`); return false;
+}
+async function report(e){
+  e.preventDefault();
+  const fd = new FormData();
+  fd.append("md_path", document.getElementById("md").value);
+  fd.append("title", document.getElementById("title").value);
+  const r = await fetch("/run/report",{method:"POST",body:fd});
+  const j = await r.json(); addLog(`queued ${j.job_id} (Report)`); return false;
+}
+
+connectEvents();
+refresh();
+setInterval(refresh, 2000);
+</script>
+</body>
+</html>

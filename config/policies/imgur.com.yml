@@ -1,0 +1,21 @@
+host: imgur.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+discovery:
+  path_allow_regexes:
+    - ^/privacy
+    - ^/tos
+    - ^/terms
+    - ^/rules
+    - ^/copyright
+    - ^/dmca
+    - ^/community-guidelines
+  path_deny_regexes:
+    - ^/gallery/
+    - ^/t/
+    - ^/a/
+    - ^/user/
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25

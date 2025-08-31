@@ -1,0 +1,42 @@
+# config/policies/youtube.com.yml
+host: youtube.com
+aliases:
+  - www.youtube.com
+  - m.youtube.com
+  - policies.google.com
+normalization:
+  strip_params: ["hl", "persist_hl", "override_hl", "gl", "utm_*", "fbclid"]
+  collapse_www: true
+  drop_fragments: true
+  default_port_strip: true
+  path_allow_prefixes:
+    - "/t/terms"
+    - "/about/policies"
+    - "/howyoutubeworks/policies/community-guidelines"
+  path_deny_regexes:
+    - "^/redirect"
+discovery:
+  static_max: 400
+  dyn_max: 2500
+hydration:
+  render_on_status: [401,403,406,429]
+  render_if:
+    thin_html_min_text_chars: 900
+    script_ratio_over: 0.35
+  timeout_s: 25
+  render_timeout_s: 25
+  headers:
+    Accept-Language: "en-US,en;q=0.7"
+cleaning:
+  remove_selectors: ["header","footer","nav",".yt-promoted-shelf",".yt-masthead-logo-renderer"]
+  keep_main_like: ["main","article","[role=main]"]
+chunking:
+  size: 1800
+  overlap: 220
+tagging:
+  static_tags: ["platform:youtube","surface:legal"]
+backoff:
+  base_seconds: 0.3
+  jitter_seconds: 0.2
+  on_429_multiplier: 2.0
+version: "2025-08-31"

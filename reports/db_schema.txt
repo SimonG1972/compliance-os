@@ -1,0 +1,103 @@
+[info] DB: C:\Users\scgla\OneDrive\Desktop\compliance-os\compliance.db
+[integrity] ok
+
+== chunk_tags ==
+CREATE TABLE chunk_tags (
+  chunk_id INTEGER NOT NULL,
+  tag TEXT NOT NULL,
+  score REAL DEFAULT 1.0,
+  UNIQUE(chunk_id, tag)
+)
+columns: [[0, "chunk_id", "INTEGER", 1, null, 0], [1, "tag", "TEXT", 1, null, 0], [2, "score", "REAL", 0, "1.0", 0]]
+count: 0
+
+== discovery_queue ==
+CREATE TABLE discovery_queue (
+  url TEXT PRIMARY KEY,
+  discovered_from TEXT,
+  status TEXT DEFAULT 'pending' -- pending|queued|done|error
+)
+columns: [[0, "url", "TEXT", 0, null, 1], [1, "discovered_from", "TEXT", 0, null, 0], [2, "status", "TEXT", 0, "'pending'", 0]]
+count: 0
+
+== document_chunks ==
+CREATE TABLE document_chunks (
+  id INTEGER PRIMARY KEY,
+  url TEXT NOT NULL,
+  chunk_index INTEGER NOT NULL,
+  chunk_text TEXT NOT NULL,
+  token_estimate INTEGER,
+  UNIQUE(url, chunk_index)
+)
+columns: [[0, "id", "INTEGER", 0, null, 1], [1, "url", "TEXT", 1, null, 0], [2, "chunk_index", "INTEGER", 1, null, 0], [3, "chunk_text", "TEXT", 1, null, 0], [4, "token_estimate", "INTEGER", 0, null, 0]]
+count: 0
+
+== document_chunks_fts ==
+CREATE VIRTUAL TABLE document_chunks_fts
+USING fts5 (
+  url,
+  chunk_text,
+  tokenize = 'porter'
+)
+columns: [[0, "url", "", 0, null, 0], [1, "chunk_text", "", 0, null, 0]]
+count: 0
+
+== document_chunks_fts_config ==
+CREATE TABLE 'document_chunks_fts_config'(k PRIMARY KEY, v) WITHOUT ROWID
+columns: [[0, "k", "", 1, null, 1], [1, "v", "", 0, null, 0]]
+count: 1
+
+== document_chunks_fts_content ==
+CREATE TABLE 'document_chunks_fts_content'(id INTEGER PRIMARY KEY, c0, c1)
+columns: [[0, "id", "INTEGER", 0, null, 1], [1, "c0", "", 0, null, 0], [2, "c1", "", 0, null, 0]]
+count: 0
+
+== document_chunks_fts_data ==
+CREATE TABLE 'document_chunks_fts_data'(id INTEGER PRIMARY KEY, block BLOB)
+columns: [[0, "id", "INTEGER", 0, null, 1], [1, "block", "BLOB", 0, null, 0]]
+count: 2
+
+== document_chunks_fts_docsize ==
+CREATE TABLE 'document_chunks_fts_docsize'(id INTEGER PRIMARY KEY, sz BLOB)
+columns: [[0, "id", "INTEGER", 0, null, 1], [1, "sz", "BLOB", 0, null, 0]]
+count: 0
+
+== document_chunks_fts_idx ==
+CREATE TABLE 'document_chunks_fts_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID
+columns: [[0, "segid", "", 1, null, 1], [1, "term", "", 1, null, 2], [2, "pgno", "", 0, null, 0]]
+count: 0
+
+== document_revisions ==
+CREATE TABLE document_revisions (
+  id INTEGER PRIMARY KEY,
+  url TEXT NOT NULL,
+  fetched_at TEXT,
+  content_hash TEXT,
+  status_code INTEGER,
+  etag TEXT,
+  last_modified TEXT,
+  render_mode TEXT,
+  body TEXT
+)
+columns: [[0, "id", "INTEGER", 0, null, 1], [1, "url", "TEXT", 1, null, 0], [2, "fetched_at", "TEXT", 0, null, 0], [3, "content_hash", "TEXT", 0, null, 0], [4, "status_code", "INTEGER", 0, null, 0], [5, "etag", "TEXT", 0, null, 0], [6, "last_modified", "TEXT", 0, null, 0], [7, "render_mode", "TEXT", 0, null, 0], [8, "body", "TEXT", 0, null, 0]]
+count: 0
+
+== documents ==
+CREATE TABLE documents (
+  id INTEGER PRIMARY KEY,
+  url TEXT NOT NULL UNIQUE,
+  url_original TEXT,
+  title TEXT,
+  body TEXT,
+  clean_text TEXT,
+  status_code INTEGER,
+  render_mode TEXT,
+  fetched_at TEXT,
+  content_hash TEXT,
+  etag TEXT,
+  last_modified TEXT,
+  last_error TEXT,
+  retry_count INTEGER DEFAULT 0
+)
+columns: [[0, "id", "INTEGER", 0, null, 1], [1, "url", "TEXT", 1, null, 0], [2, "url_original", "TEXT", 0, null, 0], [3, "title", "TEXT", 0, null, 0], [4, "body", "TEXT", 0, null, 0], [5, "clean_text", "TEXT", 0, null, 0], [6, "status_code", "INTEGER", 0, null, 0], [7, "render_mode", "TEXT", 0, null, 0], [8, "fetched_at", "TEXT", 0, null, 0], [9, "content_hash", "TEXT", 0, null, 0], [10, "etag", "TEXT", 0, null, 0], [11, "last_modified", "TEXT", 0, null, 0], [12, "last_error", "TEXT", 0, null, 0], [13, "retry_count", "INTEGER", 0, "0", 0]]
+count: 0

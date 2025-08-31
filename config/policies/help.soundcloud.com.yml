@@ -1,0 +1,13 @@
+host: help.soundcloud.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+discovery:
+  path_allow_regexes:
+    - ^/hc/en-us/articles/.*
+    - ^/privacy
+    - ^/cookies
+    - ^/terms
+    - ^/community-guidelines
+    - ^/safety
+    - ^/copyright
+    - ^/transparency

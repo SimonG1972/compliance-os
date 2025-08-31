@@ -1,0 +1,15 @@
+host: x.com
+normalization: {}
+hydration:
+  min_html_len: 1200
+discovery:
+  cross_allow_hosts:
+    - business.x.com
+    - developer.x.com
+    - help.twitter.com
+    - legal.twitter.com
+    - privacy.x.com
+tagging:
+  add: []
+_notes:
+  - Many empty clean_text; likely auth/cookie walls.

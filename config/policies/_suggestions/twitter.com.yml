@@ -1,0 +1,22 @@
+host: twitter.com
+normalization: {}
+hydration:
+  render_on:
+    - 401
+    - 403
+    - 406
+    - 429
+  render_timeout: 25
+  min_html_len: 1200
+discovery:
+  cross_allow_hosts:
+    - business.x.com
+    - developer.x.com
+    - help.twitter.com
+    - legal.twitter.com
+    - privacy.x.com
+tagging:
+  add: []
+_notes:
+  - High render reliance; ensure render fallback.
+  - Many empty clean_text; likely auth/cookie walls.

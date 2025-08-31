@@ -1,0 +1,78 @@
+# Add/modify freely. This is just a seed starter.
+- name: Azure
+  category: cloud
+  home: https://azure.microsoft.com
+  hubs:
+    - https://azure.microsoft.com/legal
+    - https://azure.microsoft.com/policies
+  sitemaps: []
+  js_required: true
+  depth: hub
+  priority: 10
+  jurisdictions: [global]
+  notes: "Dynamic pages; JS hydrate helps."
+
+- name: LinkedIn Ads
+  category: adnetwork
+  home: https://business.linkedin.com/marketing-solutions/ads
+  hubs:
+    - https://business.linkedin.com/marketing-solutions/ads/legal
+  sitemaps: []
+  js_required: true
+  depth: hub
+  priority: 9
+  jurisdictions: [global]
+  notes: "Multi-locale; JS hydrate."
+
+- name: FTC
+  category: regulator
+  home: https://www.ftc.gov
+  hubs:
+    - https://www.ftc.gov/business-guidance
+    - https://www.ftc.gov/policy-notices/privacy-policy
+  sitemaps:
+    - https://www.ftc.gov/sitemap.xml
+  js_required: false
+  depth: sitemap
+  priority: 10
+  jurisdictions: [US]
+  notes: "High-value guidance."
+
+- name: Cloudflare
+  category: cloud
+  home: https://www.cloudflare.com
+  hubs:
+    - https://www.cloudflare.com/terms
+    - https://www.cloudflare.com/privacy
+  sitemaps: []
+  js_required: false
+  depth: hub
+  priority: 8
+  jurisdictions: [global]
+  notes: "Static works well."
+
+- name: Instagram
+  category: platform
+  home: https://www.instagram.com
+  hubs:
+    - https://www.instagram.com/legal/terms
+    - https://www.instagram.com/legal/privacy
+    - https://www.instagram.com/community-guidelines
+  sitemaps: []
+  js_required: false
+  depth: hub
+  priority: 9
+  jurisdictions: [global]
+  notes: ""
+
+- name: Apple Developer
+  category: appstore
+  home: https://developer.apple.com
+  hubs:
+    - https://developer.apple.com/support/terms
+  sitemaps: []
+  js_required: false
+  depth: hub
+  priority: 8
+  jurisdictions: [global]
+  notes: ""

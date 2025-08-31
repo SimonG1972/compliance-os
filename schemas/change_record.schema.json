@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ChangeRecord",
+  "type": "object",
+  "required": ["url","observed_at","old_hash","new_hash","material_changes"],
+  "properties": {
+    "url":{"type":"string","format":"uri"},
+    "observed_at":{"type":"string"},
+    "old_hash":{"type":["string","null"]},
+    "new_hash":{"type":"string"},
+    "diff_path":{"type":["string","null"]},
+    "material_changes":{"type":"boolean"},
+    "notes":{"type":"string"}
+  }
+}

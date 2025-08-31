@@ -1,0 +1,19 @@
+host: substack.com
+normalization:
+  query_param_drops: [utm_*, fbclid, gclid]
+  strip_fragments: true
+discovery:
+  # Substack legal tends to live under a few structured areas; allow those.
+  path_allow_regexes:
+    - ^/privacy
+    - ^/terms
+    - ^/policies
+    - ^/content/
+    - ^/help
+  path_deny_regexes:
+    - ^/p/        # blog posts
+    - ^/topic/
+hydration:
+  render_on: [200, 403, 406]
+  min_html_len: 900
+  render_timeout: 25
