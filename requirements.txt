@@ -118,3 +118,5 @@ zopfli==0.2.3.post1
 fastapi
 
 uvicorn[standard]
+
+gunicorn
